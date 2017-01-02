@@ -1,4 +1,4 @@
-# lowlevelprogramming-university
+# Low-Level Programming University
 
 ## What is it?
 
@@ -13,8 +13,7 @@ I've working as low-level programmer for 10 years.
 
 I'm inspired by [google-interview-university](https://github.com/jwasham/google-interview-university). I'd like to share my experience and show a kind of roadmap to be low-level programmer because I found that the low-level programmer is getting rare. And many students and beginners asked me how I could be low-level programmer and Linux kernel engineer.
 
-## Table of Contents
-
+## What Is the Low-Level?
 
 ## Languages
 
