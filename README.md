@@ -38,6 +38,13 @@ Finally this page includes topics from the hardware components to Linux kernel. 
 
 ### C language
 
+There is no short-cut. Just read the entire book and solve all exercises.
+
+* [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
+* [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
+* [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
+ * For new standard of C
+ 
 ## Applications
 
 ### Hardware device
