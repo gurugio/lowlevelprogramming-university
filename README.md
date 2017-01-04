@@ -48,11 +48,23 @@ Finally this page includes topics from the hardware components to Linux kernel. 
 
 ### Linux kernel and device driver
 
+#### Document (read carefully)
+
+* [The Eudyptula Challenge](http://eudyptula-challenge.org/)
+ * This is like an awesome private teacher who guide you what to do.
+ * If you don't know what to do, just start this.
+
 * [Block layer and device driver(translation in progress)](https://github.com/gurugio/book_linuxkernel_blockdrv)
- * start from a simple block device driver example (Ramdisk)
- * make multi-queue mode of ramdisk
+ * start from a simple block device driver example (Ramdisk) with multi-queue mode
  * go forward to block layer
  
 * [md driver of Linux kernel(in progress)](https://github.com/gurugio/book_linuxkernel_md)
  * how mdadm tool works and how it calls md driver
  * how md driver works
+
+#### References
+
+Check when you need something
+
+* [Free-electrons homepage](http://free-electrons.com/docs/)
+ * many slide files introducing good topics, specially ARM-linux
