@@ -31,7 +31,6 @@ Finally this page includes topics from the hardware components to Linux kernel. 
 * [8086 assembly programming with emu8086(translation in progress)](https://github.com/gurugio/book_assembly_8086)
  * basic concepts of CPU and computer architecture
  * basic concepts of C programming language
- 
 * [64bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
  * basic concepts of modern CPU and computer architecture
  * basic concepts of disassembling and debugging of C code
@@ -47,22 +46,27 @@ There is no short-cut. Just read the entire book and solve all exercises.
  
 ## Applications
 
-### Hardware device
+### Hardware && Firmware
 
-### Hardware circuit design
+If you want to be Embedded system engieer, it'd better start from simple hardware kit.
+It's not good idea to start with the latest ARM chipset.
 
-### Firmware
-
-### My own operating system
-
-* [80386 manual)(http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
+* [Arduino Start Kit](https://www.arduino.cc/)
+ * There are various series of Arduino but "Arduino Start Kit" has the most simple processor(Atmega328P) and guide book
+ * Atmega328P has 8bit core that is the good to start "Digital circuit design" and "Firware development".
+ * Just follow the guide book!
+* [8086 manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
+ * If you're very beginner 8086 is also very good guide for processor architecture and 80x86 assembly
+* [80386 manual](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
  * Best guide for protected mode and paging machanism of 80x86 processor
  * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
 
+Now you would be good to start ARM chipset.
+* https://www.raspberrypi.org/
 
 ### Linux kernel and device driver
 
-#### Document (read carefully)
+#### Read carefully
 
 * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
  * This is like an awesome private teacher who guide you what to do.
