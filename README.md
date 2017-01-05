@@ -90,18 +90,18 @@ Join the Linux community and participate in development.
 #### Read carefully
 
 * Books: Read followings in order
- * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
-   * Make all examples for yourself
- * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
-   * Understand the design of Linux Kernel
- * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
-   * Read this book and the kernel source v2.6 at the same time
-   * Never start with the latest version, v2.6 is enough!
-   * Use qemu and gdb to run the kernel source line by line
-     * http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu
-     * https://gurugio.kldp.net/wiki/wiki.php/howto_debug_kernel
-   * Use busybox to make the simplest filesystem that takes only 1-second to boot
-     * https://gurugio.kldp.net/wiki/wiki.php/qemu_kernel
+  * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
+    * Make all examples for yourself
+  * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
+    * Understand the design of Linux Kernel
+  * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
+    * Read this book and the kernel source v2.6 at the same time
+    * Never start with the latest version, v2.6 is enough!
+    * Use qemu and gdb to run the kernel source line by line
+      * http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu
+      * https://gurugio.kldp.net/wiki/wiki.php/howto_debug_kernel
+    * Use busybox to make the simplest filesystem that takes only 1-second to boot
+      * https://gurugio.kldp.net/wiki/wiki.php/qemu_kernel
 * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
   * This is like an awesome private teacher who guide you what to do.
   * If you don't know what to do, just start this.
