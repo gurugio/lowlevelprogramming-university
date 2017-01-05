@@ -53,6 +53,13 @@ There is no short-cut. Just read the entire book and solve all exercises.
 
 ### Firmware
 
+### My own operating system
+
+* [80386 manual)(http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
+ * Best guide for protected mode and paging machanism of 80x86 processor
+ * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
+
+
 ### Linux kernel and device driver
 
 #### Document (read carefully)
