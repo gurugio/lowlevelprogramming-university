@@ -63,19 +63,46 @@ It's not good idea to start with the latest ARM chipset.
 
 Now you would be good to start ARM chipset.
 * https://www.raspberrypi.org/
+* https://beagleboard.org/
+
+Raspberry Pi board has Cortex-A53 Processor that supports 64bit instruction set.
+So you can experience the latest processor architecture with rPi.
+Yes, you can buy it...but...what are you going to do with it?
+In fact you have already the latest processor and the latest hardware devices.
+Your laptop! Your desktop! You already have all to start!
+
+So I recommend one project for you.
+* [Making your own kernel](http://wiki.osdev.org/Getting_Started)
+
+You don't need to buy anything.
+The qemu emulator can emulate the latest ARM processors and Intel processors.
+So everything is already on your hand.
+There are so many toy projects you can consult.
+Just install qemu emulator and make tiny kernel that just boot and turn on paging and print some messages.
 
 ### Linux kernel and device driver
 
 #### Read carefully
 
+* Books: Read followings in order
+ * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
+  * Make all examples for yourself
+ * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
+  * Understand the design of Linux Kernel
+ * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
+  * Read this book and the kernel source v2.6 at the same time
+  * Never start with the latest version, v2.6 is enough!
+  * Use qemu and gdb to run the kernel source line by line
+   * http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu
+   * https://gurugio.kldp.net/wiki/wiki.php/howto_debug_kernel
+  * Use busybox to make the simplest filesystem that takes only 1-second to boot
+   * https://gurugio.kldp.net/wiki/wiki.php/qemu_kernel
 * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
  * This is like an awesome private teacher who guide you what to do.
  * If you don't know what to do, just start this.
-
 * [Block layer and device driver(translation in progress)](https://github.com/gurugio/book_linuxkernel_blockdrv)
  * start from a simple block device driver example (Ramdisk) with multi-queue mode
  * go forward to block layer
- 
 * [md driver of Linux kernel(in progress)](https://github.com/gurugio/book_linuxkernel_md)
  * how mdadm tool works and how it calls md driver
  * how md driver works
