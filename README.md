@@ -82,6 +82,9 @@ Just install qemu emulator and make tiny kernel that just boot and turn on pagin
 
 I've made [a toy kernel](https://github.com/gurugio/caos) that supports 64bit long mode, paging and very simple context switching. Making a toy kernel is good way to understand modern computer architecture and hardware control.
 
+Other toy kernel
+* https://littleosbook.github.io/
+
 ### Linux kernel and device driver
 
 You don't need to make a complete operating system.
