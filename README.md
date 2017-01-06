@@ -73,6 +73,7 @@ Your laptop! Your desktop! You already have all to start!
 
 So I recommend one project for you.
 * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
+  * Good references: https://www.reddit.com/r/osdev/
 
 You don't need to buy anything.
 The qemu emulator can emulate the latest ARM processors and Intel processors.
@@ -82,7 +83,7 @@ Just install qemu emulator and make tiny kernel that just boot and turn on pagin
 
 I've made [a toy kernel](https://github.com/gurugio/caos) that supports 64bit long mode, paging and very simple context switching. Making a toy kernel is good way to understand modern computer architecture and hardware control.
 
-Other toy kernel
+Other toy kernels:
 * https://littleosbook.github.io/
 
 ### Linux kernel and device driver
