@@ -63,20 +63,24 @@ If you want to be Embedded system engieer, it'd better start from simple hardwar
 It's not good idea to start with the latest ARM chipset.
 
 * [Arduino Start Kit](https://www.arduino.cc/)
- * There are various series of Arduino but "Arduino Start Kit" has the most simple processor(Atmega328P) and guide book
- * Atmega328P has 8bit core that is the good to start "Digital circuit design" and "Firware development".
- * Just follow the guide book!
+  * There are various series of Arduino but "Arduino Start Kit" has the most simple processor(Atmega328P) and guide book
+  * Atmega328P has 8bit core that is the good to start "Digital circuit design" and "Firware development".
+  * You don't need to know how to draw the digital circuit and assemble the chips.
+  * But you need to know how to read the digital circuit and how the chips are connected.
+  * Firmware developer should be able to read the digital circuit and find how to send data to the target device.
+  * Follow the guide book!
 * [8086 manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
- * If you're very beginner 8086 is also very good guide for processor architecture and 80x86 assembly
+  * If you're very beginner 8086 is also very good guide for processor architecture and 80x86 assembly
 * [80386 manual](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
- * Best guide for protected mode and paging machanism of 80x86 processor
- * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
+  * Best guide for protected mode and paging machanism of 80x86 processor
+  * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
 
-Now you would be good to start ARM chipset.
+Now you would be good to start the latest ARM or x86 processor.
 * https://www.raspberrypi.org/
 * https://beagleboard.org/
+* https://www.arduino.cc/en/ArduinoCertified/IntelEdison
 
-Raspberry Pi board has Cortex-A53 Processor that supports 64bit instruction set.
+For example, Raspberry Pi board has Cortex-A53 Processor that supports 64bit instruction set.
 So you can experience the latest processor architecture with rPi.
 Yes, you can buy it...but...what are you going to do with it?
 If you have no target project you would throw the board into a drawer and forget it like other gadget you bought before.
