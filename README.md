@@ -68,20 +68,21 @@ Now you would be good to start ARM chipset.
 Raspberry Pi board has Cortex-A53 Processor that supports 64bit instruction set.
 So you can experience the latest processor architecture with rPi.
 Yes, you can buy it...but...what are you going to do with it?
-In fact you have already the latest processor and the latest hardware devices.
-Your laptop! Your desktop! You already have all to start!
+If you have no target project you would throw the board into a drawer and forget it like other gadget you bought before.
 
 So I recommend one project for you.
 * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
   * Good references: https://www.reddit.com/r/osdev/
 
+I've made [a toy kernel](https://github.com/gurugio/caos) that supports 64bit long mode, paging and very simple context switching. Making a toy kernel is good way to understand modern computer architecture and hardware control.
+
+In fact you have already the latest processor and the latest hardware devices.
+Your laptop! Your desktop! You already have all to start!
 You don't need to buy anything.
 The qemu emulator can emulate the latest ARM processors and Intel processors.
 So everything is already on your hand.
-There are so many toy projects you can consult.
+There are so many toy kernel and documents you can consult.
 Just install qemu emulator and make tiny kernel that just boot and turn on paging and print some messages.
-
-I've made [a toy kernel](https://github.com/gurugio/caos) that supports 64bit long mode, paging and very simple context switching. Making a toy kernel is good way to understand modern computer architecture and hardware control.
 
 Other toy kernels:
 * https://littleosbook.github.io/
