@@ -24,6 +24,17 @@ Yes, system programming is very close concept to the low-level programming. But 
 
 Finally this page includes topics from the hardware components to Linux kernel. That is the huge range of layers. One page document can never cover the detail of all layers. The aim of this page is beging the starting point of the low-level programming.
 
+## Theory
+
+Yes, I studies some classes in University. There are two background theories to be low-level programmer.
+* Computer Architecture
+* Operating System
+
+You can find many good classes on online university, for instance, Coursera.org and edx.org.
+Theory is theory. I don't think you should get A+ in the class.
+Just understand the big picture in the class.
+You'll get better and better as you make something.
+
 ## Languages
 
 ### Assembly
@@ -95,6 +106,9 @@ Join the Linux community and participate in development.
 #### Read carefully
 
 * Books: Read followings in order
+  * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
+    * The basic concepts of Unix are applied into all operating system.
+    * This book is very good to get the concepts of operating system.
   * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
     * Make all examples for yourself
   * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
