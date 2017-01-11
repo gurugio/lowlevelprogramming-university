@@ -2,11 +2,11 @@
 
 ## What is it?
 
-This page is for beginner who want to be low-level programmer.
+This page is for beginners who want to be low-level programmers.
 
-I'm inspired by [google-interview-university](https://github.com/jwasham/google-interview-university). I'd like to share my experience and show a kind of roadmap to be low-level programmer because I found that the low-level programmer is getting rare. And many students and beginners asked me how I could be low-level programmer and Linux kernel engineer.
+I'm inspired by [google-interview-university](https://github.com/jwasham/google-interview-university). I'd like to share my experience and show a roadmap to becoming a low-level programmer because I have found that these skills are not as common as they once were. In addition, many students and beginners ask me how they could become low-level programmers and Linux kernel engineers.
 
-I've working as low-level programmer for 10 years.
+I have over 10 years of experience as a low-level programmer:
 * 80x86 Assembly programming
 * Hardware device with Atmel chip and firmware
 * C language system programming for Unix
@@ -16,24 +16,23 @@ I've working as low-level programmer for 10 years.
 
 ## What Is the Low-Level?
 
-I think the low-level programming is programming something that is very close to the machine, rather than the user. The user can be people who use the computer and programmer who use the product of low-level programmer.
+I classify low-level programming as programming that is very close to the machine, using a lower level programming language like C or assembly. This is in contrast to higher-level programming, typical of user-space applications, using high level languages (e.g. Python, Java).
 * [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
 
-Yes, system programming is very close concept to the low-level programming. But this page includes the hardware design and firmware development that is not included in system programming.
+Yes, system programming is very close concept to the low-level programming. This page includes the hardware design and firmware development that is not included in system programming.
 * [Wikipedia: System programming](https://en.wikipedia.org/wiki/System_programming)
 
-Finally this page includes topics from the hardware components to Linux kernel. That is the huge range of layers. One page document can never cover the detail of all layers. The aim of this page is beging the starting point of the low-level programming.
+Finally, this page includes topics ranging from hardware components to the Linux kernel. That is a huge range of layers. One page document can never cover the detail of all layers, so the aim of this document is to serve as a starting point for low-level programming.
 
 ## Theory
 
-Yes, I studies some classes in University. There are two background theories to be low-level programmer.
+There are two background theories to low-level programming:
 * Computer Architecture
 * Operating System
 
-You can find many good classes on online university, for instance, Coursera.org and edx.org.
-Theory is theory. I don't think you should get A+ in the class.
-Just understand the big picture in the class.
-You'll get better and better as you make something.
+You can find many good classes on online universities, for instance, Coursera.org and edx.org.
+Theory is theory. I don't think you should get A+ in the class, just understand the big picture in the class.
+You'll get better and better with experience.
 
 ## Languages
 
@@ -59,45 +58,44 @@ There is no short-cut. Just read the entire book and solve all exercises.
 
 ### Hardware && Firmware
 
-If you want to be Embedded system engieer, it'd better start from simple hardware kit.
-It's not good idea to start with the latest ARM chipset.
+If you want to be an embedded system engineer, it would be best to start from a simple hardware kit, rather than starting with the latest ARM chipset.
 
 * [Arduino Start Kit](https://www.arduino.cc/)
   * There are various series of Arduino but "Arduino Start Kit" has the most simple processor(Atmega328P) and guide book
   * Atmega328P has 8bit core that is the good to start "Digital circuit design" and "Firware development".
-  * You don't need to know how to draw the digital circuit and assemble the chips.
-  * But you need to know how to read the digital circuit and how the chips are connected.
-  * Firmware developer should be able to read the digital circuit and find how to send data to the target device.
+  * You don't need to know how to draw schematics and layout, and assemble the chips.
+  * But you need to know how to read schematics and understand how the chips are connected.
+  * Firmware developers should be able to read the schematics and figure out how to send data to the target device.
   * Follow the guide book!
 * [8086 manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
-  * If you're very beginner 8086 is also very good guide for processor architecture and 80x86 assembly
+  * If you're a beginner to x86 architecture, 8086 is also very good guide for processor architecture and 80x86 assembly
 * [80386 manual](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
   * Best guide for protected mode and paging machanism of 80x86 processor
   * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
 
-Now you would be good to start the latest ARM or x86 processor.
+At this point, you should be good to start the latest ARM or x86 processor.
 * https://www.raspberrypi.org/
 * https://beagleboard.org/
 * https://www.arduino.cc/en/ArduinoCertified/IntelEdison
 
-For example, Raspberry Pi board has Cortex-A53 Processor that supports 64bit instruction set.
-So you can experience the latest processor architecture with rPi.
-Yes, you can buy it...but...what are you going to do with it?
-If you have no target project you would throw the board into a drawer and forget it like other gadget you bought before.
+For example, the Raspberry Pi board has a Cortex-A53 Processor that supports a 64-bit instruction set.
+This allows you to experience a modern processor architecture with rPi.
+Yes, you can buy it... but... what are you going to do with it?
+If you have no target project, you would be likely to throw the board into a drawer and forget it like other gadgets you may have bought before.
 
-So I recommend one project for you.
+So, I recommend one project for you.
 * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
   * Good references: https://www.reddit.com/r/osdev/
 
 I've made [a toy kernel](https://github.com/gurugio/caos) that supports 64bit long mode, paging and very simple context switching. Making a toy kernel is good way to understand modern computer architecture and hardware control.
 
-In fact you have already the latest processor and the latest hardware devices.
+In fact, you have already the latest processor and the latest hardware devices.
 Your laptop! Your desktop! You already have all to start!
 You don't need to buy anything.
 The qemu emulator can emulate the latest ARM processors and Intel processors.
-So everything is already on your hand.
-There are so many toy kernel and documents you can consult.
-Just install qemu emulator and make tiny kernel that just boot and turn on paging and print some messages.
+So everything you need is already on hand.
+There are so many toy kernel and documents you can refer to.
+Just install qemu emulator and make a tiny kernel that just boots and turns on paging, and prints some messages.
 
 Other toy kernels:
 * https://littleosbook.github.io/
