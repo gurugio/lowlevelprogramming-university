@@ -138,4 +138,6 @@ Join the Linux community and participate in development.
 Check when you need something
 
 * [Free-electrons homepage](http://free-electrons.com/docs/)
- * many slide files introducing good topics, specially ARM-linux
+  * many slide files introducing good topics, specially ARM-linux
+* [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
+  * guide to start kernel programming
