@@ -38,7 +38,7 @@ You'll get better and better with experience.
 
 ### Assembly
 
-* [8086 assembly programming with emu8086(translation in progress)](https://github.com/gurugio/book_assembly_8086)
+* [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
  * basic concepts of CPU and computer architecture
  * basic concepts of C programming language
 * [64bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
