@@ -44,6 +44,7 @@ You'll get better and better with experience.
 * [64bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
  * basic concepts of modern CPU and computer architecture
  * basic concepts of disassembling and debugging of C code
+ * _need help for translation_
 
 ### C language
 
@@ -129,9 +130,11 @@ Join the Linux community and participate in development.
 * [Block layer and device driver(translation in progress)](https://github.com/gurugio/book_linuxkernel_blockdrv)
   * start from a simple block device driver example (Ramdisk) with multi-queue mode
   * go forward to block layer
+  * _need help for translation_
 * [md driver of Linux kernel(in progress)](https://github.com/gurugio/book_linuxkernel_md)
   * how mdadm tool works and how it calls md driver
   * how md driver works
+  * _need help for translation_
 
 #### References
 
@@ -146,5 +149,6 @@ Check when you need something
 
 I do not know the future, but I keep my eye on RUST.
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
+
 If I could have one week free and alone, I would learn RUST.
 That is because RUST is the latest language with which I can develop Linux device driver.
