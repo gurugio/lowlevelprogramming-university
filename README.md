@@ -141,3 +141,10 @@ Check when you need something
   * many slide files introducing good topics, specially ARM-linux
 * [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
   * guide to start kernel programming
+
+## Future of low-level programming
+
+I do not know the future, but I keep my eye on RUST.
+* https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
+If I could have one week free and alone, I would learn RUST.
+That is because RUST is the latest language with which I can develop Linux device driver.
