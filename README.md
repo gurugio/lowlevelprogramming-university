@@ -54,7 +54,10 @@ There is no short-cut. Just read the entire book and solve all exercises.
 * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
 * [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
  * For new standard of C
- 
+* [C programming challenge?](https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge.md)
+ * plan for service like [The Eudyptula Challenge](http://eudyptula-challenge.org/)
+ * Just an idea at the moment..
+
 ## Applications
 
 ### Hardware && Firmware
