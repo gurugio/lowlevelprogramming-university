@@ -19,10 +19,53 @@ $ print 3 "Hello world!"
 2 Hello world!
 3 Hello world!
 ```
+# task??
+
+Make a daemon that log a message "I'm running" every minute.
+
+```
+$ tail /var/log/syslog
+Dec  5 10:52:25 username mydaemon[1058]: I'm running
+Dec  5 10:57:25 username mydaemon[1058]: I'm running
+Dec  5 11:02:25 username mydaemon[1058]: I'm running
+Dec  5 11:07:25 username mydaemon[1058]: I'm running
+```
+# task??
+
+Make a 1:1 chatting program for terminal
+
+# task??
+
+Make serial number certification program
+* certificate a serial number file
+* read .rc file to specify serial number format
+* encode user information, user-account number, name, product id, in serial number
+* decode the information from the serial number
+
+```
+$ cat spec.txt
+# field length
+account 4
+name 16
+product 4
+
+$ encode-serial
+account: 1234 <user-input>
+name: gogostar <user-input>
+product: 5678 <user-input>
+abcd-defg-xxxx-xxxx <output>
+
+$ decode-serial
+serial: abcd-defg-xxxx-xxxx <input>
+account: 1234
+name: gogostar
+product: 5678
+````
 
 # task20
 
 make your own shell
 * features
+  * pipe, indirection
 * design
 
