@@ -8,3 +8,21 @@ If you have an idea, please send me pull-request.
 [discussion on reddit](https://www.reddit.com/r/linuxdev/comments/5r8k6g/new_service_like_the_eudyptula_challenge/)
 * pnpbios
   * Writing your own daemon, your own PAM module, writing a custom network interface, writing your own shell
+
+# task01
+
+Use argc and argv to print "Hello world!".
+
+```
+$ print 3 "Hello world!"
+1 Hello world!
+2 Hello world!
+3 Hello world!
+```
+
+# task20
+
+make your own shell
+* features
+* design
+
