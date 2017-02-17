@@ -55,7 +55,7 @@ There is no short-cut. Just read the entire book and solve all exercises.
 * [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
   * For new standard of C
 * [Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
-  * how raw implement synchronization with C
+  * raw implementation of synchronization with C
   * Essential for large scale C programming (especially for kernel programming)
 * [C programming challenge?](https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge.md)
   * plan for service like [The Eudyptula Challenge](http://eudyptula-challenge.org/)
