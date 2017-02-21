@@ -106,6 +106,7 @@ Just install qemu emulator and make a tiny kernel that just boots and turns on p
 
 Other toy kernels:
 * https://littleosbook.github.io/
+* https://tuhdo.github.io/os01/
 
 ### Linux kernel and device driver
 
