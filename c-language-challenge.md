@@ -9,6 +9,22 @@ If you have an idea, please send me pull-request.
 * pnpbios
   * Writing your own daemon, your own PAM module, writing a custom network interface, writing your own shell
 
+topics:
+* file IO
+  * creating ls
+* concurrent
+* network
+  * making chatting program
+* memory
+  * make pool-based memory allocator
+* error handling
+* toolchain: preprocessor, compiler, linker
+* cache
+* assembly
+* performance
+* syncronization
+
+
 # task01
 
 Use argc and argv to print "Hello world!".
@@ -19,6 +35,19 @@ $ print 3 "Hello world!"
 2 Hello world!
 3 Hello world!
 ```
+
+# task??
+
+maks ls tools and do command argument parsing with getopt, getopt_long
+* options: -l, -a
+
+# task??
+
+create threads to increase value of one variable:
+* no locking
+* atomic value
+* value protected-by synchronization
+
 # task??
 
 Make a daemon that log a message "I'm running" every minute.
@@ -60,12 +89,13 @@ serial: abcd-defg-xxxx-xxxx <input>
 account: 1234
 name: gogostar
 product: 5678
-````
+```
 
 # task20
 
 make your own shell
 * features
   * pipe, indirection
+  * background running
 * design
 
