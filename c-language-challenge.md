@@ -25,7 +25,7 @@ topics:
 * syncronization
 
 
-# task01
+# print "Hello world!"
 
 Use argc and argv to print "Hello world!".
 
@@ -36,53 +36,65 @@ $ print 3 "Hello world!"
 3 Hello world!
 ```
 
-# task??
+# read directory and file
 
-maks ls tools and do command argument parsing with getopt, getopt_long
-* options: -l, -a
+make ls tools that just print names of specified directory.
+* do not need to get no options
 
-# task??
+# command argument
 
-create threads to increase value of one variable:
-* no locking
-* atomic value
-* value protected-by synchronization
+make ls tools with options and do command argument parsing with getopt, getopt_long
+* short options: -l, -a, -d
+* long options: --long, --all, --directory
+* -l(--long) option prints size, permission, user id, last modified time.
+* use getopt, getopt_long to process options
 
-# task??
+# multi-thread find
 
-Make a daemon that log a message "I'm running" every minute.
+make find program that has multi-threads
+* get file-name and directory-name
+* check how many directory exists in target directory
+* creates threads as many as directories
+* one thread finds a specified file in one directory
+* compare performance of one-thread find
 
-```
-$ tail /var/log/syslog
-Dec  5 10:52:25 username mydaemon[1058]: I'm running
-Dec  5 10:57:25 username mydaemon[1058]: I'm running
-Dec  5 11:02:25 username mydaemon[1058]: I'm running
-Dec  5 11:07:25 username mydaemon[1058]: I'm running
-```
-# task??
+# make chat
 
-Make a 1:1 chatting program for terminal
+make a 1:1 chatting program for terminal
+* make server & client
+* support IPv4 and IPv6
 
-# task??
+# make ftp
+
+make ftp server & client
+* server-side usage: ``ftp-server``
+* client-side usage: ``ftp-client <IPADDR> <FILE-NAME>``
+* print '#' characters to show file-transfer is working
+* make server as daemon
+* server should support multi-connection
+
+# data-driven code
 
 Make serial number certification program
 * certificate a serial number file
-* read .rc file to specify serial number format
+* read spec.rc file to specify serial number format
 * encode user information, user-account number, name, product id, in serial number
 * decode the information from the serial number
+* serial code is printed in BASE64 code.
+* use any encryption algorithm
 
 ```
-$ cat spec.txt
+$ cat spec.rc
 # field length
-account 4
-name 16
-product 4
+user-account 4
+user-name 16
+product-id 4
 
-$ encode-serial
-account: 1234 <user-input>
-name: gogostar <user-input>
-product: 5678 <user-input>
-abcd-defg-xxxx-xxxx <output>
+$ encode-serial spec.rc
+user-account: 1234 <user-input>
+user-name: gogostar <user-input>
+product-id: 5678 <user-input>
+abcd-defg- <output>
 
 $ decode-serial
 serial: abcd-defg-xxxx-xxxx <input>
@@ -91,11 +103,32 @@ name: gogostar
 product: 5678
 ```
 
-# task20
+# pool-based memory allocator
+
+make a pool-based memory allocator
+* create pool as many as number of CPUs in your system
+* each thread allocates memory from a pool of its own CPU
+* apply your allocator to any multi-thread program and compare performance
+  * ``LD_PRELOAD=${PATH}/lib/libyourallocator.so.1 app``
+
+# make a shell
 
 make your own shell
 * features
-  * pipe, indirection
+  * pipe
+  * redirection
   * background running
-* design
+  * stdin, stdout, stderr
+```
+$ myshell
+THIS-IS-MYSHELL> ls
+a b c
+THIS-IS-MYSHELL> ls > files.txt
+THIS-IS-MYSHELL> cat ls
+a b c
+THIS-IS-MYSHELL> ls | cat > files.txt
+THIS-IS-MYSHELL> asdf 2> error.txt
+THIS-IS-MYSHELL> cat error.txt
+command is not found
+```
 
