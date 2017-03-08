@@ -73,6 +73,15 @@ make ftp server & client
 * make server as daemon
 * server should support multi-connection
 
+# make streaming player
+
+clients send sequential images and server shows images
+* convert a gif image into many jpeg images
+* client sends the jpeg images
+* server receives the jpeg images and shows
+* server supports many windows, each windows shows images from a client
+* use gtk or win32 APIs
+
 # data-driven code
 
 Make serial number certification program
