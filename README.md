@@ -19,16 +19,16 @@ I have over 10 years of experience as a low-level programmer:
 I classify low-level programming as programming that is very close to the machine, using a lower level programming language like C or assembly. This is in contrast to higher-level programming, typical of user-space applications, using high level languages (e.g. Python, Java).
 * [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
 
-Yes, system programming is very close concept to the low-level programming. This page includes the hardware design and firmware development that is not included in system programming.
+Yes, systems programming is a very close concept to low-level programming. This page includes the hardware design and firmware development that is not included in system programming.
 * [Wikipedia: System programming](https://en.wikipedia.org/wiki/System_programming)
 
-Finally, this page includes topics ranging from hardware components to the Linux kernel. That is a huge range of layers. One page document can never cover the detail of all layers, so the aim of this document is to serve as a starting point for low-level programming.
+Finally, this page includes topics ranging from hardware components to the Linux kernel. That is a huge range of layers. A one page document can never cover the details of all the layers, so the aim of this document is to serve as a starting point for low-level programming.
 
 ## Theory
 
 There are two background theories to low-level programming:
 * Computer Architecture
-* Operating System
+* Operating Systems
 
 You can find many good classes on online universities, for instance, Coursera.org and edx.org.
 Theory is theory. I don't think you should get A+ in the class, just understand the big picture in the class.
@@ -48,7 +48,7 @@ You'll get better and better with experience.
 
 ### C language
 
-There is no short-cut. Just read the entire book and solve all exercises.
+There is no short-cut. Just read the entire book and solve all the exercises.
 
 * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
 * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
@@ -65,7 +65,7 @@ There is no short-cut. Just read the entire book and solve all exercises.
 
 ### Hardware && Firmware
 
-If you want to be an embedded system engineer, it would be best to start from a simple hardware kit, rather than starting with the latest ARM chipset.
+If you want to be an embedded systems engineer, it would be best to start from a simple hardware kit, rather than starting with the latest ARM chipset.
 
 * [Arduino Start Kit](https://www.arduino.cc/)
   * There are various series of Arduino but "Arduino Start Kit" has the most simple processor(Atmega328P) and guide book
