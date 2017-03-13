@@ -60,6 +60,7 @@ There is no short-cut. Just read the entire book and solve all the exercises.
 * [C programming challenge?](https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge.md)
   * plan for service like [The Eudyptula Challenge](http://eudyptula-challenge.org/)
   * Just an idea at the moment..
+  * If you can make all tiny projects in that page, you would be good to start big projects.
 
 ## Applications
 
