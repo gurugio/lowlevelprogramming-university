@@ -141,3 +141,9 @@ THIS-IS-MYSHELL> cat error.txt
 command is not found
 ```
 
+# More challenges
+
+Remember! Design is more than the implementation. Think *scalability*!
+* http://www.cprogramming.com/challenge.html
+* https://www.hackerrank.com/c-programming-test-1
+* https://www.lix.polytechnique.fr/~liberti/public/computing/prog/c/C/PROBLEMS/problems.html
