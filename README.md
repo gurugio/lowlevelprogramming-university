@@ -6,7 +6,7 @@ This page is for beginners who want to be low-level programmers.
 
 I'm inspired by [google-interview-university](https://github.com/jwasham/google-interview-university). I'd like to share my experience and show a roadmap to becoming a low-level programmer because I have found that these skills are not as common as they once were. In addition, many students and beginners ask me how they could become low-level programmers and Linux kernel engineers.
 
-This page cannot include every link/book/course. For example, this page introduces Arduino but there is not detail information about Arduino and embedded system. You should go further for yourself. Please remember this page is just a roadmap.
+This page cannot include every link/book/course. For example, this page introduces Arduino but there is not detail information about Arduino and embedded system. You should go further for yourself. You get a keyword "Arduino" on which you can start. So next step probably is googling Arduino, buying kit and **do something** for yourself, not collecting links or free books. Please remember this page is just a roadmap.
 
 FYI, I have over 10 years of experience as a low-level programmer:
 * 80x86 Assembly programming
