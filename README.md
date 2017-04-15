@@ -47,12 +47,13 @@ You'll get better and better with experience.
   * _need help for translation_
 * [ARM Architecture Reference Manual, 2nd Edition](http://www.mypearsonstore.ca/bookstore/arm-architecture-reference-manual-9780201737196)
   * Complete reference on ARM programming
-* [Computer Organization and Design: MIPS Edition](https://www.amazon.ca/Computer-Organization-Design-MIPS-Interface/dp/0124077269/)
-* [Computer Organization and Design: ARM Edition](https://www.amazon.ca/Computer-Organization-Design-ARM-Interface/dp/0128017333/)
+* Computer Organization and Design
+  * [MIPS Edition](https://www.amazon.ca/Computer-Organization-Design-MIPS-Interface/dp/0124077269/)
+  * [ARM Edition](https://www.amazon.ca/Computer-Organization-Design-ARM-Interface/dp/0128017333/)
   * Academic books that explain how every component of a computer work from the ground up.
   * Explains in details the different concepts that make up computer architecture.
   * They are not for targeted to becoming proficient in a specific assembly language.
-  * The MIPS adn ARM edition cover the same topics but by dissecting a different architecture.
+  * The MIPS and ARM edition cover the same topics but by dissecting a different architecture.
   * Both editions contain examples in the x86 world
 
 ### C language
@@ -70,7 +71,7 @@ There is no short-cut. Just read the entire book and solve all the exercises.
   * plan for service like [The Eudyptula Challenge](http://eudyptula-challenge.org/)
   * Just an idea at the moment..
   * If you can make all tiny projects in that page, you would be good to start big projects.
-* [Michael Abrash’s Graphics Programming Black Book, Special Edition]http://www.jagregory.com/abrash-black-book/)
+* [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
   * Reference on optimization using C and a bit of x86 assembly
   * Starts from the 8088 up to today
   * Special focus on low-level graphics optimization
