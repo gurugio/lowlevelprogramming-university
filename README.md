@@ -1,9 +1,21 @@
 * [Low-Level Programming University](#Low-Level-Programming-University)
-  * [What is it](#What-is-it)
+  * [What is it?](#What-is-it)
+  * [What Is the Low Level](#What-Is-the-Low-Level)
+  *  [Theory](#Theory)
+  *  [Languages](#Languages)
+    * [Assembly](#Assembly)
+    * [C language](#C-language)
+  * [Applications](#Applications)
+    * [Hardware && Firmware](#Hardware-Firmware)
+    * [Linux kernel and device driver](#Linux-kernel-and-device-driver)
+      * [Read carefully](#Read-carefully)
+      * [References](#References)
+  * [Future of low level programming](#Future-of-low-level-programming)
+* [Translation](#Translation)
 
 # <a name="Low-Level-Programming-University"></a>Low-Level Programming University
 
-## <a name="What-is-it?"></a>What is it?
+## <a name="What-is-it"></a>What is it?
 
 This page is for beginners who want to be low-level programmers.
 
@@ -19,7 +31,7 @@ FYI, I have over 10 years of experience as a low-level programmer:
 * Linux kernel: page allocation
 * Linux kernel: block device driver and md module
 
-## What Is the Low-Level?
+## <a name="What-Is-the-Low-Level"></a>What Is the Low-Level?
 
 I classify low-level programming as programming that is very close to the machine, using a lower level programming language like C or assembly. This is in contrast to higher-level programming, typical of user-space applications, using high level languages (e.g. Python, Java).
 * [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
@@ -29,7 +41,7 @@ Yes, systems programming is a very close concept to low-level programming. This 
 
 Finally, this page includes topics ranging from hardware components to the Linux kernel. That is a huge range of layers. A one page document can never cover the details of all the layers, so the aim of this document is to serve as a starting point for low-level programming.
 
-## Theory
+##  <a name="Theory"></a>Theory
 
 There are two background theories to low-level programming:
 * Computer Architecture
@@ -39,9 +51,9 @@ You can find many good classes on online universities, for instance, Coursera.or
 Theory is theory. I don't think you should get A+ in the class, just understand the big picture in the class.
 You'll get better and better with experience.
 
-## Languages
+##  <a name="Languages"></a>Languages
 
-### Assembly
+### <a name="Assembly"></a>Assembly
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
   * basic concepts of CPU and computer architecture
@@ -51,7 +63,7 @@ You'll get better and better with experience.
   * basic concepts of disassembling and debugging of C code
   * _need help for translation_
 
-### C language
+### <a name="C-language"></a>C language
 
 There is no short-cut. Just read the entire book and solve all the exercises.
 
@@ -67,9 +79,9 @@ There is no short-cut. Just read the entire book and solve all the exercises.
   * Just an idea at the moment..
   * If you can make all tiny projects in that page, you would be good to start big projects.
 
-## Applications
+## <a name="Applications"></a>Applications
 
-### Hardware && Firmware
+### <a name="Hardware-Firmware"></a>Hardware && Firmware
 
 If you want to be an embedded systems engineer, it would be best to start from a simple hardware kit, rather than starting with the latest ARM chipset.
 
@@ -114,12 +126,12 @@ Other toy kernels:
 * https://littleosbook.github.io/
 * https://tuhdo.github.io/os01/
 
-### Linux kernel and device driver
+### <a name="Linux-kernel-and-device-driver"></a>Linux kernel and device driver
 
 You don't need to make a complete operating system.
 Join the Linux community and participate in development.
 
-#### Read carefully
+#### <a name="Read-carefully"></a>Read carefully
 
 * Books: Read followings in order
   * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
@@ -149,7 +161,7 @@ Join the Linux community and participate in development.
   * how md driver works
   * _need help for translation_
 
-#### References
+#### <a name="References"></a>References
 
 Check when you need something
 
@@ -158,7 +170,7 @@ Check when you need something
 * [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
   * guide to start kernel programming
 
-## Future of low-level programming
+## <a name="Future-of-low-level-programming"></a>Future of low-level programming
 
 I do not know the future, but I keep my eye on RUST.
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
@@ -174,6 +186,6 @@ But Linux Foundation also has a solution: Zephyr
 Typical cloud server has so many layers, for instance, host OS, kvm driver, qemu process, guest OS and service application. So container has been developed to provide light virtualization. In near future, a new concept of OS, so-called library OS or Unikernel, would be replace the typical stack of SW for virtualization.
 * http://unikernel.org/
 
-# Translation
+# <a name="Translation"></a>Translation
 
 Please send me the pull request if you'd like to translate this page. I'll list it here.
