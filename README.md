@@ -69,7 +69,7 @@ There is infinite list of good books. I don't want to say that you should read m
 
 ### <a name="Assembly"></a>Assembly
 
-Choose one between x86 or ARM. No need to know both. It doesn't matter to know assembly language. The essential is knowing the internal of CPU and computer.
+Choose one between x86 or ARM. No need to know both. It doesn't matter to know assembly language. The essential is knowing the internal of CPU and computer. So you don't need to practice the assembly of the latest CPU. Select 8086 or Corex-M.
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
   * basic concepts of CPU and computer architecture
