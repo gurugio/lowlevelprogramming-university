@@ -53,9 +53,23 @@ You can find many good classes on online universities, for instance, Coursera.or
 Theory is theory. I don't think you should get A+ in the class, just understand the big picture in the class.
 You'll get better and better with experience.
 
+Let me introduce several books that I've read. They are commonly used for text book in the universities. If there is no class with those books in your university, it's worth to spend some time for those.
+* Computer Architecture
+  * Computer Architecture, Fifth Edition: A Quantitative Approach
+  * Computer Systems: A Programmer's Perspective
+  * Computer Organization and Design, Fourth Edition: The Hardware/Software Interface
+* Operating Systems
+  * The Magic Garden Explained: The Internals of UNIX System V Release 4 an Open Systems Design
+  * The Design of the UNIX Operating System
+  * Operating Systems: Internals and Design Principles by William Stallings
+
+There is infinite list of good books. I don't want to say that you should read many books. Just read one book carefully. Whenevery you learn a theory, implement simulation code of it. **Implementing one thing is better than knowing one hundread theories.**
+
 ##  <a name="Languages"></a>Languages
 
 ### <a name="Assembly"></a>Assembly
+
+Choose one between x86 or ARM. No need to know both. It doesn't matter to know assembly language. The essential is knowing the internal of CPU and computer.
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
   * basic concepts of CPU and computer architecture
@@ -94,6 +108,8 @@ There is no short-cut. Just read the entire book and solve all the exercises.
   * Reference on optimization using C and a bit of x86 assembly
   * Starts from the 8088 up to today
   * Special focus on low-level graphics optimization
+
+If you want to be expert of C programming, visit https://leetcode.com/. Good luck!
 
 ## <a name="Applications"></a>Applications
 
