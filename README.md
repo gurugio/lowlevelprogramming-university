@@ -162,9 +162,9 @@ Join the Linux community and participate in development.
     * Never start with the latest version, v2.6 is enough!
     * Use qemu and gdb to run the kernel source line by line
       * http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu
-      * https://gurugio.kldp.net/wiki/wiki.php/howto_debug_kernel
+      * https://github.com/gurugio/linuxdeveloptip/blob/master/qemu-gdb-kdump.md
     * Use busybox to make the simplest filesystem that takes only 1-second to boot
-      * https://gurugio.kldp.net/wiki/wiki.php/qemu_kernel
+      * https://github.com/gurugio/linuxdeveloptip/blob/master/minikernelwithbusybox.md
 * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
   * This is like an awesome private teacher who guide you what to do.
   * If you don't know what to do, just start this.
