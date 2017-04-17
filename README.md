@@ -10,7 +10,9 @@
     * [Linux kernel and device driver](#Linux-kernel-and-device-driver)
       * [Read carefully](#Read-carefully)
       * [References](#References)
-  * [Future of low level programming](#Future-of-low-level-programming)
+    * [Other-applications](#Other applications)
+  * [Future of low level programming](#Future-of-low-level-programming)
+  * [Job](#Job)
 * [Translation](#Translation)
 
 # <a name="Low-Level-Programming-University"></a>Low-Level Programming University
@@ -183,6 +185,15 @@ Check when you need something
   * many slide files introducing good topics, specially ARM-linux
 * [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
   * guide to start kernel programming
+
+### <a name="Other-applications"></a>Other application
+
+Yes, you might not be interested in Linux or firmware. If so, you can find other applications:
+* Windows system programming & device driver
+* Security
+* Reverse engineering
+
+I don't have any knowledge about those applications. Please send me any information for beginners.
 
 ## <a name="Future-of-low-level-programming"></a>Future of low-level programming
 
