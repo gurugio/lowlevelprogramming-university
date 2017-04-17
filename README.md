@@ -10,8 +10,8 @@
     * [Linux kernel and device driver](#Linux-kernel-and-device-driver)
       * [Read carefully](#Read-carefully)
       * [References](#References)
-    * [Other applications](#Other-applications)
-  * [Future of low level programming](#Future-of-low-level-programming)
+    * [Other applications](#Other-applications)
+  * [Future of low level programming](#Future-of-low-level-programming)
   * [Job](#Job)
 * [Translation](#Translation)
 
