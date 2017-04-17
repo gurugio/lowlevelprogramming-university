@@ -1,40 +1,43 @@
-* [Low-Level Programming University](#Low-Level-Programming-University)
-  * [What is it?](#What-is-it)
-  * [What Is the Low Level](#What-Is-the-Low-Level)
-  *  [Theory](#Theory)
-  *  [Languages](#Languages)
+* [Universit&agrave; della programmazione a basso livello](#Low-Level-Programming-University)
+  * [Che cos'&egrave;](#What-is-it)
+  * [Che cos'&egrave; il basso livello'](#What-Is-the-Low-Level)
+  *  [Teoria](#Theory)
+  *  [Linguaggi](#Languages)
     * [Assembly](#Assembly)
-    * [C language](#C-language)
-  * [Applications](#Applications)
-    * [Hardware && Firmware](#Hardware-Firmware)
-    * [Linux kernel and device driver](#Linux-kernel-and-device-driver)
-      * [Read carefully](#Read-carefully)
-      * [References](#References)
-  * [Future of low level programming](#Future-of-low-level-programming)
-* [Translation](#Translation)
+    * [Linguaggio C](#C-language)
+  * [Applicazioni](#Applications)
+    * [Hardware e Firmware](#Hardware-Firmware)
+    * [Il kernel Linux e i driver di dispositivo](#Linux-kernel-and-device-driver)
+      * [Leggi con attenzione](#Read-carefully)
+      * [Riferimenti](#References)
+  * [Futuro della programmazione a basso livello](#Future-of-low-level-programming)
+* [Traduzioni](#Translation)
 
-# <a name="Low-Level-Programming-University"></a>Low-Level Programming University
+# <a name="Low-Level-Programming-University"></a>Universit&agrave; della programmazione a basso livello
 
-## <a name="What-is-it"></a>What is it?
+## <a name="What-is-it"></a>Che cos'&egrave;?
 
-This page is for beginners who want to be low-level programmers.
+Questa pagina &egrave; per i principianti che vogliono essere programmatori a basso livello.
 
-I'm inspired by [google-interview-university](https://github.com/jwasham/google-interview-university). I'd like to share my experience and show a roadmap to becoming a low-level programmer because I have found that these skills are not as common as they once were. In addition, many students and beginners ask me how they could become low-level programmers and Linux kernel engineers.
+L'inspirazione proviene dalla pagina [google-interview-university](https://github.com/jwasham/google-interview-university). Vorrei condividere la mia esperienza e mostrare un piano per diventare un programmatore a basso livello perch&egrave; mi sono reso conto che queste skill non sono cos&igrave; diffuse come una volta. Inoltre, molti studenti e principianti mi chiedono come possono diventare dei programmatori a basso livello e ingegneri del kernel di Linux.
 
-This page cannot include every link/book/course. For example, this page introduces Arduino but there is not detail information about Arduino and embedded system. You should go further for yourself. You get a keyword "Arduino" on which you can start. So next step probably is googling Arduino, buying kit and **do something** for yourself, not collecting links or free books. Please remember this page is just a roadmap.
+Questa pagina non potr&agrave; mai includere ogni link/libro/corso a riguardo.
+Ad esempio, questa pagina introduce Arduino ma non sono presenti informazioni dettagliate riguardo ad esso e alla programmazione embedded. Il resto spetta a te. Hai letto la parola chiave "Arduino" dalla quale puoi partire; perci&ograve; il tuo prossimo passo sar&agrave; probabilmente ricercarla su Google, comprare il kit e **sperimentare** per te stesso, non collezionare libri gratuiti e link. Ricorda che questa pagina &egrave; solo un piano.
 
-FYI, I have over 10 years of experience as a low-level programmer:
-* 80x86 Assembly programming
-* Hardware device with Atmel chip and firmware
-* C language system programming for Unix
-* Device driver in Linux
-* Linux kernel: page allocation
-* Linux kernel: block device driver and md module
+Per tua informazione, ho oltre 10 anni di esperienza come programmatore a basso livello:
+* Programmazione assembly 80x86
+* Driver per hardware con chip e firmware Atmel chip
+* Programmazione di sistema in linguaggio C per Unix
+* Driver di dispositivo per Linux
+* Kernel linux: allocazione di pagina
+* Kernel linux: dispostivi a blocchi e modulo md
 
-## <a name="What-Is-the-Low-Level"></a>What Is the Low-Level?
+## <a name="What-Is-the-Low-Level"></a>Che cos'&egrave; il basso livello?
 
-I classify low-level programming as programming that is very close to the machine, using a lower level programming language like C or assembly. This is in contrast to higher-level programming, typical of user-space applications, using high level languages (e.g. Python, Java).
-* [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
+Identifico come programmazione a basso livello, quella programmazione che &egrave; molto vicina alla macchina, usando un linguaggio a basso come C o Assembly. Ci&ograve; &egrave; in contrasto la programmazione ad alto livello, tipica delle applicazioni denominate user-space, che utilizzano linguaggi ad alto livello (es. Python, Java).
+* [Wikipedia: Linguaggio di programmazione a basso livello](https://it.wikipedia.org/wiki/Linguaggio_di_programmazione_a_basso_livello)
+
+***TO DO***
 
 Yes, systems programming is a very close concept to low-level programming. This page includes the hardware design and firmware development that is not included in system programming.
 * [Wikipedia: System programming](https://en.wikipedia.org/wiki/System_programming)
