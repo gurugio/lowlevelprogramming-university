@@ -1,82 +1,82 @@
-I think for long time, new C language programmer is getting rare.
-As I'm solving the Eudyptula Challenge, an idea came to me that similar challenge is necessary for C language.
+Da lungo, penso che nuovi programmatori C siano più rari.
+Nel frattempo che affronto la Eudyptula Challenge, ho realizzato che una simile sfida &egrave; necessaria per il linguaggio C.
 
-I'm not sure what tasks are suitable and how mant tasks are necessary..actually I have no plan yet.
-But I'll write some tasks from printing "hello-world" to making a class with a function pointer.
-If you have an idea, please send me pull-request.
+non sono sicuro quali esercizi sono adatti e quanti task siano necessario...in realt&agrave; non ho ancora un piano.
 
-[discussion on reddit](https://www.reddit.com/r/linuxdev/comments/5r8k6g/new_service_like_the_eudyptula_challenge/)
+Ma indicherò alcuni esercizi da stampare "Ciao mondo" al creare una classe tramite un puntatore di funzione.
+
+Se avete un idea, potete inviarmi una pull request.
+
+[discussione su reddit](https://www.reddit.com/r/linuxdev/comments/5r8k6g/new_service_like_the_eudyptula_challenge/)
 * pnpbios
-  * Writing your own daemon, your own PAM module, writing a custom network interface, writing your own shell
+  * Scrivi il tuo demone personale, il tuo modulo PAM personale, scrivi un'interfaccia di rete personalizzata, scrivi la tua shell
 
-topics:
+Argomenti:
 * file IO
-  * creating ls
-* concurrent
-* network
-  * making chatting program
-* memory
-  * make pool-based memory allocator
-* error handling
-* toolchain: preprocessor, compiler, linker
+  * crea ls
+* concorrenza
+* rete
+  * crea il tuoo programma di chat
+* memoria
+  * crea il tuo allocatore pool di memoria
+  * gestione degli errori
+* toolchain: preprocessore, compilatore, linker
 * cache
 * assembly
-* performance
-* syncronization
+* prestazioni
+* sincronizzazione
 
 
-# print "Hello world!"
+# stampa "Ciao mondo!"
 
-Use argc and argv to print "Hello world!".
+Usa argc e argv per stampare "Ciao mondo!".
 
 ```
-$ print 3 "Hello world!"
-1 Hello world!
-2 Hello world!
-3 Hello world!
+$ print 3 "Ciao mondo!"
+1 Ciao mondo!
+2 Ciao mondo!
+3 Ciao mondo!
 ```
 
-# read directory and file
+# leggi cartelle e file
+Crea uno strumento come ls che semplicemente stampi il nome della cartella selezionata.
 
-make ls tools that just print names of specified directory.
-* do not need to get no options
+# argomenti per la riga di commando
 
-# command argument
+Crea uno strumento come ls che accetti opzioni ed effettua il parsing degli argomenti per la riga di commando tramite getopt, getopt_long
+* opzioni brevi: -l, -a, -d
+* opzioni lunghe: --long, --all, --directory
+* l'opzione -l(--long) stampa dimensione, permessi, nome utente, data di ultima modifica.
+* usa getopt, getopt_long per elaborare le opzioni
 
-make ls tools with options and do command argument parsing with getopt, getopt_long
-* short options: -l, -a, -d
-* long options: --long, --all, --directory
-* -l(--long) option prints size, permission, user id, last modified time.
-* use getopt, getopt_long to process options
+# cerca multi-thread
 
-# multi-thread find
+crea un programma di ricerca file che usa multipli thread
+* preleva il nome file e il nome della cartella
+* verifica quante cartelle esistono nella cartella scelta
+* crea un thread per ogni cartelladirectories
+* un thread cerca un specifico file in una cartella
+* confronta le performance del precedente cerca con un singolo thread
 
-make find program that has multi-threads
-* get file-name and directory-name
-* check how many directory exists in target directory
-* creates threads as many as directories
-* one thread finds a specified file in one directory
-* compare performance of one-thread find
+# crea chat
 
-# make chat
+crea una programma di chat 1:1 per il terminale
+* crea server e client
+* supporta IPv4 e IPv6
 
-make a 1:1 chatting program for terminal
-* make server & client
-* support IPv4 and IPv6
+# crea ftp
 
-# make ftp
+crea server e client ftp
+* invocazione lato server: ``ftp-server``
+* invocazione lato client: ``ftp-client <IPADDR> <FILE-NAME>``
+* stampa i caratteri '#' per mostrare l'andamento sul trasferimento del file
+* crea il server come demone
+* il server dovrebbe supportare connessioni multiple
 
-make ftp server & client
-* server-side usage: ``ftp-server``
-* client-side usage: ``ftp-client <IPADDR> <FILE-NAME>``
-* print '#' characters to show file-transfer is working
-* make server as daemon
-* server should support multi-connection
+# crea un riproduttore multimediale
 
-# make streaming player
-
-clients send sequential images and server shows images
-* convert a gif image into many jpeg images
+i client inviano immagini sequenziali e il server mostra le immagini
+* trasforma un'immagine gif in multiple immagini jpeg
 * client sends the jpeg images
 * server receives the jpeg images and shows
 * server supports many windows, each windows shows images from a client
@@ -141,9 +141,9 @@ THIS-IS-MYSHELL> cat error.txt
 command is not found
 ```
 
-# More challenges
+# Altre sfide
 
-Remember! Design is more than the implementation. Think *scalability*!
+Nota bene! La struttura e&grave; molto di pi&ugrave; che la semplice implementazione. Rifletti sulla *scalabilit&agrave;*!
 * http://www.cprogramming.com/challenge.html
 * https://www.hackerrank.com/c-programming-test-1
 * https://www.lix.polytechnique.fr/~liberti/public/computing/prog/c/C/PROBLEMS/problems.html
