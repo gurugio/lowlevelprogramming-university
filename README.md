@@ -49,7 +49,7 @@ There are two background theories to low-level programming:
 * Computer Architecture
 * Operating Systems
 
-You can find many good classes on online universities, for instance, Coursera.org and edx.org.
+I think the better way to learn theory is taking course. Reading books is not bad but taking too much time and effort. You can find many good classes on online universities, for instance, Coursera.org and edx.org.
 Theory is theory. I don't think you should get A+ in the class, just understand the big picture in the class.
 You'll get better and better with experience.
 
