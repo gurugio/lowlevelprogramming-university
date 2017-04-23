@@ -37,172 +37,179 @@ Per tua informazione, ho oltre 10 anni di esperienza come programmatore a basso 
 Identifico come programmazione a basso livello, quella programmazione che &egrave; molto vicina alla macchina, usando un linguaggio a basso come C o Assembly. Ci&ograve; &egrave; in contrasto la programmazione ad alto livello, tipica delle applicazioni denominate user-space, che utilizzano linguaggi ad alto livello (es. Python, Java).
 * [Wikipedia: Linguaggio di programmazione a basso livello](https://it.wikipedia.org/wiki/Linguaggio_di_programmazione_a_basso_livello)
 
-***TO DO***
-
-Yes, systems programming is a very close concept to low-level programming. This page includes the hardware design and firmware development that is not included in system programming.
+S&igrave; la programmazione di sistemi &egrave; volto vicina al concetto della programmazione a basso livello. Questa pagina include il design di hardware e lo sviluppo di firmware che non &egrave; incluso nella programmazione di sistema.
 * [Wikipedia: System programming](https://en.wikipedia.org/wiki/System_programming)
 
-Finally, this page includes topics ranging from hardware components to the Linux kernel. That is a huge range of layers. A one page document can never cover the details of all the layers, so the aim of this document is to serve as a starting point for low-level programming.
+Per l'ultimo, questa pagina include argomenti che spaziano dalle componenti hardware al kernel Linux. Ci&ograve; &egrave; un enorme collezioni di strati. Un documento di una singola pagina non potr&agrave; mai coprire i dettagli di tutti gli strati, perci&ograve; lo scopo di questo documento &egrave; di servire come punto iniziale per la programmazione a basso livello.
 
-##  <a name="Theory"></a>Theory
+##  <a name="Theory"></a>Teoria
 
-There are two background theories to low-level programming:
-* Computer Architecture
-* Operating Systems
+Ci sono due teorie di fondo applicate alla programmazione di basso livello:
+* Architettura di computer
+* Sistemi operativi
 
-You can find many good classes on online universities, for instance, Coursera.org and edx.org.
-Theory is theory. I don't think you should get A+ in the class, just understand the big picture in the class.
-You'll get better and better with experience.
+Penso che il miglior sistema per imparare la teoria &egrave; seguendo un corso. Leggere libri non &egrave; male ma prende molto tempo e fatica. Puoi trovare buoni corsi nelle universt&agrave; online, per esempio, Coursera.org e edx.org. La teoria &egrave; teoria. Non penso tu possa prendere un 10 con lode in classe, giusto capendo l&igrave; il quadro generale. Migliorerai in continuazione con l'esperienza.
 
-##  <a name="Languages"></a>Languages
+Ti introduco vari libri che ho letto. Sono libri di testo che sono utilizzati solitamente nelle universit&agrave;. Se non ci sono classi con quei libri, &egrave; consigliato spendere un po' di tempo su di essi.
+
+* Architettura di computer
+  - Computer Architecture, Fifth Edition: A Quantitative Approach
+  - Computer Systems: A Programmer's Perspective
+  - Computer Organization and Design, Fourth Edition: The Hardware/Software Interface
+* Sistemi operativi
+   - The Magic Garden Explained: The Internals of UNIX System V Release 4 an Open Systems Design
+   - The Design of the UNIX Operating System
+   - Operating Systems: Internals and Design Principles by William Stallings
+C'&egrave; una lista finita di buoni libri. Non voglio dire che dovresti leggere molti libri. Leggine giusto uno molto attentamente. Una volta che impari una teoria, implementa un codice di prova per esso. Implementare una cosa &egrave; meglio che conoscere centinaia di teorie.
+
+##  <a name="Languages"></a>Linguaggi
 
 ### <a name="Assembly"></a>Assembly
 
-* [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
-  * basic concepts of CPU and computer architecture
-  * basic concepts of C programming language
-* [64bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
-  * basic concepts of modern CPU and computer architecture
-  * basic concepts of disassembling and debugging of C code
-  * _need help for translation_
-* [ARM Architecture Reference Manual, 2nd Edition](http://www.mypearsonstore.ca/bookstore/arm-architecture-reference-manual-9780201737196)
-  * Complete reference on ARM programming
-* Computer Organization and Design
-  * [MIPS Edition](https://www.amazon.ca/Computer-Organization-Design-MIPS-Interface/dp/0124077269/)
-  * [ARM Edition](https://www.amazon.ca/Computer-Organization-Design-ARM-Interface/dp/0128017333/)
-  * Academic books that explain how every component of a computer work from the ground up.
-  * Explains in details the different concepts that make up computer architecture.
-  * They are not for targeted to becoming proficient in a specific assembly language.
-  * The MIPS and ARM edition cover the same topics but by dissecting a different architecture.
-  * Both editions contain examples in the x86 world
+* [assembly 8086 con emu8086](https://github.com/gurugio/book_assembly_8086)
+  * concetti base della CPU e dell'architettura dei computer
+  * concetti base del linguaggio di programmazione C of C programming language
+* [programmazione assembly a 64bit (traduzione inglese in corso)](https://github.com/gurugio/book_assembly_64bit)
+  * concetti base di una CPU moderna e dell'architettura di computer
+  * concetti base di reverse engineering e di debug di codice C
+  * _necessito aiuto per la traduzione_
+* [Manuale di riferimento per l'architettura ARM](http://www.mypearsonstore.ca/bookstore/arm-architecture-reference-manual-9780201737196)
+  * Completa guida dell'architettura ARM
+* Design ed organizzazione di un computer
+  * [Edizione MIPS](https://www.amazon.ca/Computer-Organization-Design-MIPS-Interface/dp/0124077269/)
+  * [Edizione ARM](https://www.amazon.ca/Computer-Organization-Design-ARM-Interface/dp/0128017333/)
+  * Libri accademici che spiegano come ogni componente di un computer lavora in dettaglio
+  * Spiegano in dettaglio i vari concetti di un'architettura che costituisce un computer
+  * Non sono orientati a diventare fluido in un linguaggio assembly specifico
+  * L'edizione MIPs e ARM copre gli stessi argomenti ma analizzando una differente architettura
+  * Entrambi le edizioni contengono esempi per il mondo x86
 
-### <a name="C-language"></a>C language
+### <a name="C-language"></a>Linguaggio C
 
-There is no short-cut. Just read the entire book and solve all the exercises.
+Non ci sono scorciatorie. Leggi l'intero libro e risolvi tutti gli esercizi.
 
 * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
 * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
-* [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
-  * For new standard of C
-* [Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
-  * raw implementation of synchronization with C
-  * Essential for large scale C programming (especially for kernel programming)
-* [C programming challenge?](https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge.md)
-  * plan for service like [The Eudyptula Challenge](http://eudyptula-challenge.org/)
-  * Just an idea at the moment..
-  * If you can make all tiny projects in that page, you would be good to start big projects.
+* [C moderno](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
+  * Per il nuovo standard C
+* [La programmazione parallela &egrave; difficile, e, se lo &egrave, cosa puoi farci?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
+  * implementazione cruda della sincronizzazione con C
+  * Essenziale per la programmazione C a larga scala (specialmente per la programmazione di kernel)
+* [Sfida di programmazione C?](https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge_it.md)
+  * Piano per un servizio come il "[The Eudyptula Challenge]"(http://eudyptula-challenge.org/)
+  * Semplicemente un idea al momento..
+  * Se puoi creare tutti i progetti piccoli di quella pagina, potresti iniziare con grandi progetti
 * [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
-  * Reference on optimization using C and a bit of x86 assembly
-  * Starts from the 8088 up to today
-  * Special focus on low-level graphics optimization
+  * Guida all'ottimizzazione utilizzando C e un po' di assembly x86
+  * Comincia dal 8088 fino ad oggi
+  * Focus speciale sull'ottimizzazione della grafica a basso livello
 
-## <a name="Applications"></a>Applications
+## <a name="Applications"></a>Applicazioni
 
-### <a name="Hardware-Firmware"></a>Hardware && Firmware
+### <a name="Hardware-Firmware"></a>Hardware e firmware
 
-If you want to be an embedded systems engineer, it would be best to start from a simple hardware kit, rather than starting with the latest ARM chipset.
+Se vuoi essere un ingegnere dei sistemi embedded, sarebbe meglio iniziare con un kit hardware semplice, come ad esempio partire con l'ultimo chipset ARM.
 
 * [Arduino Start Kit](https://www.arduino.cc/)
-  * There are various series of Arduino but "Arduino Start Kit" has the most simple processor(Atmega328P) and guide book
-  * Atmega328P has 8bit core that is the good to start "Digital circuit design" and "Firware development".
-  * You don't need to know how to draw schematics and layout, and assemble the chips.
-  * But you need to know how to read schematics and understand how the chips are connected.
-  * Firmware developers should be able to read the schematics and figure out how to send data to the target device.
-  * Follow the guide book!
-* [8086 manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
-  * If you're a beginner to x86 architecture, 8086 is also very good guide for processor architecture and 80x86 assembly
-* [80386 manual](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
-  * Best guide for protected mode and paging machanism of 80x86 processor
-  * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
+  * Ci sono varie serie ma il "Arduino Start Kit" ha il processore pi&ugrave; semplice(Atmega328P) e un libro che ti guida
+  * Atmega328P ha un core a 8bit che un buon punto di inizio per la "progettazione di circuiti" and lo "sviluppo firmware".
+  * Non hai bisogno di sapere come disegnare schemi e strutture, e di assemblare i chip
+  * Ma hai bisogno di sapere come leggere gli schemi e capire come i chip sono connessi
+  * Sviluppatori firmware dovrebbero essere in grado di legge gli schemi e capire come inviare i dati ai dispositivi interessati.
+  * Segui la guida!
+* [manuale 8086](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
+  * Se sei un principiante sull'architettura x86, anche il 8086 &egrave, una buona guida per l'architettura dei processori e l'assembly 80x86
+* [manuale 80386](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
+  * Miglior guida per la modalit&agrave; protetta e i meccanismi di paginazione del processore 80x86
+  * Versione web: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
 
-At this point, you should be good to start the latest ARM or x86 processor.
+A qeusto punto, dovrebbe essere una buona idea partire con l'ultimo processore x86 o ARM.
 * https://www.raspberrypi.org/
 * https://beagleboard.org/
 * https://www.arduino.cc/en/ArduinoCertified/IntelEdison
 
-For example, the Raspberry Pi board has a Cortex-A53 Processor that supports a 64-bit instruction set.
-This allows you to experience a modern processor architecture with rPi.
-Yes, you can buy it... but... what are you going to do with it?
-If you have no target project, you would be likely to throw the board into a drawer and forget it like other gadgets you may have bought before.
+Per esempio, la scheda Raspeberry Pi ha un processore Cortex-A53 che supporta un set di istruzioni a 64-bit.
+Questo ti permette di far esperienza su un processore moderno con rPi.
+S&igrave; puoi comparlo...ma...come hai intenzione di utilizzarlo?
+Se non ha un obiettivo di progetto, probabilmente lascerai la scheda in un cassetto e te ne dimenticherai come ogni altro gadget che hai comprato in precedenza.
 
-So, I recommend one project for you.
-* [Making your own kernel](http://wiki.osdev.org/Getting_Started)
-  * Good references: https://www.reddit.com/r/osdev/
+Perci&ograve; ti raccomando un progetto.
+* [Crea il tuo kernel](http://wiki.osdev.org/Getting_Started)
+  * Spunti interessanti: https://www.reddit.com/r/osdev/
 
-I've made [a toy kernel](https://github.com/gurugio/caos) that supports 64bit long mode, paging and very simple context switching. Making a toy kernel is good way to understand modern computer architecture and hardware control.
+Ho creato [un kernel giocattolo](https://github.com/gurugio/caos) che supporta la modalità long 64-bit, paginazione e un cambio di contesto molto essenziale. Creare un kernel giocattolo &egrave; un buon sistema per capire l'architettura moderna e il controllo dell'hardware.
 
-In fact, you have already the latest processor and the latest hardware devices.
-Your laptop! Your desktop! You already have all to start!
-You don't need to buy anything.
-The qemu emulator can emulate the latest ARM processors and Intel processors.
-So everything you need is already on hand.
-There are so many toy kernel and documents you can refer to.
-Just install qemu emulator and make a tiny kernel that just boots and turns on paging, and prints some messages.
+Ovviamente, tu hai gi&agrave; l'ultimo processore e gli ultimi dispositivi hardware.
+Il tuo portatile! Il tuo desktop! Hai tutto ci&ograve; per poter iniziare.
+Non hai bisogno di compare nulla.
+L'emulatore qemu pu&ograve, emulare gli ultimi porocessori ARM e Intel.
+Perci&ograve; ogni cosa necessiti e&grave; gi&agrave; sottomano.
+Ci sono molti kernel giocattolo e documenti a cui puoi far riferimento.
+Installa qemu e crea il tuo piccolo kernel che semplicemente si avvia, avvia la paginazione e stampa alcuni messaggi.
 
-Other toy kernels:
+Altri kernel giocattolo:
 * https://littleosbook.github.io/
 * https://tuhdo.github.io/os01/
 
-### <a name="Linux-kernel-and-device-driver"></a>Linux kernel and device driver
+### <a name="Linux-kernel-and-device-driver"></a>Kernel linux kernel e driver di dispositivo
 
-You don't need to make a complete operating system.
-Join the Linux community and participate in development.
+Non hai bisogno di creare un sistema operativo completo.
+Unisciti alla comunit&agrave; Linux e partecipa nello sviluppo.
 
-#### <a name="Read-carefully"></a>Read carefully
+#### <a name="Read-carefully"></a>Leggi attentamente
 
-* Books: Read followings in order
+* Libri: leggi i seguenti in ordine
   * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
-    * The basic concepts of Unix are applied into all operating system.
-    * This book is very good to get the concepts of operating system.
+    * I concetti base di Unix sono applicati su tutti i sistemi operativi.
+    * Questo libro &egrave; ottimo per i concetti sui sistemi operativi.
   * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
-    * Make all examples for yourself
+    * Fai una prova su tutti gli esempi
   * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
-    * Understand the design of Linux Kernel
+    * Capire la struttura del kernel Linux
   * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
-    * Read this book and the kernel source v2.6 at the same time
-    * Never start with the latest version, v2.6 is enough!
-    * Use qemu and gdb to run the kernel source line by line
+    * Leggi questi libro e fai rifermento ai sorgenti kernel 2.6 in contemporanea
+    * Mai iniziare con l'ultima versione, la 2.6 &egrave; pi&ugrave; che sufficiente!
+    * Usa qemu e gdb per eseguire i sorgenti del kernel linea per linea
       * http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu
       * https://gurugio.kldp.net/wiki/wiki.php/howto_debug_kernel
-    * Use busybox to make the simplest filesystem that takes only 1-second to boot
+    * Usa busybox per creare un file system molto semplice che impiega un secondo per avviarsi 
       * https://gurugio.kldp.net/wiki/wiki.php/qemu_kernel
 * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
-  * This is like an awesome private teacher who guide you what to do.
-  * If you don't know what to do, just start this.
+  * &Egrave; come un insegnate privato bravissimo che ti guida su cosa fare.
+  * Se non sai cosa fare, parti da qui.
 * [Block layer and device driver(translation in progress)](https://github.com/gurugio/book_linuxkernel_blockdrv)
-  * start from a simple block device driver example (Ramdisk) with multi-queue mode
-  * go forward to block layer
-  * _need help for translation_
+  * inizia da un semplice dispositivo a blocchi di esempio (Ramdisk) con code multiple
+  * prosegui fino al dispositivo di blocco
+  * _necessit&agrave; di aiuto per la traduzione_
 * [md driver of Linux kernel(in progress)](https://github.com/gurugio/book_linuxkernel_md)
-  * how mdadm tool works and how it calls md driver
-  * how md driver works
-  * _need help for translation_
+  * come funziona lo strumento mdam e come chiava il driver md
+  * come funziona il driver md
+  * _necessit&agrave; di aiuto per la traduzione_
 
-#### <a name="References"></a>References
+#### <a name="References"></a>Riferimenti
 
-Check when you need something
+Controlla qui se necessiti di qualcosa
 
-* [Free-electrons homepage](http://free-electrons.com/docs/)
-  * many slide files introducing good topics, specially ARM-linux
+* [Homepage di Free-electrons](http://free-electrons.com/docs/)
+  * molte diapositive che introducono concetti interessanti, specialmente ARM-Linux
 * [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
-  * guide to start kernel programming
+  * guida per iniziare la programmazione kernel
+  
+## <a name="Future-of-low-level-programming"></a>Futuro della programmazione a basso livello
 
-## <a name="Future-of-low-level-programming"></a>Future of low-level programming
-
-I do not know the future, but I keep my eye on RUST.
+Non conosco il futuro, ma sto tenendo osservato RUST.
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
 
-If I could have one week free and alone, I would learn RUST.
-That is because RUST is the latest language with which I can develop Linux device driver.
+Se avessi una settimana libera e sono da solo, vorrei imparare RUST.
+Questo perch&egrave; RUST &egrave, il linguaggio pi&ugrave; recente con il quale posso sviluppare un driver di dispositivo Linux.
 
-IoT is new trend, so it's worth to check what OSs are for IoT.
-ARM, Samsung and some companies has their own realtime OS but sadly many of them are close source.
-But Linux Foundation also has a solution: Zephyr
+IoT &egrave; un trend nuovo, perci&ograve; vale controllare quali sistemi operativi sono per l'IoT.
+ARM, Samsung e alcune aziende hanno il loro sistema operativo realtime ma tristemente molti di essi sono a sorgenti chiusi.
+Ma la Fondazione Linux ha una soluzione: Zephyr
 * https://www.zephyrproject.org/
 
-Typical cloud server has so many layers, for instance, host OS, kvm driver, qemu process, guest OS and service application. So container has been developed to provide light virtualization. In near future, a new concept of OS, so-called library OS or Unikernel, would be replace the typical stack of SW for virtualization.
+Il server cloud tipico ha cos&igrave; tanti strati, per esempio, il sistema operativo host, driver kvm, processo qemu, sistema operativo guet e applicazioni di servizio. Perci&ograve; i container sono sviluppati per fornire una virtualizzazione leggera. In un prossimo futuro, un nuovo concetto di OS, chiamato sistema operativo libreria o Unikernel, rimpiazzer&agrave; il tipico stack software per la virtualizzazione.
 * http://unikernel.org/
 
-# <a name="Translation"></a>Translation
-
-Please send me the pull request if you'd like to translate this page. I'll list it here.
+# <a name="Translation"></a>Traduzioni
+Inviami una pull request se desideri che questa pagina venga tradotto. La elencher&ograve; qui.
