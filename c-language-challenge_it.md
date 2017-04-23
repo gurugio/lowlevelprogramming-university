@@ -77,68 +77,67 @@ crea server e client ftp
 
 i client inviano immagini sequenziali e il server mostra le immagini
 * trasforma un'immagine gif in multiple immagini jpeg
-* client sends the jpeg images
-* server receives the jpeg images and shows
-* server supports many windows, each windows shows images from a client
-* use gtk or win32 APIs
+* il client invia le immagini jpeg
+* il server riceve le immagini jpeg e le mostra
+* il server supporta molte finestre, ogni finestra mostra le immagini da un client
+* usa le API gtk o win32
 
-# data-driven code
+# Codice focalizzato sui dati
 
-Make serial number certification program
-* certificate a serial number file
-* read spec.rc file to specify serial number format
-* encode user information, user-account number, name, product id, in serial number
-* decode the information from the serial number
-* serial code is printed in BASE64 code.
-* use any encryption algorithm
-
+Crea un programma di certificazione dei numeri seriali
+* certificate un codice seriale
+* leggi il file spec.rc per specificare il formato del codice seriale
+* codifica le informazioni dell'utente, il numero dell'account utente, il nome e l'id del prodotto nel numero seriale
+* decodifica le informazioni dal numero seriale
+* il codice seriale è scritto in Base64.
+* usa qualsi algoritmo di criptazione
 ```
 $ cat spec.rc
-# field length
-user-account 4
-user-name 16
-product-id 4
+# lunghezza dei campi
+account-utente 4
+nome-utente 16
+id-del-prodotto 4
 
-$ encode-serial spec.rc
-user-account: 1234 <user-input>
-user-name: gogostar <user-input>
-product-id: 5678 <user-input>
+$ codifica-seriale spec.rc
+account-utente: 1234 <input-utente>
+nome-utente: gogostar <input-utente>
+id-del-prodotto: 5678 <input-utente>
 abcd-defg- <output>
 
-$ decode-serial
-serial: abcd-defg-xxxx-xxxx <input>
+$ decodifica-seriale
+seriale: abcd-defg-xxxx-xxxx <input>
 account: 1234
-name: gogostar
-product: 5678
+nome: gogostar
+prodotto: 5678
 ```
 
-# pool-based memory allocator
+# allocatore di memoria basato su pool
 
-make a pool-based memory allocator
-* create pool as many as number of CPUs in your system
-* each thread allocates memory from a pool of its own CPU
-* apply your allocator to any multi-thread program and compare performance
+crea un allocatore di memoria basato su pool
+* crea un allocatore di memoria basato su pool per ogni CPU nel tuo PC
+* ogni thread alloca memoria da un pool assegnato a s&egrave; stesso
+* Utilizza il tuo allocatore in qualsias programma multi thread e confronta le prestazioni
   * ``LD_PRELOAD=${PATH}/lib/libyourallocator.so.1 app``
 
-# make a shell
+# crea una shell
 
-make your own shell
-* features
+crea la tua shell
+* feature
   * pipe
-  * redirection
-  * background running
+  * redirezioni
+  * esecuzione in background
   * stdin, stdout, stderr
 ```
-$ myshell
-THIS-IS-MYSHELL> ls
+$ miashell
+QUESTA-E-LA-MIASHELL> ls
 a b c
-THIS-IS-MYSHELL> ls > files.txt
-THIS-IS-MYSHELL> cat ls
+QUESTA-E-LA-MIASHELL> ls > file.txt
+QUESTA-E-LA-MIASHELL> cat ls
 a b c
-THIS-IS-MYSHELL> ls | cat > files.txt
-THIS-IS-MYSHELL> asdf 2> error.txt
-THIS-IS-MYSHELL> cat error.txt
-command is not found
+QUESTA-E-LA-MIASHELL> ls | cat > file.txt
+QUESTA-E-LA-MIASHELL> asdf 2> errore.txt
+QUESTA-E-LA-MIASHELL> cat errore.txt
+commando non trovato
 ```
 
 # Altre sfide
