@@ -236,3 +236,4 @@ Please send me the pull request if you'd like to translate this page. I'll list 
 
 * [Chinese](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
 * [Portuguese](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_pt.md)
+* [Italian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_it.md)
