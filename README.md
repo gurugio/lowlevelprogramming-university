@@ -182,6 +182,7 @@ Join the Linux community and participate in development.
     * Use busybox to make the simplest filesystem that takes only 1-second to boot
       * https://github.com/gurugio/linuxdeveloptip/blob/master/minikernelwithbusybox.md
 * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
+  * _Sadly, the challenge does not accept new challenger because there is no challenge anymore._ The maintainer said he/she is planning new format. I wish it comes back ASAP.
   * This is like an awesome private teacher who guide you what to do.
   * If you don't know what to do, just start this.
 * [Block layer and device driver(translation in progress)](https://github.com/gurugio/book_linuxkernel_blockdrv)
