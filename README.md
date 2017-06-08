@@ -188,7 +188,7 @@ Join the Linux community and participate in development.
 * [Block layer and device driver(translation in progress)](https://github.com/gurugio/book_linuxkernel_blockdrv)
   * start from a simple block device driver example (Ramdisk) with multi-queue mode
   * go forward to block layer
-  * _need help for translation_
+  * _need help for translation_: I started the translation recently and aim to finish until July.
 * [md driver of Linux kernel(in progress)](https://github.com/gurugio/book_linuxkernel_md)
   * how mdadm tool works and how it calls md driver
   * how md driver works
