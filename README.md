@@ -219,6 +219,7 @@ I do not know the future, but I keep my eye on RUST.
 
 If I could have one week free and alone, I would learn RUST.
 That is because RUST is the latest language with which I can develop Linux device driver.
+* https://github.com/tsgates/rust.ko
 
 IoT is new trend, so it's worth to check what OSs are for IoT.
 ARM, Samsung and some companies has their own realtime OS but sadly many of them are close source.
