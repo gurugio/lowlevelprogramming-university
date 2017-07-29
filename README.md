@@ -83,6 +83,7 @@ Choose one between x86 or ARM. No need to know both. It doesn't matter to know a
 * Computer Organization and Design
   * [MIPS Edition](https://www.amazon.ca/Computer-Organization-Design-MIPS-Interface/dp/0124077269/)
   * [ARM Edition](https://www.amazon.ca/Computer-Organization-Design-ARM-Interface/dp/0128017333/)
+  * [RISC-V Edition](https://www.amazon.com/Computer-Organization-Design-RISC-V-Architecture/dp/0128122757)
   * Academic books that explain how every component of a computer work from the ground up.
   * Explains in details the different concepts that make up computer architecture.
   * They are not for targeted to becoming proficient in a specific assembly language.
