@@ -194,6 +194,12 @@ Join the Linux community and participate in development.
   * how mdadm tool works and how it calls md driver
   * how md driver works
   * _need help for translation_
+* eBPF and XDP resources
+  * [BPF(2)](http://man7.org/linux/man-pages/man2/bpf.2.html)
+  * [Cilium](http://cilium.readthedocs.io/en/latest/bpf/)
+  * [IO Visor Project](https://www.iovisor.org/technology/xdp)
+  * [Linux Socket Filtering aka Berkeley Packet Filter (BPF)](https://www.kernel.org/doc/Documentation/networking/filter.txt)
+  * [Prototype Kernel](https://prototype-kernel.readthedocs.io/en/latest/networking/XDP/introduction.html#what-is-xdp)
 
 #### <a name="References"></a>References
 
