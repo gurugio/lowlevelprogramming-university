@@ -186,10 +186,10 @@ Join the Linux community and participate in development.
   * _Sadly, the challenge does not accept new challenger because there is no challenge anymore._ The maintainer said he/she is planning new format. I wish it comes back ASAP.
   * This is like an awesome private teacher who guide you what to do.
   * If you don't know what to do, just start this.
-* [Block layer and device driver(translation in progress)](https://github.com/gurugio/book_linuxkernel_blockdrv)
+* [Block layer and device driver](https://github.com/gurugio/book_linuxkernel_blockdrv)
   * start from a simple block device driver example (Ramdisk) with multi-queue mode
   * go forward to block layer
-  * I translated this into English. Please send me your feedback.
+  * I completed translation into English. Please send me your feedback.
 * [md driver of Linux kernel(in progress)](https://github.com/gurugio/book_linuxkernel_md)
   * how mdadm tool works and how it calls md driver
   * how md driver works
