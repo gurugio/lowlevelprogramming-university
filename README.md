@@ -230,6 +230,10 @@ But Linux Foundation also has a solution: Zephyr
 Typical cloud server has so many layers, for instance, host OS, kvm driver, qemu process, guest OS and service application. So container has been developed to provide light virtualization. In near future, a new concept of OS, so-called library OS or Unikernel, would be replace the typical stack of SW for virtualization.
 * http://unikernel.org/
 
+Big data and cloud computing require bigger and bigger storage. Some disks directly attached to server machine cannot satisfy the required capacity, stability and performance. Therefore there have been researches to make huge storage with many storage machines connected by high speed network. It used to be focused on making one huge storage volume. But currently they are providing many volumes dedicated for many virtual machines.
+* https://en.wikipedia.org/wiki/Software-defined_storage
+* https://en.wikipedia.org/wiki/Clustered_file_system
+* https://en.wikipedia.org/wiki/Ceph_(software)
 
 ## <a name="Job"></a>Job
 
