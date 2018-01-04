@@ -63,7 +63,7 @@ Let me introduce several books that I've read. They are commonly used for text b
   * The Design of the UNIX Operating System
   * Operating Systems: Internals and Design Principles by William Stallings
 
-There is infinite list of good books. I don't want to say that you should read many books. Just read one book carefully. Whenevery you learn a theory, implement simulation code of it. **Implementing one thing is better than knowing one hundread theories.**
+There is infinite list of good books. I don't want to say that you should read many books. Just read one book carefully. Whenevery you learn a theory, implement simulation code of it. **Implementing one thing is better than knowing one hundred theories.**
 
 ##  <a name="Languages"></a>Languages
 
