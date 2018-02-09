@@ -215,6 +215,10 @@ Yes, you might not be interested in Linux or firmware. If so, you can find other
 
 I don't have any knowledge about those applications. Please send me any information for beginners.
 
+**Kernel and driver are not all of low level programming.** One more important application of the low level programming is the software defined storage or distributed filesystem. Detail description for them is beyond this document but there is execellent course you can try simple distributed filesystem.
+* Course: https://pdos.csail.mit.edu/archive/6.824-2012/
+* reference Source: https://github.com/srned/yfs
+
 ## <a name="Future-of-low-level-programming"></a>Future of low-level programming
 
 I do not know the future, but I keep my eye on RUST.
