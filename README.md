@@ -182,6 +182,9 @@ Join the Linux community and participate in development.
       * https://github.com/gurugio/linuxdeveloptip/blob/master/qemu-gdb-kdump.md
     * Use busybox to make the simplest filesystem that takes only 1-second to boot
       * https://github.com/gurugio/linuxdeveloptip/blob/master/minikernelwithbusybox.md
+* [Linux device driver labs] (https://linux-kernel-labs.github.io/)
+  * Practical guide to make Linux device drivers with kernel APIs
+  * I think this document introduces almost all essential kernel APIs.
 * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
   * _Sadly, the challenge does not accept new challenger because there is no challenge anymore._ The maintainer said he/she is planning new format. I wish it comes back ASAP.
   * This is like an awesome private teacher who guide you what to do.
@@ -190,10 +193,9 @@ Join the Linux community and participate in development.
   * start from a simple block device driver example (Ramdisk) with multi-queue mode
   * go forward to block layer
   * I completed translation into English. Please send me your feedback.
-* [md driver of Linux kernel(in progress)](https://github.com/gurugio/book_linuxkernel_md)
+* [md driver of Linux kernel(Korean)](https://github.com/gurugio/book_linuxkernel_md)
   * how mdadm tool works and how it calls md driver
   * how md driver works
-  * _need help for translation_
 
 #### <a name="References"></a>References
 
