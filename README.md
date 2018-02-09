@@ -182,7 +182,7 @@ Join the Linux community and participate in development.
       * https://github.com/gurugio/linuxdeveloptip/blob/master/qemu-gdb-kdump.md
     * Use busybox to make the simplest filesystem that takes only 1-second to boot
       * https://github.com/gurugio/linuxdeveloptip/blob/master/minikernelwithbusybox.md
-* [Linux device driver labs] (https://linux-kernel-labs.github.io/)
+* [Linux device driver labs](https://linux-kernel-labs.github.io/)
   * Practical guide to make Linux device drivers with kernel APIs
   * I think this document introduces almost all essential kernel APIs.
 * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
