@@ -12,7 +12,6 @@
       * [References](#References)
     * [Other applications](#Other-applications)
   * [Future of low level programming](#Future-of-low-level-programming)
-  * [Job](#Job)
 * [Translation](#Translation)
 
 # <a name="Low-Level-Programming-University"></a>Low-Level Programming University
@@ -242,8 +241,6 @@ Big data and cloud computing require bigger and bigger storage. Some disks direc
 * https://en.wikipedia.org/wiki/Software-defined_storage
 * https://en.wikipedia.org/wiki/Clustered_file_system
 * https://en.wikipedia.org/wiki/Ceph_(software)
-
-## <a name="Job"></a>Job
 
 # <a name="Translation"></a>Translation
 
