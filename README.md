@@ -8,7 +8,7 @@
   * [Applications](#Applications)
     * [Hardware && Firmware](#Hardware-Firmware)
     * [Linux kernel and device driver](#Linux-kernel-and-device-driver)
-      * [Read carefully](#Read-carefully)
+      * [Follow carefully](#Follow-carefully)
       * [References](#References)
     * [Other applications](#Other-applications)
   * [Future of low level programming](#Future-of-low-level-programming)
@@ -163,7 +163,7 @@ Other toy kernels:
 You don't need to make a complete operating system.
 Join the Linux community and participate in development.
 
-#### <a name="Read-carefully"></a>Read carefully
+#### <a name="Follow-carefully"></a>Follow carefully
 
 * Books: Read followings in order
   * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
