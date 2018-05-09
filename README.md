@@ -100,10 +100,10 @@ There is no short-cut. Just read the entire book and solve all the exercises.
 * [Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
   * raw implementation of synchronization with C
   * Essential for large scale C programming (especially for kernel programming)
-* [C programming challenge?](https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge.md)
-  * plan for service like [The Eudyptula Challenge](http://eudyptula-challenge.org/)
-  * Just an idea at the moment..
-  * If you can make all tiny projects in that page, you would be good to start big projects.
+* [C Project Based Tutorials?](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
+  * If you finish reading one or two C programming books, then you MUST make something.
+  * Choose whatever you like.
+  * First make on your own and then compare with other's source. It is very important to compare your source and others. You can improve your skill only when you read the other's source and learn the living skill. Book is dead and source is live.
 * [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
   * Reference on optimization using C and a bit of x86 assembly
   * Starts from the 8088 up to today
