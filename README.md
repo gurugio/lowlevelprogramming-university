@@ -104,6 +104,8 @@ There is no short-cut. Just read the entire book and solve all the exercises.
   * If you finish reading one or two C programming books, then you MUST make something.
   * Choose whatever you like.
   * First make on your own and then compare with other's source. It is very important to compare your source and others. You can improve your skill only when you read the other's source and learn the living skill. Book is dead and source is live.
+* [C and other languages based projects](https://github.com/danistefanovic/build-your-own-x)
+  * find more interesting projects
 * [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
   * Reference on optimization using C and a bit of x86 assembly
   * Starts from the 8088 up to today
