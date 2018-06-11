@@ -19,7 +19,8 @@ But if somebody review your solution and present the right direction, you will b
 
 # exercises of ["The C programming language: 2nd"](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
 
-1. Solve each exercises from chapter 2
+0. Skip chapter 1 that introduce C language in one chapter and is not for C beginner/
+1. Solve the exercise 2-1.
 2. Submit a source into your github repository
 3. Send me an issue including the address of your source
 4. I or somebody will review your source
