@@ -233,6 +233,10 @@ Big data and cloud computing require bigger and bigger storage. Some disks direc
 * https://en.wikipedia.org/wiki/Clustered_file_system
 * https://en.wikipedia.org/wiki/Ceph_(software)
 
+# <a name="c-challenge"></a>[C programming challenge](https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge.md)
+
+A set of challenges to be C programmer.
+
 # <a name="Translation"></a>Translation
 
 Please send me the pull request if you'd like to translate this page. I'll list it here.
