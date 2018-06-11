@@ -1,5 +1,5 @@
 I think for long time, new C language programmer is getting rare.
-As I'm solving the Eudyptula Challenge, an idea came to me that similar challenge is necessary for C language.
+As I'm solving the [Eudyptula Challenge](http://eudyptula-challenge.org/), an idea came to me that similar challenge is necessary for C language.
 
 Usually book authors create some exercises carefully for each chapter in their books.
 They hope that many readers solve the exercises and have got the alive wisdom.
@@ -21,7 +21,7 @@ But if somebody review your solution and present the right direction, you will b
 
 1. Solve each exercises from chapter 2
 2. Submit a source into your github repository
-3. Create an issue and write the address of your source
+3. Send me an issue including the address of your source
 4. I or somebody will review your source
 4-1. Change the code and review again
 5. Repeate to the last exercise
