@@ -1,14 +1,29 @@
 I think for long time, new C language programmer is getting rare.
 As I'm solving the Eudyptula Challenge, an idea came to me that similar challenge is necessary for C language.
 
+Usually book authors create some exercises carefully for each chapter in their books.
+They hope that many readers solve the exercises and have got the alive wisdom.
+You will get the dead kwowledge via reading text, but the alive wisdom via solving exercises and creating code.
+Only some people solve the exercises and a few people solve the exercises correctly.
+
+Here is a paradox.
+If you are able to solve the exercises correctly, and have insight to the purpose of author, you are already having enough wisdom and do not need to read the book.
+If you are not able to solve the exercises correctly, you are not able to get the wisdom via the book.
+
+Here is a solution.
+If somebody shows you a solution, you cannot realize Tao.
+If somebody review your solution and present the right direction, you will be able to realize Tao.
+[Tao (The Way) that can be spoken of is not the Constant Tao’](https://en.wikipedia.org/wiki/Tao_Te_Ching)
 
 # exercises of "The C programming language: 2nd"
 
-http://www.eng.uerj.br/~fariasol/disciplinas/LABPROG/C_language/Kernighan_and_Ritchie/solved-exercises/solved-exercises.html/
+1. Solve each exercises from chapter 2
+2. submit a source into your github repository
+3. Create an issue and write the address of your source
+4. I or somebody will review your source
+5. Repeate to the last exercise
 
-
-```
-# print "Hello world!"
+# print "Hello world!" (Planning)
 
 Use argc and argv to print "Hello world!".
 
@@ -19,12 +34,12 @@ $ print 3 "Hello world!"
 3 Hello world!
 ```
 
-# read directory and file
+# read directory and file (Planning)
 
 make ls tools that just print names of specified directory.
 * do not need to get no options
 
-# command argument
+# command argument (Planning)
 
 make ls tools with options and do command argument parsing with getopt, getopt_long
 * short options: -l, -a, -d
@@ -32,7 +47,7 @@ make ls tools with options and do command argument parsing with getopt, getopt_l
 * -l(--long) option prints size, permission, user id, last modified time.
 * use getopt, getopt_long to process options
 
-# multi-thread find
+# multi-thread find (Planning)
 
 make find program that has multi-threads
 * get file-name and directory-name
@@ -41,13 +56,13 @@ make find program that has multi-threads
 * one thread finds a specified file in one directory
 * compare performance of one-thread find
 
-# make chat
+# make chat (Planning)
 
 make a 1:1 chatting program for terminal
 * make server & client
 * support IPv4 and IPv6
 
-# make ftp
+# make ftp (Planning)
 
 make ftp server & client
 * server-side usage: ``ftp-server``
@@ -56,7 +71,7 @@ make ftp server & client
 * make server as daemon
 * server should support multi-connection
 
-# make streaming player
+# make streaming player (Planning)
 
 clients send sequential images and server shows images
 * convert a gif image into many jpeg images
@@ -65,7 +80,7 @@ clients send sequential images and server shows images
 * server supports many windows, each windows shows images from a client
 * use gtk or win32 APIs
 
-# data-driven code
+# data-driven code (Planning)
 
 Make serial number certification program
 * certificate a serial number file
@@ -95,7 +110,7 @@ name: gogostar
 product: 5678
 ```
 
-# pool-based memory allocator
+# pool-based memory allocator (Planning)
 
 make a pool-based memory allocator
 * create pool as many as number of CPUs in your system
@@ -103,7 +118,7 @@ make a pool-based memory allocator
 * apply your allocator to any multi-thread program and compare performance
   * ``LD_PRELOAD=${PATH}/lib/libyourallocator.so.1 app``
 
-# make a shell
+# make a shell (Planning)
 
 make your own shell
 * features
@@ -124,7 +139,7 @@ THIS-IS-MYSHELL> cat error.txt
 command is not found
 ```
 
-# More challenges
+# More challenges (Planning)
 
 Remember! Design is more than the implementation. Think *scalability*!
 * http://www.cprogramming.com/challenge.html
@@ -149,5 +164,3 @@ topics:
 * assembly
 * performance
 * syncronization
-
-```
