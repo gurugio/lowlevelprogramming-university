@@ -236,7 +236,7 @@ Big data and cloud computing require bigger and bigger storage. Some disks direc
 
 # <a name="c-challenge"></a>C programming challenge
 
-A set of challenges to be C programmer: https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge.md
+[A set of challenges to be C programmer](https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge.md)
 
 # <a name="Translation"></a>Translation
 
