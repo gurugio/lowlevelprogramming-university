@@ -12,6 +12,7 @@
       * [References](#References)
     * [Other applications](#Other-applications)
   * [Future of low level programming](#Future-of-low-level-programming)
+* [C programming challenge](#c-challenge)
 * [Translation](#Translation)
 * [Who am I?](#who-am-i)
 
