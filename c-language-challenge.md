@@ -25,7 +25,7 @@ But if somebody review your solution and present the right direction, you will b
 3. Send me an issue including the address of your source
 4. I or somebody will review your source
 5. Change the code and review again
-6. Repeate to the last exercise
+6. Repeat to the last exercise
 
 # Following challenges are not started yet.
 
