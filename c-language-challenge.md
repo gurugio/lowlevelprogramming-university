@@ -12,18 +12,23 @@ If you are not able to solve the exercises correctly, you are not able to get th
 
 Here is a solution.
 If somebody shows you a solution, you cannot realize Tao.
-If somebody review your solution and present the right direction, you will be able to realize Tao.
+But if somebody review your solution and present the right direction, you will be able to realize Tao.
 [Tao (The Way) that can be spoken of is not the Constant Tao’](https://en.wikipedia.org/wiki/Tao_Te_Ching)
+
+[Do not satisfy with reading text. Start creating code.](http://www.taoism.net/living/2007/200701.htm)
 
 # exercises of "The C programming language: 2nd"
 
 1. Solve each exercises from chapter 2
-2. submit a source into your github repository
+2. Submit a source into your github repository
 3. Create an issue and write the address of your source
 4. I or somebody will review your source
+4-1. Change the code and review again
 5. Repeate to the last exercise
 
-# print "Hello world!" (Planning)
+# Following challenges are not started yet.
+
+## print "Hello world!" (Planning)
 
 Use argc and argv to print "Hello world!".
 
@@ -34,12 +39,12 @@ $ print 3 "Hello world!"
 3 Hello world!
 ```
 
-# read directory and file (Planning)
+## read directory and file (Planning)
 
 make ls tools that just print names of specified directory.
 * do not need to get no options
 
-# command argument (Planning)
+## command argument (Planning)
 
 make ls tools with options and do command argument parsing with getopt, getopt_long
 * short options: -l, -a, -d
@@ -47,7 +52,7 @@ make ls tools with options and do command argument parsing with getopt, getopt_l
 * -l(--long) option prints size, permission, user id, last modified time.
 * use getopt, getopt_long to process options
 
-# multi-thread find (Planning)
+## multi-thread find (Planning)
 
 make find program that has multi-threads
 * get file-name and directory-name
@@ -56,13 +61,13 @@ make find program that has multi-threads
 * one thread finds a specified file in one directory
 * compare performance of one-thread find
 
-# make chat (Planning)
+## make chat (Planning)
 
 make a 1:1 chatting program for terminal
 * make server & client
 * support IPv4 and IPv6
 
-# make ftp (Planning)
+## make ftp (Planning)
 
 make ftp server & client
 * server-side usage: ``ftp-server``
@@ -71,7 +76,7 @@ make ftp server & client
 * make server as daemon
 * server should support multi-connection
 
-# make streaming player (Planning)
+## make streaming player (Planning)
 
 clients send sequential images and server shows images
 * convert a gif image into many jpeg images
@@ -80,7 +85,7 @@ clients send sequential images and server shows images
 * server supports many windows, each windows shows images from a client
 * use gtk or win32 APIs
 
-# data-driven code (Planning)
+## data-driven code (Planning)
 
 Make serial number certification program
 * certificate a serial number file
@@ -110,7 +115,7 @@ name: gogostar
 product: 5678
 ```
 
-# pool-based memory allocator (Planning)
+## pool-based memory allocator (Planning)
 
 make a pool-based memory allocator
 * create pool as many as number of CPUs in your system
@@ -118,7 +123,7 @@ make a pool-based memory allocator
 * apply your allocator to any multi-thread program and compare performance
   * ``LD_PRELOAD=${PATH}/lib/libyourallocator.so.1 app``
 
-# make a shell (Planning)
+## make a shell (Planning)
 
 make your own shell
 * features
@@ -139,7 +144,7 @@ THIS-IS-MYSHELL> cat error.txt
 command is not found
 ```
 
-# More challenges (Planning)
+## More challenges (Planning)
 
 Remember! Design is more than the implementation. Think *scalability*!
 * http://www.cprogramming.com/challenge.html
