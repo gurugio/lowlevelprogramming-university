@@ -13,6 +13,7 @@
     * [Other applications](#Other-applications)
   * [Future of low level programming](#Future-of-low-level-programming)
 * [Translation](#Translation)
+* [Who am I?](#who-am-i)
 
 # Low-Level Programming University
 
@@ -239,3 +240,15 @@ Please send me the pull request if you'd like to translate this page. I'll list 
 * [Chinese](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
 * [Portuguese](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_pt.md)
 * [Italian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_it.md)
+
+# <a name="who-am-i"></a>Who am I?
+
+I'm inspired by [google-interview-university](https://github.com/jwasham/google-interview-university). I'd like to share my experience and show a roadmap to becoming a low-level programmer because I have found that these skills are not as common as they once were. In addition, many students and beginners ask me how they could become low-level programmers and Linux kernel engineers.
+
+FYI, I have over 10 years of experience as a low-level programmer:
+* 80x86 Assembly programming
+* Hardware device with Atmel chip and firmware
+* C language system programming for Unix
+* Device driver in Linux
+* Linux kernel: page allocation
+* Linux kernel: block device driver and md module
