@@ -14,6 +14,11 @@
   * [Future of low level programming](#Future-of-low-level-programming)
 * [Translation](#Translation)
 
+# Low-Level Programming University
+
+## <a name="What-is-it"></a>What is it?
+
+This page cannot include every link/book/course. For example, this page introduces Arduino but there is not detail information about Arduino and embedded system. You should go further for yourself. You get a keyword "Arduino" on which you can start. So next step probably is googling Arduino, buying kit and do something for yourself, not collecting links or free books. Please remember this page is just a roadmap.
 
 ## <a name="What-Is-the-Low-Level"></a>What Is the Low-Level?
 
