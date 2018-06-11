@@ -24,8 +24,8 @@ But if somebody review your solution and present the right direction, you will b
 2. Submit a source into your github repository
 3. Send me an issue including the address of your source
 4. I or somebody will review your source
-4-1. Change the code and review again
-5. Repeate to the last exercise
+5. Change the code and review again
+6. Repeate to the last exercise
 
 # Following challenges are not started yet.
 
