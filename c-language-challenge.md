@@ -1,32 +1,11 @@
 I think for long time, new C language programmer is getting rare.
 As I'm solving the Eudyptula Challenge, an idea came to me that similar challenge is necessary for C language.
 
-I'm not sure what tasks are suitable and how mant tasks are necessary..actually I have no plan yet.
-But I'll write some tasks from printing "hello-world" to making a class with a function pointer.
-If you have an idea, please send me pull-request.
-
-[discussion on reddit](https://www.reddit.com/r/linuxdev/comments/5r8k6g/new_service_like_the_eudyptula_challenge/)
-* pnpbios
-  * Writing your own daemon, your own PAM module, writing a custom network interface, writing your own shell
-
-topics:
-* file IO
-  * creating ls
-* concurrent
-* network
-  * making chatting program
-* memory
-  * make pool-based memory allocator
-* error handling
-* toolchain: preprocessor, compiler, linker
-* cache
-* assembly
-* performance
-* syncronization
 
 # exercises of "The C programming language: 2nd"
 
 http://www.eng.uerj.br/~fariasol/disciplinas/LABPROG/C_language/Kernighan_and_Ritchie/solved-exercises/solved-exercises.html/
+
 
 # print "Hello world!"
 
@@ -150,3 +129,23 @@ Remember! Design is more than the implementation. Think *scalability*!
 * http://www.cprogramming.com/challenge.html
 * https://www.hackerrank.com/c-programming-test-1
 * https://www.lix.polytechnique.fr/~liberti/public/computing/prog/c/C/PROBLEMS/problems.html
+
+[discussion on reddit](https://www.reddit.com/r/linuxdev/comments/5r8k6g/new_service_like_the_eudyptula_challenge/)
+* pnpbios
+  * Writing your own daemon, your own PAM module, writing a custom network interface, writing your own shell
+
+topics:
+* file IO
+  * creating ls
+* concurrent
+* network
+  * making chatting program
+* memory
+  * make pool-based memory allocator
+* error handling
+* toolchain: preprocessor, compiler, linker
+* cache
+* assembly
+* performance
+* syncronization
+
