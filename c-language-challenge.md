@@ -24,6 +24,9 @@ topics:
 * performance
 * syncronization
 
+# exercises of "The C programming language: 2nd"
+
+http://www.eng.uerj.br/~fariasol/disciplinas/LABPROG/C_language/Kernighan_and_Ritchie/solved-exercises/solved-exercises.html/
 
 # print "Hello world!"
 
