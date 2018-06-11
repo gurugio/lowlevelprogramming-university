@@ -7,6 +7,7 @@ As I'm solving the Eudyptula Challenge, an idea came to me that similar challeng
 http://www.eng.uerj.br/~fariasol/disciplinas/LABPROG/C_language/Kernighan_and_Ritchie/solved-exercises/solved-exercises.html/
 
 
+```
 # print "Hello world!"
 
 Use argc and argv to print "Hello world!".
@@ -149,3 +150,4 @@ topics:
 * performance
 * syncronization
 
+```
