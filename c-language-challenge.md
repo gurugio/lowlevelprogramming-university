@@ -22,7 +22,7 @@ But if somebody review your solution and present the right direction, you will b
 0. Skip chapter 1 that introduce C language in one chapter and is not for C beginner
 1. Solve the exercise 2-1
 2. Submit a source into your github repository
-3. Send me an issue including the address of your source
+3. [Send me an issue including the address of your source](https://github.com/gurugio/lowlevelprogramming-university/issues)
 4. I or somebody will review your source
 5. Change the code and review again
 6. Repeat to the last exercise
