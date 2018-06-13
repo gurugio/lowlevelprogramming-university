@@ -137,6 +137,8 @@ If you have no target project, you would be likely to throw the board into a dra
 So, I recommend one project for you.
 * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
   * Good references: https://www.reddit.com/r/osdev/
+* [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
+  * (description of the project) This repository contains a step-by-step guide that teaches how to create a simple operating system (OS) kernel from scratch...(skip)...Each lesson is designed in such a way that it first explains how some kernel feature is implemented in the RPi OS, and then it tries to demonstrate how the same functionality works in the Linux kernel.
 
 I've made [a toy kernel](https://github.com/gurugio/caos) that supports 64bit long mode, paging and very simple context switching. Making a toy kernel is good way to understand modern computer architecture and hardware control.
 
