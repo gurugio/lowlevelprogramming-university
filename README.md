@@ -194,7 +194,7 @@ Join the Linux community and participate in development.
     * how mdadm tool works and how it calls md driver
     * how md driver works
   *  [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
-     * This project is not completed yet but looks wonderful.
+     * This project is not completed yet.
      * I always think making a kernel similar to Linux kernel is the best way to understand the Linux kernel.
 
 #### <a name="References"></a>References
