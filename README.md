@@ -178,6 +178,9 @@ Join the Linux community and participate in development.
     * Use busybox to make the simplest filesystem that takes only 1-second to boot
       * https://github.com/gurugio/linuxdeveloptip/blob/master/minikernelwithbusybox.md
 * Other resources: Free resources I recommend
+  * [Linux Kernel Module Cheat](https://github.com/cirosantilli/linux-kernel-module-cheat)
+    * uses Buildroot to build the kernel, modules, userland tests and the rest of the root filesystem from source in a single command
+    * automates and documents several tricks, including GDB step debugging of the kernel and kernel modules
   * [Linux device driver labs](https://linux-kernel-labs.github.io/)
     * Practical guide and excellent exercises making Linux device drivers with essential kernel APIs
     * I think this document introduces almost all essential kernel APIs.
