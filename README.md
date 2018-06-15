@@ -263,7 +263,7 @@ But if somebody review your solution and present the right direction, you will b
 
 [Do not satisfy with reading text. Start creating code.](http://www.taoism.net/living/2007/200701.htm)
 
-## <a name="ex-tcpl"></a>exercises of ["The C programming language: 2nd"](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
+## <a name="ex-tcpl"></a>1st Challenge: exercises of ["The C programming language: 2nd"](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
 
 0. Skip chapter 1 that introduce C language in only one chapter and is not for C beginner, but expert of other languages
 1. Solve the exercise 2-1
