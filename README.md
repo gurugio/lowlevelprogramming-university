@@ -12,8 +12,6 @@
       * [References](#References)
     * [Other applications](#Other-applications)
   * [Future of low level programming](#Future-of-low-level-programming)
-* [C programming challenge](#c-challenge)
-  * [exercises of "The C programming language: 2nd"](#ex-tcpl)
 * [Translation](#Translation)
 * [Who am I?](#who-am-i)
 
@@ -241,37 +239,6 @@ Big data and cloud computing require bigger and bigger storage. Some disks direc
 * https://en.wikipedia.org/wiki/Software-defined_storage
 * https://en.wikipedia.org/wiki/Clustered_file_system
 * https://en.wikipedia.org/wiki/Ceph_(software)
-
-# <a name="c-challenge"></a>C programming challenge
-
-I think for long time, new C language programmer is getting rare.
-As I'm solving the [Eudyptula Challenge](http://eudyptula-challenge.org/), an idea came to me that similar challenge is necessary for C language.
-
-Usually book authors create some exercises carefully for each chapter in their books.
-They hope that many readers solve the exercises and have got the alive wisdom.
-You will get the dead kwowledge via reading text, but the alive wisdom via solving exercises and creating code.
-Only some people solve the exercises and a few people solve the exercises correctly.
-
-Here is a paradox.
-If you are able to solve the exercises correctly, and have insight to the purpose of author, you are already having enough wisdom and do not need to read the book.
-If you are not able to solve the exercises correctly, you are not able to get the wisdom via the book.
-
-Here is a solution.
-If somebody shows you a solution, you cannot realize Tao.
-But if somebody review your solution and present the right direction, you will be able to realize Tao.
-[Tao (The Way) that can be spoken of is not the Constant Tao’](https://en.wikipedia.org/wiki/Tao_Te_Ching)
-
-[Do not satisfy with reading text. Start creating code.](http://www.taoism.net/living/2007/200701.htm)
-
-## <a name="ex-tcpl"></a>1st Challenge: exercises of ["The C programming language: 2nd"](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
-
-0. Skip chapter 1 that introduce C language in only one chapter and is not for C beginner, but expert of other languages
-1. Solve the exercise 2-1
-2. Submit a source into your github repository
-3. [Send me an issue including the address of your source](https://github.com/gurugio/lowlevelprogramming-university/issues)
-4. I or somebody will review your source
-5. Change the code and review again
-6. Repeat to the last exercise
 
 # <a name="Translation"></a>Translation
 
