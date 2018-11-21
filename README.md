@@ -52,6 +52,8 @@ Let me introduce several books that I've read. They are commonly used as textboo
   * The Magic Garden Explained: The Internals of UNIX System V Release 4 an Open Systems Design
   * The Design of the UNIX Operating System
   * Operating Systems: Internals and Design Principles by William Stallings
+* Recommended Courses
+   * [CS401: Operating Systems from saylor.org](https://learn.saylor.org/mod/page/view.php?id=921)
 
 There is an infinite list of good books. I don't want to say that you should read many books. Just read one book carefully. Whenever you learn a theory, implement simulation code of it. **Implementing one thing is better than knowing one hundred theories.**
 
