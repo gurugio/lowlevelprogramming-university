@@ -245,7 +245,7 @@ Big data and cloud computing require bigger and bigger storage. Some disks direc
 Please send me the pull request if you'd like to translate this page. I'll list it here.
 
 * [Chinese](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
-* [Portuguese](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_pt.md)
+* [Portuguese (Brazilian)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_pt.md)
 * [Italian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_it.md)
 
 # <a name="who-am-i"></a>Who am I?
