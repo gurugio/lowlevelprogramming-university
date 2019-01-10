@@ -256,6 +256,7 @@ Please send me the pull request if you'd like to translate this page. I'll list 
 * [Chinese](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
 * [Portuguese (Brazilian)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_pt.md)
 * [Italian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_it.md)
+* [Czech](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cz.md)
 
 # <a name="who-am-i"></a>Who am I?
 
