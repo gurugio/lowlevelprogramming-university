@@ -1,10 +1,3 @@
-# ASK FOR HELP!
-Please inform me (by ticket or pull request) if you know good references for:
-* **Hardware firmware programming**
-* **Qemu/KVM hypervisor**
-* **kernel network stack**
-
-----
 * [Low-Level Programming University](#Low-Level-Programming-University)
   * [What is it?](#What-is-it)
   * [What Is the Low Level](#What-Is-the-Low-Level)
