@@ -187,6 +187,9 @@ Join the Linux community and participate in development.
       * But you can find the questions of the challenge with Google. Some people already uploaded what they did. Find the questions and try to solve them on your own, and compare your solution with others.
     * This is like an awesome private teacher who guides you on what to do.
     * If you don't know what to do, just start this.
+  *  [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
+     * This project is not completed yet.
+     * I always think making a kernel similar to the Linux kernel is the best way to understand the Linux kernel.
   * [Block layer and device driver](https://github.com/gurugio/book_linuxkernel_blockdrv)
     * start from a simple block device driver example (Ramdisk) with multi-queue mode
     * go forward to block layer
@@ -194,9 +197,6 @@ Join the Linux community and participate in development.
   * [md driver of Linux kernel(Korean)](https://github.com/gurugio/book_linuxkernel_md)
     * how mdadm tool works and how it calls md driver
     * how md driver works
-  *  [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
-     * This project is not completed yet.
-     * I always think making a kernel similar to the Linux kernel is the best way to understand the Linux kernel.
 
 #### <a name="References"></a>References
 
