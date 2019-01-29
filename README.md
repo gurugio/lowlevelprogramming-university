@@ -250,11 +250,12 @@ I received an email to ask how to start. There are so many information about boo
 * Reading OS theory books: at least "The Design of the UNIX Operating System"
 * Learn assembly and C
   * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
+    * It is enough if you understand the concept of assembly programming. You do not need to do something practical.
   * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
     * DO NOT FORGET to solve every single exercises!
   * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
 * Do something with C
-  * [C Project Based Tutorials?](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
+  * [C Project Based Tutorials?](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/): Find one or two interesting projects and make your own project.
   * [leetcode.com](https://leetcode.com/): If you cannot find an interesting project, it would be also good to focus on data-structure and algorithm.
 * Do a hardware project
   * Raspberrypi or Arduino does not matter. You need a experience to control a hardware directly with only C. ONLY C!
@@ -263,7 +264,7 @@ I received an email to ask how to start. There are so many information about boo
     * Read [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
     * [Linux device driver labs](https://linux-kernel-labs.github.io/)
     * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
-    * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
+  * Read [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel) to understand the internal of Linux kernel.
 * If you want to be Linux Kernel Developer
   * must read [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
   * Then try to make a toy kernel
