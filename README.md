@@ -12,6 +12,7 @@
       * [References](#References)
     * [Other applications](#Other-applications)
   * [Future of low-level programming](#Future-of-low-level-programming)
+  * [How to start?][#how-to-start]
 * [Translation](#Translation)
 * [Who am I?](#who-am-i)
 
@@ -241,6 +242,34 @@ Big data and cloud computing require bigger and bigger storage. Some disks direc
 * https://en.wikipedia.org/wiki/Software-defined_storage
 * https://en.wikipedia.org/wiki/Clustered_file_system
 * https://en.wikipedia.org/wiki/Ceph_(software)
+
+## <a name="how-to-start"></a>How to start?
+
+I received an email to ask how to start. There are so many information about books, courses and projects in this page. It is my mistake to forget to write how to start. Of course, there is no King's Road to follow. I just write what I did in order. If you have already done something, please skip it. AGAIN, this is an example that you could do in order. If you do not know what to do, please do following IN ORDER.
+
+* Reading OS theory books: at least "The Design of the UNIX Operating System"
+* Learn assembly and C
+  * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
+  * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
+    * DO NOT FORGET to solve every single exercises!
+  * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
+* Do something with C
+  * [C Project Based Tutorials?](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
+  * [leetcode.com](https://leetcode.com/): If you cannot find an interesting project, it would be also good to focus on data-structure and algorithm.
+* Do a hardware project
+  * Raspberrypi or Arduino does not matter. You need a experience to control a hardware directly with only C. ONLY C!
+* Jump into the Linux kernel
+  * Start with drivers
+    * Read [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
+    * [https://linux-kernel-labs.github.io/](https://linux-kernel-labs.github.io/)
+    * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
+    * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
+* If you want to be Linux Kernel Developer
+  * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel): must read
+  * Then try to make a toy kernel
+    * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
+    * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
+  * Read kernel sources and document at https://lwn.net/
 
 # <a name="Translation"></a>Translation
 
