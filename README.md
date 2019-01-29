@@ -271,6 +271,7 @@ I received an email to ask how to start. There are so many information about boo
     * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
     * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
   * Read kernel sources and document at https://lwn.net/
+* Or find another topic.
 
 # <a name="Translation"></a>Translation
 
