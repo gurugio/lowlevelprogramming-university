@@ -71,6 +71,8 @@ Choose one between x86 or ARM. No need to know both. It doesn't matter to know a
   * basic concepts of modern CPU and computer architecture
   * basic concepts of disassembling and debugging of C code
   * _need help for translation_
+* [Learning assembly for linux-x64](https://github.com/0xAX/asm)
+  * pure 64-bit assembly programming with NASM and inline assembly with GCC
 * [ARM Architecture Reference Manual, 2nd Edition](http://www.mypearsonstore.ca/bookstore/arm-architecture-reference-manual-9780201737196)
   * Complete reference on ARM programming
 * Computer Organization and Design
