@@ -106,9 +106,9 @@ There is no shortcut. Just read the entire book and solve all the exercises.
   * Reference on optimization using C and a bit of x86 assembly
   * Starts from the 8088 up to today
   * Special focus on low-level graphics optimization
-* [Framework and plugin design in C(Korean)](https://github.com/gurugio/book_cprogramming)
+* [Framework and plugin design in C](https://github.com/gurugio/book_cprogramming)
   * How to develop framework and plugin in C for large scale software
-  * To be translated to English
+  * Very basic programming tips for Linux kernel source reading
 
 If you want to be expert of C programming, visit https://leetcode.com/. Good luck!
 
