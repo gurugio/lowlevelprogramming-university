@@ -264,19 +264,21 @@ I received an email to ask how to start. There are so many information about boo
   * [leetcode.com](https://leetcode.com/): If you cannot find an interesting project, it would be also good to focus on data-structure and algorithm.
 * Do a hardware project
   * Raspberrypi or Arduino does not matter. You need a experience to control a hardware directly with only C. ONLY C!
-* Jump into the Linux kernel
+* Basic of the Linux kernel
+  * Low-level programming is very close to the operating system. It would be good to know the OS.
   * Start with drivers
     * Read [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
     * [Linux device driver labs](https://linux-kernel-labs.github.io/)
     * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
   * Read [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel) to understand the internal of Linux kernel.
-* If you want to be Linux Kernel Developer
-  * must read [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
-  * Then try to make a toy kernel
-    * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
-    * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
-  * Read kernel sources and document at https://lwn.net/
-* Or find another topic.
+* Go to the professional field
+  * If you want to be professional Linux Kernel Developer
+    * must read [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
+      * Then try to make a toy kernel
+      * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
+      * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
+    * Check the latest issues at https://lwn.net/ and join it.
+  * Or find another topics
 
 # <a name="Translation"></a>Translation
 
