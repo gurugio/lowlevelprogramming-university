@@ -1,5 +1,5 @@
-NOTICE: Please notice that low-level programming is out of trend and currently there are not many companies hiring low-level developer.
-If you does not start professional career, I would like to recommend you finding another field.
+NOTICE: Please notice that low-level programming is out of trend and currently there are not many companies hiring low-level developer. It is getting harder to find a job.
+If you does not start professional career yet, I would like to recommend you consider another field carefully.
 I also will move to upper level.
 
 
