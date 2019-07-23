@@ -1,5 +1,5 @@
 NOTICE: Please notice that low-level programming is out of trend and currently there are not many companies hiring low-level developer. It is getting harder for me to find a job.
-If you does not start professional career yet, I would like to recommend you check other fields carefully.
+If you does not start professional career yet, I would like to recommend you consider other fields carefully.
 
 
 * [Low-Level Programming University](#Low-Level-Programming-University)
