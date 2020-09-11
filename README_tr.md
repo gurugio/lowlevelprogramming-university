@@ -26,11 +26,11 @@ Henüz profesyonel bir kariyere başlamadıysanız, diğer alanları da dikkatli
 
 [google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve aşağı seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl aşağı seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
 
-Bu sayfa her bağlantıyı/kitabı/kursu içeremez. Örneğin bu sayfada Arduino tanıtılmaktadır ancak Arduino ve gömülü sistemler hakkında detaylı bilgi bulunmamaktadır. Kendin daha fazlasını araştırmalısın. Başlayabileceğiniz "Arduino" anahtar kelimesine sahipsiniz. Yani bir sonraki adımınız muhtemelen Arduino'yu araştırmak, bir Arduino geliştirme seti(kit) satın almak ve bağlantı veya ücretsiz kitap toplamak değil, kendiniz için bir şeyler yapmaktır. Lütfen bu sayfanın yeni başlayanlar için bir yol haritası olduğunu unutmayın.
+Bu sayfa her bağlantıyı/kitabı/kursu içeremez. Örneğin bu sayfada Arduino tanıtılmaktadır ancak Arduino ve gömülü sistemler hakkında detaylı bilgi bulunmamaktadır. Kendin daha fazlasını araştırmalısın. Başlayabileceğiniz "Arduino" anahtar kelimesine sahipsiniz. Yani bir sonraki adımınız muhtemelen Arduino'yu araştırmak, bir Arduino geliştirme seti(kit) satın almak ve bağlantı veya kitap toplamak değil, kendiniz için bir şeyler yapmaktır. Lütfen bu sayfanın yeni başlayanlar için bir yol haritası olduğunu unutmayın.
 
 Aşağı seviyeli programlama, bilgisayar biliminin bir parçasıdır.
 Öncelikle bilgisayar bilimi için eğitim almak kesinlikle çok daha iyi olacaktır.
-* [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
+* [Open Source Society University Bilgisayar Bilimi deposu](https://github.com/ossu/computer-science)
 
 
 ## <a name="Aşağı-Seviye-nedir"></a>Aşağı Seviye nedir?
@@ -46,8 +46,8 @@ Son olarak, bu sayfa donanım bileşenlerinden Linux çekirdeğine kadar değiş
 ##  <a name="Teori"></a>Teori
 
 Aşağı seviyeli programlamanın iki temel teorisi vardır:
-* Computer Architecture
-* Operating Systems
+* Bilgisayar Mimarisi
+* İşletim sistemleri
 
 Bence teori öğrenmenin en iyi yolu bir kurs almaktır. Kitap okumak fena değil ama çok zaman ve çaba gerektiriyor. Coursera.org ve edx.org gibi çevrimiçi üniversitelerde birçok iyi kurslar bulabilirsiniz.
 
@@ -56,19 +56,19 @@ Teorik bilgi ile gerçeği yani pratik kodlama becerisini ayırt etmek gerekir. 
 Tecrübe ile gün geçtikçe daha iyi olacaksınız.
 
 Okuduğum birkaç kitabı tanıtmama izin verin. Genellikle üniversitelerde ders kitabı olarak kullanılırlar. Üniversitenizde bu kitapların olduğu bir sınıf yoksa, onları okumak için biraz zaman ayırmaya değer.
-* Computer Architecture
+* Bilgisayar Mimarisi
   * Computer Architecture, Fifth Edition: A Quantitative Approach
   * Computer Systems: A Programmer's Perspective
   * Computer Organization and Design, Fourth Edition: The Hardware/Software Interface
-* Operating Systems
+* İşletim sistemleri
   * The Magic Garden Explained: The Internals of UNIX System V Release 4 an Open Systems Design
   * The Design of the UNIX Operating System
   * Operating Systems: Internals and Design Principles by William Stallings
-* Recommended Courses
+* Önerilen Kurslar
    * [CS401: Operating Systems from saylor.org](https://learn.saylor.org/course/view.php?id=94)
 
 Sayısız iyi kitap listesi var. Çok kitap okumalısın demek istemiyorum. Sadece bir kitabı dikkatlice okuyun. Ne zaman bir teori öğrenirseniz, onun kodunu uygulayın.
-**Implementing one thing is better than knowing one hundred theories.**
+**Bir şeyi uygulamak, yüz teori bilmekten daha iyidir.**
 
 ##  <a name="Diller"></a>Diller
 
@@ -77,25 +77,25 @@ Sayısız iyi kitap listesi var. Çok kitap okumalısın demek istemiyorum. Sade
 X86 veya ARM arasından birini seçin. İkisini de bilmenize gerek yok. Assembly dilini bilmek önemli değil. Önemli olan bir CPU ve bilgisayarın komut setini anlamaktır. Böylece en yeni CPU'nun assembly dilini yazmanıza gerek kalmaz. 8086 veya Corex-M'yi seçin.
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
-  * basic concepts of CPU and computer architecture
-  * basic concepts of C programming language
+  * CPU ve bilgisayar mimarisinin temel kavramları
+  * C programlama dilinin temel kavramları
 * [64bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
-  * basic concepts of modern CPU and computer architecture
-  * basic concepts of disassembling and debugging of C code
+  * modern CPU ve bilgisayar mimarisinin temel kavramları
+  * C kodunun disassemble edilmesi ve hata ayıklaması ile ilgili temel kavramlar
   * _need help for translation_
 * [Learning assembly for linux-x64](https://github.com/0xAX/asm)
-  * pure 64-bit assembly programming with NASM and inline assembly with GCC
+  * NASM ile saf 64-bit Assembly programlama ve GCC ile inline Assembly
 * [ARM Architecture Reference Manual, 2nd Edition](http://www.mypearsonstore.ca/bookstore/arm-architecture-reference-manual-9780201737196)
-  * Complete reference on ARM programming
-* Computer Organization and Design
+  * ARM programlamada eksiksiz referans
+* Bilgisayar Organizasyonu ve Tasarımı
   * [MIPS Edition](https://www.amazon.ca/Computer-Organization-Design-MIPS-Interface/dp/0124077269/)
   * [ARM Edition](https://www.amazon.ca/Computer-Organization-Design-ARM-Interface/dp/0128017333/)
   * [RISC-V Edition](https://www.amazon.com/Computer-Organization-Design-RISC-V-Architecture/dp/0128122757)
-  * Academic books that explain how every component of a computer work from the ground up.
-  * Explains in detail the different concepts that make up computer architecture.
-  * They are not targeted at readers who wish to become proficient in a specific assembly language.
-  * The MIPS and ARM edition cover the same topics but by dissecting a different architecture.
-  * Both editions contain examples in the x86 world
+  * Bir bilgisayarın her bileşeninin sıfırdan nasıl çalıştığını açıklayan akademik kitaplar.
+  * Bilgisayar mimarisini oluşturan farklı kavramları ayrıntılı olarak açıklar.
+  * Belirli bir Assembly dilinde uzmanlaşmak isteyen okuyucuları hedef almazlar.
+  * MIPS ve ARM sürümü aynı konuları kapsar, ancak farklı bir mimariyi inceler.
+  * Her iki sürüm de x86 dünyasındaki örnekleri içerir
 
 ### <a name="C-dili"></a>C dili
 
@@ -104,20 +104,20 @@ Kestirme ve hızlı bir yol bulunmuyor. Sadece kitabın tamamını okuyun ve tü
 * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
 * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
 * [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
-  * For new standard of C
+  * Yeni C standardı için
 * [Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
-  * raw implementation of synchronization with C
-  * Essential for large scale C programming (especially for kernel programming)
+  * C dili ile raw uyarlanması ve senkronizasyonu
+  * Büyük ölçekli C programlama için gerekli (özellikle çekirdek programlama için)
 * [C Project Based Tutorials?](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
-  * If you finish reading one or two C programming books, then you MUST make something.
-  * Choose whatever you like.
-  * First make on your own and then compare with someone else's source code. It is very important to compare your source and others. You can improve your skill only when you read the other's source and learn better methods. Books are dead and source is live.
+  * Bir veya iki C programlama kitabını okumayı bitirirseniz, bir şeyler yapmanız GEREKİR.
+  * Ne istersen onu seç.
+  * Önce kendi başınıza yapın ve ardından başka birinin kaynak koduyla karşılaştırın. Kaynağınızı ve diğerlerini karşılaştırmak çok önemlidir. Becerinizi ancak diğerinin kaynağını okuduğunuzda ve daha iyi yöntemler öğrendiğinizde geliştirebilirsiniz. Kitaplar ölüdür ve kaynak kodlar yaşayan kaynaklardır.
 * [C and other languages based projects](https://github.com/danistefanovic/build-your-own-x)
-  * find more interesting projects
+  * daha ilginç projeler bulun
 * [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
-  * Reference on optimization using C and a bit of x86 assembly
-  * Starts from the 8088 up to today
-  * Special focus on low-level graphics optimization
+  * C ve biraz da x86 Assembly ile optimizasyon hakkında referans
+  * 8088'den bugüne kadar
+  * Aşağı Seviyeli grafik optimizasyonuna özel odaklanın
 * [Framework and plugin design in C](https://github.com/gurugio/book_cprogramming)
   * Büyük ölçekli yazılımlar için C'de çerçeve ve eklenti nasıl geliştirilir
   * Linux çekirdek kaynak okuma için çok temel programlama ipuçları
@@ -162,7 +162,7 @@ Bu yüzden size aşağıdaki projeleri öneriyorum.
 [deneme amaçlı kernel çalışmam](https://github.com/gurugio/caos) yazdım. 64 bit long modu(long mod olarak kalabilir), sayfalamayı ve çok basit bağlam değiştirmeyi destekleyen deneme amaçlı bir çekirdek(kernel) yapmak, modern bilgisayar mimarisini ve donanım kontrolünü anlamanın iyi bir yoludur.
 
 Aslında, en son işlemciye ve en son donanım cihazlarına zaten sahipsiniz.
-Senin diz üstü bilgisayarın! Masaüstünüz! Başlamak için ihtiyacınız olan her şeye zaten sahipsiniz!
+Senin diz üstü bilgisayarın! Masaüstü bilgisayarınız! Başlamak için ihtiyacınız olan her şeye zaten sahipsiniz!
 Hiçbir şey almanıza gerek yok.
 QEMU emülatörü, en yeni ARM işlemcileri ve Intel işlemcileri sanal ortamında çalıştırabilir.
 Yani ihtiyacınız olan her şey elinizin altında.
@@ -196,7 +196,7 @@ Linux topluluğuna katılın ve geliştirmeye katılın.
       * https://github.com/gurugio/linuxdeveloptip/blob/master/qemu-gdb-kdump.md
     * Önyüklemesi yalnızca bir saniye süren en basit dosya sistemini yapmak için busybox kullanın
       * https://github.com/gurugio/linuxdeveloptip/blob/master/minikernelwithbusybox.md
-* Diğer kaynaklar: Önerdiğim ücretsiz kaynaklar
+* Diğer kaynaklar: Önerdiğim kaynaklar
   * [Linux device driver labs](https://linux-kernel-labs.github.io/)
     * Linux aygıt sürücülerini temel çekirdek API'leri ile yapan pratik kılavuz ve mükemmel alıştırmalar
     * Bu belgenin neredeyse tüm temel çekirdek API'lerini tanıttığını düşünüyorum.
