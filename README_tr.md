@@ -35,7 +35,7 @@ Aşağı seviyeli programlama, bilgisayar biliminin bir parçasıdır.
 
 ## <a name="Aşağı-Seviye-nedir"></a>Aşağı Seviye nedir?
 
-Aşağı seviyeli programlamayı, C veya Assembly gibi daha düşük seviyeli bir programlama dili kullanarak makineye çok yakın olan programlama olarak sınıflandırıyorum. Bu, yüksek seviyeli diller (ör.Python, Java) kullanan tipik kullanıcı alanı(userspace ve kernelspace kavramlarına bakınız) uygulamaları olan üst düzey programlamanın tersidir.
+Aşağı seviyeli programlamayı, C veya Assembly gibi daha aşağı seviyeli bir programlama dili kullanarak makineye çok yakın olan programlama olarak sınıflandırıyorum. Bu, yüksek seviyeli diller (ör.Python, Java) kullanan tipik kullanıcı alanı(userspace ve kernelspace kavramlarına bakınız) uygulamaları olan üst düzey programlamanın tersidir.
 * [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
 
 Evet, sistem programlama, aşağı seviyeli programlamaya çok yakın bir kavramdır. Bu sayfa, sistem programlamasına dahil olmayan donanım tasarımını ve ürün yazılımı geliştirmeyi içerir.
@@ -234,7 +234,7 @@ Evet, Linux veya firmware geliştirmeyle ilgilenmeyebilirsiniz. Öyleyse, başka
 
 Bu çalışma alanları hakkında hiçbir bilgim yok. Lütfen yeni başlayanlar için yararlı olabilecek bu dosyanın formatına uygun içerikleri gönderin.
 
-**Çekirdekler ve sürücüleri, düşük seviyeli programlamanın tamamı değildir.** Aşağı seviyeli programlamanın bir diğer önemli çalışma alanı, yazılım tanımlı depolama veya dağıtık dosya sistemidir. Bunların ayrıntılı açıklamaları bu belgenin kapsamı dışındadır ancak basit bir dağıtık dosya sistemini deneyebileceğiniz mükemmel bir kurs vardır.
+**Çekirdekler ve sürücüleri, aşağı seviyeli programlamanın tamamı değildir.** Aşağı seviyeli programlamanın bir diğer önemli çalışma alanı, yazılım tanımlı depolama veya dağıtık dosya sistemidir. Bunların ayrıntılı açıklamaları bu belgenin kapsamı dışındadır ancak basit bir dağıtık dosya sistemini deneyebileceğiniz mükemmel bir kurs vardır.
 * Ders: https://pdos.csail.mit.edu/archive/6.824-2012/
 * Referans'ın kaynağı: https://github.com/srned/yfs
 
