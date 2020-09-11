@@ -264,35 +264,35 @@ Büyük veri ve bulut bilişim, daha büyük ve daha büyük depolama gerektirir
 
 Nasıl başlayacağımı soran bir e-posta aldım. Bu sayfada kitaplar, kurslar ve projeler hakkında birçok bilgi var. Nasıl başlayacağımı yazmayı unutmak benim hatam. Maalesef [Kralın Şehrine](https://gameofthrones.fandom.com/wiki/King%27s_Landing) giden Kral Yolu bulunmuyor. Sadece sırayla ne yaptığımı yazacağım. Zaten bir şey yaptıysanız, lütfen atlayın. Ve YİNE belirtmeliyim ki, bu sadece nasıl başlayacağınızı veya ne yapacağınızı bilmiyorsanız, sırayla yapabileceğiniz bir örnek metindir.
 
-* Reading OS theory books: at least "The Design of the UNIX Operating System by Maurice J. Bach"
-* Learn assembly and C
+* İşletim sistemi teorisi kitapları okumak: en azından "The Design of the UNIX Operating System by Maurice J. Bach" okumalısınız.
+* Assembly ve C programlama dillerini öğrenmelisiniz.
   * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
-    * It is enough if you understand the concept of assembly programming. You do not need to do something practical.
+    * Assembly programlama dilini okuyup anlayabiliyorsanız yeterlidir. Pratik bir şey yapmanıza gerek yoktur.
   * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
-    * DO YOUR BEST TO solve every single exercises!
+    * Her alıştırmayı çözmek için elinizden gelenin en iyisini yapın!
   * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
-* Do something practical with C
+* C ile pratik bir şeyler yapın
   * [C Project Based Tutorials?](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/): Find one or two interesting projects and make your own project.
-  * [leetcode.com](https://leetcode.com/): If you cannot find an interesting project, it would be also good to focus on data-structure and algorithm.
-* Do a hardware project
-  * Raspberrypi or Arduino does not matter. You need a experience to control a hardware directly with only C. ONLY C!
-  * I recommend to buy a Atmega128 kit and make a firmware to turn on/off LEDs, detect switch input and display message on the text LCD. Motor control program is also a very good project: for instance, the line tracer.
-  * DO NOT use any library. You should make everything on your own, except program downloader.
-* Basic of the Linux kernel
-  * Low-level programming is very close to the operating system. You should know inside of the OS.
-  * Start with drivers
-    * Read [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
+  * [leetcode.com](https://leetcode.com/): İlginç bir proje bulamazsanız, veri yapısı ve algoritmaya odaklanmak da iyi olacaktır.
+* Bir donanım projesi yapın
+  * Raspberrypi veya Arduino arasında bir tercih yapmanız önemli değildir. Bir donanımı doğrudan yalnızca C ile kontrol etmek için bir deneyime ihtiyacınız var YALNIZCA C ile!
+  * Bir Atmega128 geliştirme seti(kiti) satın almanızı ve LED'leri açmak/kapatmak, anahtar girişini algılamak ve metin LCD'sinde mesaj görüntülemek için bir aygıt yazılımı yapmanızı öneririm. Motor kontrol programı da çok iyi bir projedir: örneğin, çizgi izleyici.
+  * Herhangi bir yazılım kütüphanesi KULLANMAYIN. Program indiricisi dışında her şeyi kendi başınıza yapmalısınız.
+* Linux Çekirdeğinin Temelleri
+  * Aşağı seviyeli programlama, işletim sistemine çok yakındır. İşletim sisteminin işleyişini bilmelisiniz.
+  * Donanım aygıt sürücüleriyle başlayınız
+    * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
     * [Linux device driver labs](https://linux-kernel-labs.github.io/)
-    * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
-  * Read [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel) to understand the internal of Linux kernel.
-* Go to the professional field
-  * If you want to be professional Linux Kernel Developer
-    * must read [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
-      * Then try to make a toy kernel
+    * [The Eudyptula Challenge](http://eudyptula-challenge.org/) belgelerini okuyunuz.
+  * Linux Çekirdeğinin işleyişini anlamak için [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel) kitabını okuyunuz.
+* Profesyonelleşmek için
+  * Profesyonel Linux Çekirdek Geliştiricisi olmak istiyorsanız
+    * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel) okumalısınız.
+      * Sonra deneme amaçlı olan kendi çekirdeğinizi yazın
       * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
       * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
-    * Check the latest issues at https://lwn.net/ and join it.
-  * Or find another topics
+    * https://lwn.net/ sitesindeki son sorunları(issue) inceleyin ve çözüme katılın.
+  * Veya başka bir konu bulun
 
 # <a name="Çeviriler"></a>Çeviriler
 
