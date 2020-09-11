@@ -159,7 +159,7 @@ Bu yüzden size aşağıdaki projeleri öneriyorum.
 * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
   * (projenin açıklaması) Bu depo, basit bir işletim sistemi (OS) çekirdeğinin sıfırdan nasıl oluşturulacağını öğreten adım adım bir kılavuz içerir ... (atla) ... Her ders öyle tasarlandı ki önce bazı çekirdek özelliğinin RPi işletim sisteminde nasıl uygulandığını açıklar ve ardından aynı işlevselliğin Linux çekirdeğinde nasıl çalıştığını göstermeye çalışır.
 
-[deneme amaçlı kernel çalışmam](https://github.com/gurugio/caos) yazdım. 64 bit long modu(long mod olarak kalabilir), sayfalamayı ve çok basit bağlam değiştirmeyi destekleyen deneme amaçlı bir çekirdek(kernel) yapmak, modern bilgisayar mimarisini ve donanım kontrolünü anlamanın iyi bir yoludur.
+[deneme amaçlı kernel çalışmamı](https://github.com/gurugio/caos) yazdım. 64 bit long modu(long mod olarak kalabilir), sayfalamayı ve çok basit bağlam değiştirmeyi destekleyen deneme amaçlı bir çekirdek(kernel) yapmak, modern bilgisayar mimarisini ve donanım kontrolünü anlamanın iyi bir yoludur.
 
 Aslında, en son işlemciye ve en son donanım cihazlarına zaten sahipsiniz.
 Senin diz üstü bilgisayarın! Masaüstü bilgisayarınız! Başlamak için ihtiyacınız olan her şeye zaten sahipsiniz!
