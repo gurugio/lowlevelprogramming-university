@@ -1,28 +1,28 @@
-RNOTICE: Lütfen aşağı seviyeli programlamanın popüler olmadığını ve şu anda aşağı seviyeli kod yazan programcıları işe alan çok fazla şirket olmadığını unutmayın. İş bulmam gittikçe zorlaşıyor.
+UYARI: Lütfen aşağı seviyeli programlamanın popüler olmadığını ve şu anda aşağı seviyeli kod yazan programcıları işe alan çok fazla şirket olmadığını unutmayın. İş bulmam gittikçe zorlaşıyor.
 Henüz profesyonel bir kariyere başlamadıysanız, diğer alanları da dikkatlice değerlendirmenizi tavsiye ederim.
 
 
-* [Low-Level Programming University](#Low-Level-Programming-University)
-  * [What is it?](#What-is-it)
-  * [What Is the Low Level](#What-Is-the-Low-Level)
-  *  [Theory](#Theory)
-  *  [Languages](#Languages)
+* [Aşağı Seviyeli Programmlama Üniversitesi](#Aşağı-Seviyeli-Programlama-Üniversitesi)
+  * [Nedir?](#Nedir)
+  * [Aşağı Seviye nedir?](#Aşağı-Seviye-nedir)
+  *  [Teori](#Teori)
+  *  [Diller](#Diller)
      * [Assembly](#Assembly)
-     * [C language](#C-language)
-  * [Applications](#Applications)
-    * [Hardware && Firmware](#Hardware-Firmware)
-    * [Linux kernel and device driver](#Linux-kernel-and-device-driver)
-      * [Follow carefully](#Follow-carefully)
-      * [References](#References)
-    * [Other applications](#Other-applications)
-  * [Future of low-level programming](#Future-of-low-level-programming)
-  * [How to start?](#How-to-start)
-* [Translation](#Translation)
-* [Who am I?](#who-am-i)
+     * [C dili](#C-dili)
+  * [Çalışma Alanları](#Çalışma-Alanları)
+    * [Donanım && Firmware](#Donanım-Firmware)
+    * [Linux çekirdeği and aygıt sürücüleri](#Linux-çekirdeği-ve-aygıt-sürücüleri)
+      * [Dikkatlice okuyun](#Dikkatlice-okuyun)
+      * [Referanslar](#Referanslar)
+    * [Diğer Çalışma Alanları](#Diğer-Çalışma-Alanları)
+  * [Aşağı Seviyeli Programlamanın Geleceği](#Aşağı-Seviyeli-Programlamanın-Geleceği)
+  * [Nasıl Başlanır?](#Nasıl-Başlanır)
+* [Çeviriler](#Çeviriler)
+* [Ben Kimim?](#Ben-Kimim)
 
-# Low-Level Programming University
+# Aşağı Seviyeli Programlama Üniversitesi
 
-## <a name="What-is-it"></a>What is it?
+## <a name="Nedir"></a>Nedir?
 
 [google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve aşağı seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl aşağı seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
 
@@ -33,7 +33,7 @@ Aşağı seviyeli programlama, bilgisayar biliminin bir parçasıdır.
 * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
 
 
-## <a name="What-Is-the-Low-Level"></a>What Is the Low-Level?
+## <a name="Aşağı-Seviye-nedir"></a>Aşağı Seviye nedir?
 
 Aşağı seviyeli programlamayı, C veya Assembly gibi daha düşük seviyeli bir programlama dili kullanarak makineye çok yakın olan programlama olarak sınıflandırıyorum. Bu, yüksek seviyeli diller (ör.Python, Java) kullanan tipik kullanıcı alanı(userspace ve kernelspace kavramlarına bakınız) uygulamaları olan üst düzey programlamanın tersidir.
 * [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
@@ -43,7 +43,7 @@ Evet, sistem programlama, aşağı seviyeli programlamaya çok yakın bir kavram
 
 Son olarak, bu sayfa donanım bileşenlerinden Linux çekirdeğine kadar değişen konuları içerir. Bu, çok çeşitli katmanlardır. Tek sayfalık bir belge hiçbir zaman tüm katmanların ayrıntılarını kapsamaz, bu nedenle bu belgenin amacı, aşağı seviyeli programlama için bir başlangıç ​​noktası olarak hizmet etmektir.
 
-##  <a name="Theory"></a>Theory
+##  <a name="Teori"></a>Teori
 
 Aşağı seviyeli programlamanın iki temel teorisi vardır:
 * Computer Architecture
@@ -70,7 +70,7 @@ Okuduğum birkaç kitabı tanıtmama izin verin. Genellikle üniversitelerde der
 Sayısız iyi kitap listesi var. Çok kitap okumalısın demek istemiyorum. Sadece bir kitabı dikkatlice okuyun. Ne zaman bir teori öğrenirseniz, onun kodunu uygulayın.
 **Implementing one thing is better than knowing one hundred theories.**
 
-##  <a name="Languages"></a>Languages
+##  <a name="Diller"></a>Diller
 
 ### <a name="Assembly"></a>Assembly
 
@@ -97,7 +97,7 @@ X86 veya ARM arasından birini seçin. İkisini de bilmenize gerek yok. Assembly
   * The MIPS and ARM edition cover the same topics but by dissecting a different architecture.
   * Both editions contain examples in the x86 world
 
-### <a name="C-language"></a>C language
+### <a name="C-dili"></a>C dili
 
 Kestirme ve hızlı bir yol bulunmuyor. Sadece kitabın tamamını okuyun ve tüm alıştırmaları çözün. 
 
@@ -124,9 +124,9 @@ Kestirme ve hızlı bir yol bulunmuyor. Sadece kitabın tamamını okuyun ve tü
 
 C programlama uzmanı olmak istiyorsanız, https://leetcode.com/ sitesini ziyaret edin. İyi Şanslar!
 
-## <a name="Applications"></a>Applications
+## <a name="Çalışma-Alanları"></a>Çalışma Alanları
 
-### <a name="Hardware-Firmware"></a>Hardware && Firmware
+### <a name="Donanım-Firmware"></a>Donanım && Firmware
 
 Gömülü sistem mühendisi olmak istiyorsanız, en son ARM yonga setiyle başlamak yerine basit bir donanım geliştirme setinden(kitinden) başlamak en iyisi olacaktır.
 
@@ -173,12 +173,12 @@ Diğer deneme amaçlı çekirdekler(kernel):
 * https://littleosbook.github.io/
 * https://tuhdo.github.io/os01/
 
-### <a name="Linux-kernel-and-device-driver"></a>Linux kernel and device driver
+### <a name="Linux-çekirdeği-ve-aygıt-sürücüleri"></a>Linux çekirdeği and aygıt sürücüleri
 
 Tam bir işletim sistemi oluşturmanıza gerek yok.
 Linux topluluğuna katılın ve geliştirmeye katılın.
 
-#### <a name="Follow-carefully"></a>Follow carefully
+#### <a name="Dikkatlice-okuyun"></a>Dikkatlice okuyun
 
 * Books: Read the following in order
   * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
@@ -216,7 +216,7 @@ Linux topluluğuna katılın ve geliştirmeye katılın.
     * how mdadm tool works and how it calls md driver
     * how md driver works
 
-#### <a name="References"></a>References
+#### <a name="Referanslar"></a>Referanslar
 
 Bir şeye ihtiyacınız olduğunda kontrol edin
 
@@ -225,7 +225,7 @@ Bir şeye ihtiyacınız olduğunda kontrol edin
 * [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
   * guide to start kernel programming
 
-### <a name="Other-applications"></a>Other application
+### <a name="Diğer-Çalışma-Alanları"></a>Diğer Çalışma Alanları
 
 Evet, Linux veya firmware geliştirmeyle ilgilenmeyebilirsiniz. Öyleyse, başka çalışma alanları bulabilirsiniz:
 * Windows systems programming & device drivers
@@ -238,7 +238,7 @@ Bu çalışma alanları hakkında hiçbir bilgim yok. Lütfen yeni başlayanlar 
 * Course: https://pdos.csail.mit.edu/archive/6.824-2012/
 * reference Source: https://github.com/srned/yfs
 
-## <a name="Future-of-low-level-programming"></a>Future of low-level programming
+## <a name="Aşağı-Seviyeli-Programlamanın-Geleceği"></a>Aşağı Seviyeli Programlamanın Geleceği
 
 Geleceği öngöremiyorum ama RUST programlama diline dikkatimi vermeye başladım.
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
@@ -260,7 +260,7 @@ Büyük veri ve bulut bilişim, daha büyük ve daha büyük depolama gerektirir
 * https://en.wikipedia.org/wiki/Clustered_file_system
 * https://en.wikipedia.org/wiki/Ceph_(software)
 
-## <a name="How-to-start"></a>How to start?
+## <a name="Nasıl-Başlanır"></a>Nasıl Başlanır?
 
 Nasıl başlayacağımı soran bir e-posta aldım. Bu sayfada kitaplar, kurslar ve projeler hakkında birçok bilgi var. Nasıl başlayacağımı yazmayı unutmak benim hatam. Maalesef [Kralın Şehrine](https://gameofthrones.fandom.com/wiki/King%27s_Landing) giden Kral Yolu bulunmuyor. Sadece sırayla ne yaptığımı yazacağım. Zaten bir şey yaptıysanız, lütfen atlayın. Ve YİNE belirtmeliyim ki, bu sadece nasıl başlayacağınızı veya ne yapacağınızı bilmiyorsanız, sırayla yapabileceğiniz bir örnek metindir.
 
@@ -294,7 +294,7 @@ Nasıl başlayacağımı soran bir e-posta aldım. Bu sayfada kitaplar, kurslar 
     * Check the latest issues at https://lwn.net/ and join it.
   * Or find another topics
 
-# <a name="Translation"></a>Translation
+# <a name="Çeviriler"></a>Çeviriler
 
 Bu sayfayı çevirmek istiyorsanız lütfen bana çekme talebini gönderin. Burada listeleyeceğim.
 * [Chinese](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
@@ -304,7 +304,7 @@ Bu sayfayı çevirmek istiyorsanız lütfen bana çekme talebini gönderin. Bura
 * [Russian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_ru.md)
 * [Turkish](https://github.com/masscollaborationlabs/lowlevelprogramming-university/blob/master/README_tr.md)
 
-# <a name="who-am-i"></a>Who am I?
+# <a name="Ben-Kimim"></a>Ben-Kimim?
 
 [google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve aşağı seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl aşağı seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
 
