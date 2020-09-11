@@ -1,5 +1,5 @@
-RNOTICE: Lütfen aşağı seviyeli programlamanın popüler olmadığını ve şu anda aşağı seviyeli kod yazan programcıları işe alan çok fazla şirket olmadığını unutmayın. İş bulmam gittikçe zorlaşıyor.
-Henüz profesyonel bir kariyere başlamadıysanız, diğer alanları da dikkatlice değerlendirmenizi tavsiye ederim.
+RNOTICE: Please notice that low-level programming is out of trend and currently there are not many companies hiring low-level developer. It is getting harder for me to find a job.
+If you does not start professional career yet, I would like to recommend you consider other fields carefully.
 
 
 * [Low-Level Programming University](#Low-Level-Programming-University)
@@ -24,38 +24,36 @@ Henüz profesyonel bir kariyere başlamadıysanız, diğer alanları da dikkatli
 
 ## <a name="What-is-it"></a>What is it?
 
-[google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve aşağı seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl aşağı seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
+I'm inspired by [google-interview-university](https://github.com/jwasham/coding-interview-university). I'd like to share my experience and show a roadmap to becoming a low-level programmer because I have found that these skills are not as common as they once were. In addition, many students and beginners ask me how they could become low-level programmers and Linux kernel engineers.
 
-Bu sayfa her bağlantıyı/kitabı/kursu içeremez. Örneğin bu sayfada Arduino tanıtılmaktadır ancak Arduino ve gömülü sistemler hakkında detaylı bilgi bulunmamaktadır. Kendin daha fazlasını araştırmalısın. Başlayabileceğiniz "Arduino" anahtar kelimesine sahipsiniz. Yani bir sonraki adımınız muhtemelen Arduino'yu araştırmak, bir Arduino geliştirme seti(kit) satın almak ve bağlantı veya ücretsiz kitap toplamak değil, kendiniz için bir şeyler yapmaktır. Lütfen bu sayfanın yeni başlayanlar için bir yol haritası olduğunu unutmayın.
+This page cannot include every link/book/course. For example, this page introduces Arduino but there is not detailed information about Arduino and embedded systems. You should go further yourself. You have the keyword "Arduino" with which you can start. So your next step is probably googling Arduino, buying a kit, and doing something for yourself, not collecting links or free books. Please remember this page is just a roadmap for beginners.
 
-Aşağı seviyeli programlama, bilgisayar biliminin bir parçasıdır.
-Öncelikle bilgisayar bilimi için eğitim almak kesinlikle çok daha iyi olacaktır.
+Low-level programming is a part of computer science.
+Absolutely it would be much better to get education for computer science first.
 * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
 
 
 ## <a name="What-Is-the-Low-Level"></a>What Is the Low-Level?
 
-Aşağı seviyeli programlamayı, C veya Assembly gibi daha düşük seviyeli bir programlama dili kullanarak makineye çok yakın olan programlama olarak sınıflandırıyorum. Bu, yüksek seviyeli diller (ör.Python, Java) kullanan tipik kullanıcı alanı(userspace ve kernelspace kavramlarına bakınız) uygulamaları olan üst düzey programlamanın tersidir.
+I classify low-level programming as programming that is very close to the machine, using a lower level programming language like C or assembly. This is in contrast to higher-level programming, typical of user-space applications, using high level languages (e.g. Python, Java).
 * [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
 
-Evet, sistem programlama, aşağı seviyeli programlamaya çok yakın bir kavramdır. Bu sayfa, sistem programlamasına dahil olmayan donanım tasarımını ve ürün yazılımı geliştirmeyi içerir.
+Yes, systems programming is a very close concept to low-level programming. This page includes the hardware design and firmware development that is not included in systems programming.
 * [Wikipedia: System programming](https://en.wikipedia.org/wiki/System_programming)
 
-Son olarak, bu sayfa donanım bileşenlerinden Linux çekirdeğine kadar değişen konuları içerir. Bu, çok çeşitli katmanlardır. Tek sayfalık bir belge hiçbir zaman tüm katmanların ayrıntılarını kapsamaz, bu nedenle bu belgenin amacı, aşağı seviyeli programlama için bir başlangıç ​​noktası olarak hizmet etmektir.
+Finally, this page includes topics ranging from hardware components to the Linux kernel. That is a huge range of layers. A one page document can never cover the details of all the layers, so the aim of this document is to serve as a starting point for low-level programming.
 
 ##  <a name="Theory"></a>Theory
 
-Aşağı seviyeli programlamanın iki temel teorisi vardır:
+There are two background theories to low-level programming:
 * Computer Architecture
 * Operating Systems
 
-Bence teori öğrenmenin en iyi yolu bir kurs almaktır. Kitap okumak fena değil ama çok zaman ve çaba gerektiriyor. Coursera.org ve edx.org gibi çevrimiçi üniversitelerde birçok iyi kurslar bulabilirsiniz.
+I think the best way to learn theory is by taking a course. Reading books is not bad but takes too much time and effort. You can find many good classes on online universities, for instance, Coursera.org and edx.org.
+Theory is theory. I don't think you need to get an A+ in the class, just understand the big picture.
+You'll get better and better with experience.
 
-Teorik bilgi ile gerçeği yani pratik kodlama becerisini ayırt etmek gerekir. Sınıfta A+ almanız gerektiğini düşünmüyorum, sadece büyük resmi görün.
-
-Tecrübe ile gün geçtikçe daha iyi olacaksınız.
-
-Okuduğum birkaç kitabı tanıtmama izin verin. Genellikle üniversitelerde ders kitabı olarak kullanılırlar. Üniversitenizde bu kitapların olduğu bir sınıf yoksa, onları okumak için biraz zaman ayırmaya değer.
+Let me introduce several books that I've read. They are commonly used as textbooks in universities. If there is no class with these books in your university, it's worth spending some time reading them.
 * Computer Architecture
   * Computer Architecture, Fifth Edition: A Quantitative Approach
   * Computer Systems: A Programmer's Perspective
@@ -67,14 +65,13 @@ Okuduğum birkaç kitabı tanıtmama izin verin. Genellikle üniversitelerde der
 * Recommended Courses
    * [CS401: Operating Systems from saylor.org](https://learn.saylor.org/course/view.php?id=94)
 
-Sayısız iyi kitap listesi var. Çok kitap okumalısın demek istemiyorum. Sadece bir kitabı dikkatlice okuyun. Ne zaman bir teori öğrenirseniz, onun kodunu uygulayın.
-**Implementing one thing is better than knowing one hundred theories.**
+There is an infinite list of good books. I don't want to say that you should read many books. Just read one book carefully. Whenever you learn a theory, implement simulation code of it. **Implementing one thing is better than knowing one hundred theories.**
 
 ##  <a name="Languages"></a>Languages
 
 ### <a name="Assembly"></a>Assembly
 
-X86 veya ARM arasından birini seçin. İkisini de bilmenize gerek yok. Assembly dilini bilmek önemli değil. Önemli olan bir CPU ve bilgisayarın komut setini anlamaktır. Böylece en yeni CPU'nun assembly dilini yazmanıza gerek kalmaz. 8086 veya Corex-M'yi seçin.
+Choose one between x86 or ARM. No need to know both. It doesn't matter to know assembly language. The essential thing is understanding the internals of a CPU and computer. So you don't need to practice the assembly of the latest CPU. Select 8086 or Corex-M.
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
   * basic concepts of CPU and computer architecture
@@ -99,7 +96,7 @@ X86 veya ARM arasından birini seçin. İkisini de bilmenize gerek yok. Assembly
 
 ### <a name="C-language"></a>C language
 
-Kestirme ve hızlı bir yol bulunmuyor. Sadece kitabın tamamını okuyun ve tüm alıştırmaları çözün. 
+There is no shortcut. Just read the entire book and solve all the exercises.
 
 * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
 * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
@@ -122,13 +119,13 @@ Kestirme ve hızlı bir yol bulunmuyor. Sadece kitabın tamamını okuyun ve tü
   * How to develop framework and plugin in C for large scale software
   * Very basic programming tips for Linux kernel source reading
 
-C programlama uzmanı olmak istiyorsanız, https://leetcode.com/ sitesini ziyaret edin. İyi Şanslar!
+If you want to be expert of C programming, visit https://leetcode.com/. Good luck!
 
 ## <a name="Applications"></a>Applications
 
 ### <a name="Hardware-Firmware"></a>Hardware && Firmware
 
-Gömülü sistem mühendisi olmak istiyorsanız, en son ARM yonga setiyle başlamak yerine basit bir donanım geliştirme setinden(kitinden) başlamak en iyisi olacaktır.
+If you want to be an embedded systems engineer, it would be best to start from a simple hardware kit, rather than starting with the latest ARM chipset.
 
 * [Arduino Start Kit](https://www.arduino.cc/)
   * There are many series of Arduinos but "Arduino Start Kit" has the most simple processor(Atmega328P) and guide book
@@ -143,40 +140,40 @@ Gömülü sistem mühendisi olmak istiyorsanız, en son ARM yonga setiyle başla
   * Best guide for protected mode and paging mechanism of 80x86 processor
   * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
 
-Bu noktada, en son ARM veya x86 işlemciye başlamanız gerekir.
+At this point, you should be good to start the latest ARM or x86 processor.
 * https://www.raspberrypi.org/
 * https://beagleboard.org/
 * https://www.arduino.cc/en/ArduinoCertified/IntelEdison
 
-Örneğin, Raspberry Pi kartında 64-bit komut setini destekleyen bir Cortex-A53 İşlemci bulunur.
-Bu, rPi ile modern bir işlemci mimarisi deneyimlemenizi sağlar.
-Evet, satın alabilirsin ... ama ... onunla ne yapacaksın?
-Hedef projeniz yoksa, rPi kartı'nı bir çekmeceye atmanız ve daha önce satın almış olabileceğiniz diğer araçlar gibi unutmanız muhtemeldir.
+For example, the Raspberry Pi board has a Cortex-A53 Processor that supports a 64-bit instruction set.
+This allows you to experience a modern processor architecture with rPi.
+Yes, you can buy it... but... what are you going to do with it?
+If you have no target project, you would be likely to throw the board into a drawer and forget it like other gadgets you may have bought before.
 
-Bu yüzden size aşağıdaki projeleri öneriyorum.
+So, I recommend one project for you.
 * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
   * Good references: https://www.reddit.com/r/osdev/
 * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
   * (description of the project) This repository contains a step-by-step guide that teaches how to create a simple operating system (OS) kernel from scratch...(skip)...Each lesson is designed in such a way that it first explains how some kernel feature is implemented in the RPi OS, and then it tries to demonstrate how the same functionality works in the Linux kernel.
 
-[a toy kernel](https://github.com/gurugio/caos) yazdım. 64 bit long modu(long mod olarak kalabilir), sayfalamayı ve çok basit bağlam değiştirmeyi destekleyen deneme amaçlı bir çekirdek(kernel) yapmak, modern bilgisayar mimarisini ve donanım kontrolünü anlamanın iyi bir yoludur.
+I've made [a toy kernel](https://github.com/gurugio/caos) that supports 64-bit long mode, paging and very simple context switching. Making a toy kernel is good way to understand modern computer architecture and hardware control.
 
-Aslında, en son işlemciye ve en son donanım cihazlarına zaten sahipsiniz.
-Senin diz üstü bilgisayarın! Masaüstünüz! Başlamak için ihtiyacınız olan her şeye zaten sahipsiniz!
-Hiçbir şey almanıza gerek yok.
-QEMU emülatörü, en yeni ARM işlemcileri ve Intel işlemcileri sanal ortamında çalıştırabilir.
-Yani ihtiyacınız olan her şey elinizin altında.
-Başvurabileceğiniz birçok oyuncak çekirdeği ve belge var.
-Sadece QEMU'yu kurun ve sadece önyükleyen, sayfalamayı açan ve bazı mesajları yazdıran küçük bir çekirdek yapın.
+In fact, you have already the latest processor and the latest hardware devices.
+Your laptop! Your desktop! You already have all that you need in order to start!
+You don't need to buy anything.
+The qemu emulator can emulate the latest ARM processors and Intel processors.
+So everything you need is already on hand.
+There are many toy kernels and documents you can refer to.
+Just install qemu emulator and make a tiny kernel that just boots, turns on paging, and prints some messages.
 
-Diğer deneme amaçlı çekirdekler(kernel):
+Other toy kernels:
 * https://littleosbook.github.io/
 * https://tuhdo.github.io/os01/
 
 ### <a name="Linux-kernel-and-device-driver"></a>Linux kernel and device driver
 
-Tam bir işletim sistemi oluşturmanıza gerek yok.
-Linux topluluğuna katılın ve geliştirmeye katılın.
+You don't need to make a complete operating system.
+Join the Linux community and participate in development.
 
 #### <a name="Follow-carefully"></a>Follow carefully
 
@@ -218,7 +215,7 @@ Linux topluluğuna katılın ve geliştirmeye katılın.
 
 #### <a name="References"></a>References
 
-Bir şeye ihtiyacınız olduğunda kontrol edin
+Check when you need something
 
 * [Free-electrons homepage](http://free-electrons.com/docs/)
   * many slide files introducing good topics, specially ARM-linux
@@ -227,42 +224,42 @@ Bir şeye ihtiyacınız olduğunda kontrol edin
 
 ### <a name="Other-applications"></a>Other application
 
-Evet, Linux veya firmware geliştirmeyle ilgilenmeyebilirsiniz. Öyleyse, başka çalışma alanları bulabilirsiniz:
+Yes, you might not be interested in Linux or firmware. If so, you can find other applications:
 * Windows systems programming & device drivers
 * Security
 * Reverse engineering
 
-Bu çalışma alanları hakkında hiçbir bilgim yok. Lütfen yeni başlayanlar için yararlı olabilecek bu dosyanın formatına uygun içerikleri gönderin.
+I don't have any knowledge about those applications. Please send me any information for beginners.
 
-**Kernels and drivers are not all of low-level programming.** Aşağı seviyeli programlamanın bir diğer önemli çalışma alanı, yazılım tanımlı depolama veya dağıtık dosya sistemidir. Bunların ayrıntılı açıklamaları bu belgenin kapsamı dışındadır ancak basit bir dağıtık dosya sistemini deneyebileceğiniz mükemmel bir kurs vardır.
+**Kernels and drivers are not all of low-level programming.** One more important application of low-level programming is the software-defined storage or distributed filesystem. Detailed descriptions of them is beyond the scope of this document but there is an excellent course where you can try a simple distributed filesystem.
 * Course: https://pdos.csail.mit.edu/archive/6.824-2012/
 * reference Source: https://github.com/srned/yfs
 
 ## <a name="Future-of-low-level-programming"></a>Future of low-level programming
 
-Geleceği öngöremiyorum ama RUST programlama diline dikkatimi vermeye başladım.
+I do not know the future, but I keep my eye on RUST.
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
 
-Kendime bir hafta zaman ayırabilseydim, RUST öğrenirdim.
-Bunun nedeni, RUST'ın Linux aygıt sürücülerini geliştirebileceğim en son dil olmasıdır.
+If I could have one week free and alone, I would learn RUST.
+That is because RUST is the latest language with which I can develop Linux device drivers.
 * https://github.com/tsgates/rust.ko
 
-IoT tercih edilmeye başlanan popüler ve yeni bir akım, bu nedenle IoT teknolojisiyle hangi işletim sistemlerinin uyumlu olduğunu kontrol etmeye değer görüyorum.
-ARM, Samsung ve bazı şirketlerin kendi gerçek zamanlı işletim sistemleri var, ancak ne yazık ki çoğu kapalı kaynak(yani kaynak kodu verilmeyen, kaynak kodunu düzenlemeye ve yeniden dağıtmaya izin vermeyen çalışmalar).
-Ancak Linux Vakfı'nın da bir çözümü var: Zephyr
+IoT is new trend, so it's worth to check what OSs are for IoT.
+ARM, Samsung and some companies has their own realtime OS but sadly many of them are closed source.
+But Linux Foundation also has a solution: Zephyr
 * https://www.zephyrproject.org/
 
-Geleneksel bulut sunucularının birçok katmanı vardır; örneğin, ana işletim sistemi, kvm sürücüsü, qemu işlemi, konuk işletim sistemi ve hizmet uygulaması. Hafif sanallaştırma sağlamak için bir konteyner geliştirilmiştir. Yakın gelecekte, kütüphane işletim sistemi veya Unikernel olarak adlandırılan yeni bir işletim sistemi kavramı, sanallaştırma için tipik yazılım yığını yerine geçecektir.
+Typical cloud servers have many layers; for instance, host OS, kvm driver, qemu process, guest OS and service application. A container has been developed to provide light virtualization. In the near future, a new concept of OS, a so-called library OS or Unikernel, would replace the typical stack of SW for virtualization.
 * http://unikernel.org/
 
-Büyük veri ve bulut bilişim, daha büyük ve daha büyük depolama gerektirir. Doğrudan sunucu makinelerine takılan bazı diskler gerekli kapasite, kararlılık ve performansı karşılayamaz. Bu nedenle, yüksek hızlı bir ağ ile birbirine bağlanan birçok depolama makinesiyle büyük depolama sistemleri yapmak için araştırmalar yapılmıştır. Eskiden büyük bir depolama hacmi yapmaya odaklanırdı. Ancak şu anda birçok sanal makine için ayrılmış birçok birim sağlıyorlar.
+Big data and cloud computing require bigger and bigger storage. Some disks directly attached to server machines cannot satisfy the required capacity, stability and performance. Therefore there has been research to make huge storage systems with many storage machines connected by a high speed network. It used to be focused on making one huge storage volume. But currently they are providing many volumes dedicated for many virtual machines.
 * https://en.wikipedia.org/wiki/Software-defined_storage
 * https://en.wikipedia.org/wiki/Clustered_file_system
 * https://en.wikipedia.org/wiki/Ceph_(software)
 
 ## <a name="How-to-start"></a>How to start?
 
-Nasıl başlayacağımı soran bir e-posta aldım. Bu sayfada kitaplar, kurslar ve projeler hakkında birçok bilgi var. Nasıl başlayacağımı yazmayı unutmak benim hatam. Maalesef [Kralın Şehrine](https://gameofthrones.fandom.com/wiki/King%27s_Landing) giden Kral Yolu bulunmuyor. Sadece sırayla ne yaptığımı yazacağım. Zaten bir şey yaptıysanız, lütfen atlayın. Ve YİNE belirtmeliyim ki, bu sadece nasıl başlayacağınızı veya ne yapacağınızı bilmiyorsanız, sırayla yapabileceğiniz bir örnek metindir.
+I received an email to ask how to start. There are many information about books, courses and projects in this page. It is my mistake to forget to write how to start. Unfortunately there is no King's Road to [King's Landing](https://gameofthrones.fandom.com/wiki/King%27s_Landing). I will just write what I did in order. If you have already done something, please skip it. AGAIN, this is just an example that you could do in order, just in case if you do not know how to start or what to do.
 
 * Reading OS theory books: at least "The Design of the UNIX Operating System by Maurice J. Bach"
 * Learn assembly and C
@@ -296,19 +293,19 @@ Nasıl başlayacağımı soran bir e-posta aldım. Bu sayfada kitaplar, kurslar 
 
 # <a name="Translation"></a>Translation
 
-Bu sayfayı çevirmek istiyorsanız lütfen bana çekme talebini gönderin. Burada listeleyeceğim.
+Please send me the pull request if you'd like to translate this page. I'll list it here.
+
 * [Chinese](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
 * [Portuguese (Brazilian)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_pt.md)
 * [Italian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_it.md)
 * [Czech](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cz.md)
 * [Russian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_ru.md)
-* [Turkish](https://github.com/masscollaborationlabs/lowlevelprogramming-university/blob/master/README_tr.md)
 
 # <a name="who-am-i"></a>Who am I?
 
-[google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve aşağı seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl aşağı seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
+I'm inspired by [google-interview-university](https://github.com/jwasham/google-interview-university). I'd like to share my experience and show a roadmap to becoming a low-level programmer because I have found that these skills are not as common as they once were. In addition, many students and beginners ask me how they could become low-level programmers and Linux kernel engineers.
 
-Bilmenizi isterim ki aşağı seviyeli kod yazan bir programcı olarak 10 yıldan fazla kod yazma deneyimine sahibim:
+FYI, I have over 10 years of experience as a low-level programmer:
 * 80x86 Assembly programming
 * Hardware device with Atmel chip and firmware
 * C language system programming for Unix
