@@ -119,8 +119,8 @@ Kestirme ve hızlı bir yol bulunmuyor. Sadece kitabın tamamını okuyun ve tü
   * Starts from the 8088 up to today
   * Special focus on low-level graphics optimization
 * [Framework and plugin design in C](https://github.com/gurugio/book_cprogramming)
-  * How to develop framework and plugin in C for large scale software
-  * Very basic programming tips for Linux kernel source reading
+  * Büyük ölçekli yazılımlar için C'de çerçeve ve eklenti nasıl geliştirilir
+  * Linux çekirdek kaynak okuma için çok temel programlama ipuçları
 
 C programlama uzmanı olmak istiyorsanız, https://leetcode.com/ sitesini ziyaret edin. İyi Şanslar!
 
@@ -130,18 +130,18 @@ C programlama uzmanı olmak istiyorsanız, https://leetcode.com/ sitesini ziyare
 
 Gömülü sistem mühendisi olmak istiyorsanız, en son ARM yonga setiyle başlamak yerine basit bir donanım geliştirme setinden(kitinden) başlamak en iyisi olacaktır.
 
-* [Arduino Start Kit](https://www.arduino.cc/)
-  * There are many series of Arduinos but "Arduino Start Kit" has the most simple processor(Atmega328P) and guide book
-  * Atmega328P has an 8-bit core which is a good place to start digital circuit design and firmware development.
-  * You don't need to know how to draw schematics and layouts and assemble the chips.
-  * But you do need to know how to read schematics and understand how the chips are connected.
-  * Firmware developers should be able to read the schematics and figure out how to send data to the target device.
-  * Follow the guide book!
+* [Arduino Başlangıç Kiti](https://www.arduino.cc/)
+  * Birçok Arduino serisi vardır, ancak "Arduino Başlangıç ​​Kiti" en basit işlemciye (Atmega328P) ve kılavuz kitabına sahiptir.
+  * Atmega328P, dijital devre tasarımına ve aygıt yazılımı geliştirmeye başlamak için iyi bir yer olan 8 bitlik bir çekirdeğe sahiptir.
+  * Şemaları ve düzenleri nasıl çizeceğinizi ve çipleri nasıl monte edeceğinizi bilmenize gerek yok.
+  * Ancak şemaları nasıl okuyacağınızı bilmeniz ve çiplerin nasıl bağlandığını anlamanız gerekir.
+  * Firmware geliştiricileri, şemaları okuyabilmeli ve verileri hedef cihaza nasıl göndereceklerini bulabilmelidir.
+  * Kılavuzu takip edin!
 * [8086 manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
-  * If you're a beginner to x86 architecture, 8086 is also very good guide for processor architecture and 80x86 assembly
+  * X86 mimarisine yeni başlayan biriyseniz, 8086 işlemci mimarisi ve 80x86 derlemesi için de çok iyi bir kılavuzdur.
 * [80386 manual](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
-  * Best guide for protected mode and paging mechanism of 80x86 processor
-  * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
+  * 80x86 işlemcinin korumalı modu ve sayfalama mekanizması için en iyi kılavuz
+  * Web sürümü: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
 
 Bu noktada, en son ARM veya x86 işlemciye başlamanız gerekir.
 * https://www.raspberrypi.org/
@@ -149,17 +149,17 @@ Bu noktada, en son ARM veya x86 işlemciye başlamanız gerekir.
 * https://www.arduino.cc/en/ArduinoCertified/IntelEdison
 
 Örneğin, Raspberry Pi kartında 64-bit komut setini destekleyen bir Cortex-A53 İşlemci bulunur.
-Bu, rPi ile modern bir işlemci mimarisi deneyimlemenizi sağlar.
+Bu, RPi ile modern bir işlemci mimarisi deneyimlemenizi sağlar.
 Evet, satın alabilirsin ... ama ... onunla ne yapacaksın?
-Hedef projeniz yoksa, rPi kartı'nı bir çekmeceye atmanız ve daha önce satın almış olabileceğiniz diğer araçlar gibi unutmanız muhtemeldir.
+Hedef projeniz yoksa, RPi kartı'nı bir çekmeceye atmanız ve daha önce satın almış olabileceğiniz diğer araçlar gibi unutmanız muhtemeldir.
 
 Bu yüzden size aşağıdaki projeleri öneriyorum.
 * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
-  * Good references: https://www.reddit.com/r/osdev/
+  * İyi referanslar: https://www.reddit.com/r/osdev/
 * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
-  * (description of the project) This repository contains a step-by-step guide that teaches how to create a simple operating system (OS) kernel from scratch...(skip)...Each lesson is designed in such a way that it first explains how some kernel feature is implemented in the RPi OS, and then it tries to demonstrate how the same functionality works in the Linux kernel.
+  * (projenin açıklaması) Bu depo, basit bir işletim sistemi (OS) çekirdeğinin sıfırdan nasıl oluşturulacağını öğreten adım adım bir kılavuz içerir ... (atla) ... Her ders öyle tasarlandı ki önce bazı çekirdek özelliğinin RPi işletim sisteminde nasıl uygulandığını açıklar ve ardından aynı işlevselliğin Linux çekirdeğinde nasıl çalıştığını göstermeye çalışır.
 
-[a toy kernel](https://github.com/gurugio/caos) yazdım. 64 bit long modu(long mod olarak kalabilir), sayfalamayı ve çok basit bağlam değiştirmeyi destekleyen deneme amaçlı bir çekirdek(kernel) yapmak, modern bilgisayar mimarisini ve donanım kontrolünü anlamanın iyi bir yoludur.
+[deneme amaçlı kernel çalışmam](https://github.com/gurugio/caos) yazdım. 64 bit long modu(long mod olarak kalabilir), sayfalamayı ve çok basit bağlam değiştirmeyi destekleyen deneme amaçlı bir çekirdek(kernel) yapmak, modern bilgisayar mimarisini ve donanım kontrolünü anlamanın iyi bir yoludur.
 
 Aslında, en son işlemciye ve en son donanım cihazlarına zaten sahipsiniz.
 Senin diz üstü bilgisayarın! Masaüstünüz! Başlamak için ihtiyacınız olan her şeye zaten sahipsiniz!
@@ -180,61 +180,61 @@ Linux topluluğuna katılın ve geliştirmeye katılın.
 
 #### <a name="Dikkatlice-okuyun"></a>Dikkatlice okuyun
 
-* Books: Read the following in order
+* Kitaplar: Aşağıdakileri sırayla okuyun
   * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
-    * The basic concepts of Unix are applied into all operating systems.
-    * This book is a very good place to learn the core concepts of operating systems.
+    * UNIX'in temel kavramları tüm işletim sistemlerine uygulanır.
+    * Bu kitap, işletim sistemlerinin temel kavramlarını öğrenmek için çok iyi bir yerdir.
   * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
-    * Make all examples for yourself
+    * Kendiniz için tüm örnekleri yapın
   * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
-    * Understand the design of the Linux Kernel
+    * Linux Kernel'in tasarımını anlayın
   * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
-    * Read this book and the kernel source v2.6 at the same time
-    * Never start with the latest version, v2.6 is enough!
-    * Use qemu and gdb to run the kernel source line by line
+    * Bu kitabı ve v2.6 çekirdek kaynağını aynı anda okuyun
+    * Asla en son sürümle başlamayın, v2.6 yeterlidir!
+    * Çekirdek kaynağını satır satır çalıştırmak için qemu ve gdb'yi kullanın
       * http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu
       * https://github.com/gurugio/linuxdeveloptip/blob/master/qemu-gdb-kdump.md
-    * Use busybox to make the simplest filesystem that takes only one second to boot
+    * Önyüklemesi yalnızca bir saniye süren en basit dosya sistemini yapmak için busybox kullanın
       * https://github.com/gurugio/linuxdeveloptip/blob/master/minikernelwithbusybox.md
-* Other resources: Free resources I recommend
+* Diğer kaynaklar: Önerdiğim ücretsiz kaynaklar
   * [Linux device driver labs](https://linux-kernel-labs.github.io/)
-    * Practical guide and excellent exercises making Linux device drivers with essential kernel APIs
-    * I think this document introduces almost all essential kernel APIs.
+    * Linux aygıt sürücülerini temel çekirdek API'leri ile yapan pratik kılavuz ve mükemmel alıştırmalar
+    * Bu belgenin neredeyse tüm temel çekirdek API'lerini tanıttığını düşünüyorum.
   * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
-    * _Sadly, this challenge does not accept new challengers because there is no challenge anymore._ The maintainer said he/she is planning a new format. I hope it comes back ASAP.
-      * But you can find the questions of the challenge with Google. Some people already uploaded what they did. Find the questions and try to solve them on your own, and compare your solution with others.
-    * This is like an awesome private teacher who guides you on what to do.
-    * If you don't know what to do, just start this.
+    * Ne yazık ki, bu meydan okuma yeni meydan okuyanları kabul etmiyor çünkü artık zorluk yok._ Bakımcı yeni bir format planladığını söyledi. Umarım en kısa zamanda geri gelir.
+      * Ancak sorunun sorularını Google ile bulabilirsiniz. Bazı insanlar yaptıklarını zaten yükledi. Soruları bulun ve kendi başınıza çözmeye çalışın ve çözümünüzü diğerleriyle karşılaştırın.
+    * Bu, size ne yapmanız gerektiği konusunda rehberlik eden harika bir özel öğretmen gibidir.
+    * Ne yapacağınızı bilmiyorsanız, hemen başlayın.
   *  [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
-     * This project is not completed yet.
-     * I always think making a kernel similar to the Linux kernel is the best way to understand the Linux kernel.
-  * [Block layer and device driver](https://github.com/gurugio/book_linuxkernel_blockdrv)
-    * start from a simple block device driver example (Ramdisk) with multi-queue mode
-    * go forward to block layer
-    * I completed translation into English. Please send me your feedback.
+     * Bu proje henüz tamamlanmadı.
+     * Her zaman Linux çekirdeğine benzer bir çekirdek yapmanın Linux çekirdeğini anlamanın en iyi yolu olduğunu düşünüyorum.
+  * [Block layer and device driver](https://github.com/gurugio/book_linuxkernel_blockdrv) 
+    * multi-queue mode ile basit bir blok sürücüsü örneğinden (Ramdisk) başlayın
+    * blok katmanına bakın
+    * İngilizceye çeviriyi tamamladım. Lütfen bana geri bildiriminizi gönderin.
   * [md driver of Linux kernel(Korean)](https://github.com/gurugio/book_linuxkernel_md)
-    * how mdadm tool works and how it calls md driver
-    * how md driver works
+    * mdadm aracı nasıl çalışır ve md sürücüsünü nasıl çağırır
+    * md sürücüsü nasıl çalışır
 
 #### <a name="Referanslar"></a>Referanslar
 
-Bir şeye ihtiyacınız olduğunda kontrol edin
+Bir şeye ihtiyacınız olduğunda kontrol edeceğiniz kaynaklardan:
 
 * [Free-electrons homepage](http://free-electrons.com/docs/)
-  * many slide files introducing good topics, specially ARM-linux
+  * iyi konuları, özellikle ARM-linux'u tanıtan birçok slayt dosyasıdır.
 * [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
-  * guide to start kernel programming
+  * çekirdek programlamaya başlama kılavuzudur.
 
 ### <a name="Diğer-Çalışma-Alanları"></a>Diğer Çalışma Alanları
 
 Evet, Linux veya firmware geliştirmeyle ilgilenmeyebilirsiniz. Öyleyse, başka çalışma alanları bulabilirsiniz:
-* Windows systems programming & device drivers
-* Security
-* Reverse engineering
+* Windows sistem programlama & aygıt sürücüleri
+* Bilgi Güvenliği
+* Tersine Mühendislik(Ters Mühendislik)
 
 Bu çalışma alanları hakkında hiçbir bilgim yok. Lütfen yeni başlayanlar için yararlı olabilecek bu dosyanın formatına uygun içerikleri gönderin.
 
-**Kernels and drivers are not all of low-level programming.** Aşağı seviyeli programlamanın bir diğer önemli çalışma alanı, yazılım tanımlı depolama veya dağıtık dosya sistemidir. Bunların ayrıntılı açıklamaları bu belgenin kapsamı dışındadır ancak basit bir dağıtık dosya sistemini deneyebileceğiniz mükemmel bir kurs vardır.
+**Çekirdekler ve sürücüleri, düşük seviyeli programlamanın tamamı değildir.** Aşağı seviyeli programlamanın bir diğer önemli çalışma alanı, yazılım tanımlı depolama veya dağıtık dosya sistemidir. Bunların ayrıntılı açıklamaları bu belgenin kapsamı dışındadır ancak basit bir dağıtık dosya sistemini deneyebileceğiniz mükemmel bir kurs vardır.
 * Course: https://pdos.csail.mit.edu/archive/6.824-2012/
 * reference Source: https://github.com/srned/yfs
 
@@ -309,9 +309,9 @@ Bu sayfayı çevirmek istiyorsanız lütfen bana çekme talebini gönderin. Bura
 [google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve aşağı seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl aşağı seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
 
 Bilmenizi isterim ki aşağı seviyeli kod yazan bir programcı olarak 10 yıldan fazla kod yazma deneyimine sahibim:
-* 80x86 Assembly programming
-* Hardware device with Atmel chip and firmware
-* C language system programming for Unix
-* Device driver in Linux
-* Linux kernel: page allocation
-* Linux kernel: block device driver and md module
+* 80x86 platformunda Assembly programlama 
+* Atmel çipli ve firmwarelı donanım cihazı
+* UNIX için C dil sistemi programlama çalışması
+* Linux'ta aygıt sürücüsü
+* Linux çekirdeği: sayfa ayırma
+* Linux çekirdeği: blok aygıt sürücüsü ve md modulü
