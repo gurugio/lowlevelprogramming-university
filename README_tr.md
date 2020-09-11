@@ -2,7 +2,7 @@ UYARI: Lütfen aşağı seviyeli programlamanın popüler olmadığını ve şu 
 Henüz profesyonel bir kariyere başlamadıysanız, diğer alanları da dikkatlice değerlendirmenizi tavsiye ederim.
 
 
-* [Aşağı Seviyeli Programmlama Üniversitesi](#Aşağı-Seviyeli-Programlama-Üniversitesi)
+* [Aşağı Seviyeli Programlama Üniversitesi](#Aşağı-Seviyeli-Programlama-Üniversitesi)
   * [Nedir?](#Nedir)
   * [Aşağı Seviye nedir?](#Aşağı-Seviye-nedir)
   *  [Teori](#Teori)
