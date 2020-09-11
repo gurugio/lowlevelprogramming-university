@@ -235,8 +235,8 @@ Evet, Linux veya firmware geliştirmeyle ilgilenmeyebilirsiniz. Öyleyse, başka
 Bu çalışma alanları hakkında hiçbir bilgim yok. Lütfen yeni başlayanlar için yararlı olabilecek bu dosyanın formatına uygun içerikleri gönderin.
 
 **Çekirdekler ve sürücüleri, düşük seviyeli programlamanın tamamı değildir.** Aşağı seviyeli programlamanın bir diğer önemli çalışma alanı, yazılım tanımlı depolama veya dağıtık dosya sistemidir. Bunların ayrıntılı açıklamaları bu belgenin kapsamı dışındadır ancak basit bir dağıtık dosya sistemini deneyebileceğiniz mükemmel bir kurs vardır.
-* Course: https://pdos.csail.mit.edu/archive/6.824-2012/
-* reference Source: https://github.com/srned/yfs
+* Ders: https://pdos.csail.mit.edu/archive/6.824-2012/
+* Referans'ın kaynağı: https://github.com/srned/yfs
 
 ## <a name="Aşağı-Seviyeli-Programlamanın-Geleceği"></a>Aşağı Seviyeli Programlamanın Geleceği
 
