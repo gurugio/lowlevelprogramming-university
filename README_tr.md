@@ -304,7 +304,7 @@ Bu sayfayı çevirmek istiyorsanız lütfen bana çekme talebini gönderin. Bura
 * [Russian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_ru.md)
 * [Turkish](https://github.com/masscollaborationlabs/lowlevelprogramming-university/blob/master/README_tr.md)
 
-# <a name="Ben-Kimim"></a>Ben-Kimim?
+# <a name="Ben-Kimim"></a>Ben Kimim?
 
 [google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve aşağı seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl aşağı seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
 
