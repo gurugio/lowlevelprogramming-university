@@ -1,87 +1,96 @@
-RNOTICE: Please notice that low-level programming is out of trend and currently there are not many companies hiring low-level developer. It is getting harder for me to find a job.
-If you does not start professional career yet, I would like to recommend you consider other fields carefully.
+RNOTICE:  
+Please notice that low-level programming is out of trend and currently  
+there are not many companies hiring low-level developer.  
+It is getting harder for me to find a job.  
+If you does not start professional career yet,  
+I would like to recommend you consider other fields carefully.
 
-*提醒*：
-請注意，底層程式開發已不是主要趨勢，現今有許多公司已不再聘請底層程式開發者，
-作者本身也越來越難找到相關的工作。
+__提醒__：  
+請注意，底層程式開發已不是主要趨勢，現今有許多公司已不再聘請底層程式開發者，  
+作者本身也越來越難找到相關的工作。  
 如果你並非全職專業技能者，我會建議你仔細考慮其他領域。
 
-* [底層程式開發的世界]](#Low-Level-Programming-University)
+* [底層程式開發的世界](#Low-Level-Programming-University)
   * [這篇文章在講什麼?](#What-is-it)
   * [什麼是底層](#What-Is-the-Low-Level)
-  * [理論]](#Theory)
-  * [程式語言]](#Languages)
+  * [理論](#Theory)
+  * [程式語言](#Languages)
      * [組合語言](#Assembly)
      * [C 語言](#C-language)
-  * [應用程式]](#Applications)
-    * [硬體] && 韌體](#Hardware-Firmware)
+  * [應用程式](#Applications)
+    * [硬體 && 韌體](#Hardware-Firmware)
     * [Linux 核心與設備驅動程式](#Linux-kernel-and-device-driver)
-      * [仔細的跟隨前人]](#Follow-carefully)
-      * [參考]](#References)
-    * [其他的應用領域]](#Other-applications)
-  * [關於底層程式開發的前景]](#Future-of-low-level-programming)
+      * [仔細的跟隨前人](#Follow-carefully)
+      * [參考](#References)
+    * [其他的應用領域](#Other-applications)
+  * [關於底層程式開發的前景](#Future-of-low-level-programming)
   * [如何開始?](#How-to-start)
-* [翻譯版本]](#Translation)
+* [翻譯版本](#Translation)
 * [我是誰?](#who-am-i)
 
 # 底層程式開發的世界
 
 ## <a name="What-is-it"></a>這篇文章在講什麼?
 
-我是被一篇文章所啟發 [google-interview-university](https://github.com/jwasham/coding-interview-university)。
+我是被一篇文章所啟發 [google-interview-university](https://github.com/jwasham/coding-interview-university)。  
 我想要來分享我自己的經驗並且展示如何成為一個底層程式開發者，
-因為我發現這些技能並不像以前一樣那麼的常見。
+因為我發現這些技能並不像以前一樣那麼的常見。  
 此外，也有越來越多的學生及初學者開始問我，
-如何成為一個底層開發者及 Linux 核心工程師。
+如何成為一個底層開發者及 Linux 核心工程師。  
 
-這篇文章並不會包含所有相關的 連結/書籍/課程。
+這篇文章並不會包含所有相關的 連結/書籍/課程。    
 例如，這篇文章包含了 Arduino，但並不會有關於 Arduino 及嵌入式系統的細節資訊，
-你得到了 Arduino 這個關鍵字，接下來所要做的就是走出自己的一條路。
+你得到了 Arduino 這個關鍵字，接下來所要做的就是走出自己的一條路。    
 這條路可能是從 googling Arduino 開始，買一些器材、設備，為你的學習做出實際的行動，
-而非收集一堆資訊卻不去閱讀。請記得，這只是一個給初學者的學習指南而已。
+而非收集一堆資訊卻不去閱讀。    
+請記得，這只是一個給初學者的學習指南而已。
 
-底層程式開發是電腦科學的一部分。
-當然，如果能先學習有關電腦科學的相關教育知識會是更好的。
+底層程式開發是電腦科學的一部分。    
+當然，如果能先學習有關電腦科學的相關教育知識會是更好的。    
 
 * [免費的自學電腦科學途徑!](https://github.com/ossu/computer-science)
 
 
 ## <a name="What-Is-the-Low-Level"></a>什麼是底層?
 
-什麼是底層？什麼是高階層？
-我區分的方式是，你是否使用了 C 或組合語言去撰寫了與機器相關的程式。
-這相對於其他高階層的程式開發有很大的區別，
+什麼是底層？什麼是高階層？    
+我區分的方式是，你是否使用了 C 或組合語言去撰寫了與機器相關的程式。    
+這相對於其他高階層的程式開發有很大的區別，    
 因為高階層的程式語言開發，通常不需要注意機器、硬體，
-使用者空間 (user-space) 的應用程式，通常會使用高階層程式語言 (例如： Python, Java)
+使用者空間 (user-space) 的應用程式，通常會使用高階層程式語言 (例如： Python, Java) 
+
 * [維基百科: 底層程式語言](https://en.wikipedia.org/wiki/Low-level_programming_language)
 
 
-你可能猜到了一些，系統程式開發是一種非常靠近底層程式開發的型態。
-但是系統程式開發通常不會包含硬體設計及韌體開發，而這篇文章會包含這些額外的內容
+你可能猜到了一些，系統程式開發是一種非常靠近底層程式開發的型態。    
+但是系統程式開發通常不會包含硬體設計及韌體開發，而這篇文章會包含這些額外的內容    
+
 * [維基百科: 系統程式開發](https://en.wikipedia.org/wiki/System_programming)
 
 
-最後，這篇文章會從硬體的元件，講到 Linux 核心。
+最後，這篇文章會從硬體的元件，講到 Linux 核心。    
 這跨越了非常多的領域，一篇文章不太可能包含所有的細節，
-所以請把這篇文章當成一個進入底層程式開發的起始點。
+所以請把這篇文章當成一個進入底層程式開發的起始點。    
 
 
 ##  <a name="Theory"></a>理論
 
 底層程式開發有兩種主要的背景知識
+
 * 電腦組織架構
 * 作業系統
 
 
 我認為學習理論最好的方式是跟著一個課程學習，
-自己讀書並不是不好，只是會耗費你大量的時間與努力，
-你應該可以在網路上找到各個大學的線上課程，例如像 Coursera.org 和 edx.org。
-理論就是理論，我不認為你一定要在課堂上拿到 A+，只需要在腦中有一個粗略的背景知識。
-你會隨著經驗增加而越來越厲害。
+自己讀書並不是不好，只是會耗費你大量的時間與努力，    
+你應該可以在網路上找到各個大學的線上課程，例如像 Coursera.org 和 edx.org。    
+理論就是理論，我不認為你一定要在課堂上拿到 A+，只需要在腦中有一個粗略的背景知識。    
+你會隨著經驗增加而越來越厲害。    
 
 
-讓我介紹幾本我讀過的書。這些書通常是大學中的教科書。
-就算你的大學中沒有任何的課程是使用這些書，它們還是很值得你花時間去閱讀
+讓我介紹幾本我讀過的書。    
+這些書通常是大學中的教科書。    
+就算你的大學中沒有任何的課程是使用這些書，它們還是很值得你花時間去閱讀    
 
 * 電腦組織與架構
   * Computer Architecture, Fifth Edition: A Quantitative Approach
@@ -95,8 +104,8 @@ If you does not start professional career yet, I would like to recommend you con
    * [CS401: 作業系統 from saylor.org](https://learn.saylor.org/course/view.php?id=94)
 
 
-世界上有無窮無盡的好書等著你。
-我不想說你應該每一本都去念，只要選個一、兩本，仔細的去讀、去學，
+世界上有無窮無盡的好書等著你。    
+我不想說你應該每一本都去念，只要選個一、兩本，仔細的去讀、去學，    
 不論你學到了什麼理論，把程式碼實做出來
 **實做無價，把東西做出來，知識才真的屬於你**
 
@@ -104,8 +113,9 @@ If you does not start professional career yet, I would like to recommend you con
 
 ### <a name="Assembly"></a>組合語言
 
-選擇 X86 或 ARM 其中一種。不需要兩種都知道。
-至於選那一種也不是很重要，因為學習組合語言的重點是，你必須要知道 CPU 與電腦的運作方式，所以不需要練習最新 CPU 的組合語言，嘗試選一種 8086 或 Corex-M
+選擇 X86 或 ARM 其中一種。不需要兩種都知道。    
+至於選那一種也不是很重要，因為學習組合語言的重點是，你必須要知道 CPU 與電腦的運作方式，    
+所以不需要練習最新 CPU 的組合語言，嘗試選一種 8086 或 Corex-M
 
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
@@ -155,7 +165,11 @@ If you does not start professional career yet, I would like to recommend you con
   * 如何用 C 語言在大型軟體中開發框架與套件
   * 如何閱讀 Linux 核心程式碼之基本程式開發的提示
 
-如果你想成為 C 語言的專家, 請到 https://leetcode.com/. Good luck!
+如果你想成為 C 語言的專家, 請到     
+
+https://leetcode.com/.     
+
+Good luck!
 
 ## <a name="Applications"></a>應用程式
 
@@ -186,36 +200,38 @@ If you does not start professional career yet, I would like to recommend you con
 
 舉例，樹莓派的開發板上有 Cortex-A53 的處理器，該處理器支援 64 bit 的指令集
 
-新的樹莓派可以讓你體驗先進的處理器架構，你可以買新的沒錯，
-但如果你沒有任何的想法，不知道買來要幹麻，你很可能很快就會把板子忘在抽屜裡面了，
-就像你之前買的那些設備一樣，對吧，你懂的。
+新的樹莓派可以讓你體驗先進的處理器架構，你可以買新的沒錯，    
+但如果你沒有任何的想法，不知道買來要幹麻，你很可能很快就會把板子忘在抽屜裡面了，    
+就像你之前買的那些設備一樣，對吧，你懂的。    
 
-所以，我有個好建議。
-* [寫一個你自己的核心]](http://wiki.osdev.org/Getting_Started)
-  * 很棒的參考: https://www.reddit.com/r/osdev/
-* [用樹莓派來學習如何做 Linux 作業系統與核心開發]](https://github.com/s-matyukevich/raspberry-pi-os)
-  * （嘗試描述這個專案）(description of the project) 這個程式庫有說明書，教你如何一步一步的從無到有，建立一個簡單的作業系統核心，每一個課程都是專門為了初學者設計過的，告訴你每一個核心的功能，如何實做在樹莓派作業系統中，並嘗試以此示範在 Linux 核心中同樣的功能是如何運作的
+所以，我有個好建議。    
 
-我做了一個 [小型核心程式]](https://github.com/gurugio/caos) 
-它支援 64-bit 長指令模式，paging，簡單的 context switching，
+* [寫一個你自己的核心](http://wiki.osdev.org/Getting_Started)
+* 很棒的參考: https://www.reddit.com/r/osdev/
+* [用樹莓派來學習如何做 Linux 作業系統與核心開發](https://github.com/s-matyukevich/raspberry-pi-os)
+* （嘗試描述這個專案）(description of the project) 這個程式庫有說明書，教你如何一步一步的從無到有，建立一個簡單的作業系統核心，每一個課程都是專門為了初學者設計過的，告訴你每一個核心的功能，如何實做在樹莓派作業系統中，並嘗試以此示範在 Linux 核心中同樣的功能是如何運作的
+
+我做了一個 [小型核心程式](https://github.com/gurugio/caos) 
+它支援 64-bit 長指令模式，paging，簡單的 context switching，    
 用 __小型核心程式__ 來示範，讓人可以比較簡單的了解現代的電腦架構與硬體控制
 
-事實上，你早就有最新的處理器及硬體設備，就是你的筆記型電腦，你隨時可以開始。
-你可以不用再買其他東西，qemu 模擬器可以模擬最新的 ARM 處理器跟 Intel 處理器
+事實上，你早就有最新的處理器及硬體設備，就是你的筆記型電腦，你隨時可以開始。    
+你可以不用再買其他東西，qemu 模擬器可以模擬最新的 ARM 處理器跟 Intel 處理器    
 
-你需要的，你都有，
-你可以參考很多東西，隨便找都有一堆小型核心程式跟文件，
-安裝 qemu 模擬器，編譯出一個小核心，
-啟動核心之後，啟動 paging，印幾行訊息出來看看。
+你需要的，你都有，    
+你可以參考很多東西，隨便找都有一堆小型核心程式跟文件，    
+安裝 qemu 模擬器，編譯出一個小核心，    
+啟動核心之後，啟動 paging，印幾行訊息出來看看。    
 
 
 還有一些你可以參考的小型核心程式 :
+
 * https://littleosbook.github.io/
 * https://tuhdo.github.io/os01/
 
 ### <a name="Linux-kernel-and-device-driver"></a>Linux 核心與設備驅動程式
 
-要做一整個完整的作業系統是非常困難的，其實你不需要自己做，
+要做一整個完整的作業系統是非常困難的，其實你不需要自己做，    
 加入 Linux 社群，參與開發就好
 
 #### <a name="Follow-carefully"></a>上緊發條、跟著進度，不要放棄
@@ -279,8 +295,8 @@ If you does not start professional career yet, I would like to recommend you con
 
 
 **核心以及驅動程式並不是底層程式開發的全部** 
-有一個很重要的底層應用程式，稱為『軟體定義儲存裝置』或『分散式檔案系統』。
-關於此領域的知識細節已經超出了這個文件所要介紹的範圍，
+有一個很重要的底層應用程式，稱為『軟體定義儲存裝置』或『分散式檔案系統』。    
+關於此領域的知識細節已經超出了這個文件所要介紹的範圍，    
 但如果你有興趣，可以參考這個課程，可以了解簡單的分散式檔案系統。
 
 * 課程: https://pdos.csail.mit.edu/archive/6.824-2012/
@@ -289,49 +305,53 @@ If you does not start professional career yet, I would like to recommend you con
 ## <a name="Future-of-low-level-programming"></a>底層程式開發的未來
 
 其實我並不知道未來會是怎樣，但是我持續在注意 RUST 這個程式語言。
+
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
 
-如果我有一些獨處的時間，我會試著學 RUST。
+如果我有一些獨處的時間，我會試著學 RUST。    
 因為 RUST 是嶄新的程式語言，也可以拿來開發 Linux 設備驅動程式。
+
 * https://github.com/tsgates/rust.ko
 
-物連網是目前的新趨勢，所以很值得去了解物連網與其相關的作業系統。
+物連網是目前的新趨勢，所以很值得去了解物連網與其相關的作業系統。    
 ARM、三星，還有一些其他的公司有發展它們自己的即時作業系統，
-可惜的是大部分都為閉源程式（相對於開源程式）。
+可惜的是大部分都為閉源程式（相對於開源程式）。    
 但別氣餒，Linux 基金會也有自己的開源解決方案：Zephyr
+
 * https://www.zephyrproject.org/
 
-一個典型的雲端伺服器會有好幾層的技術堆疊，
+一個典型的雲端伺服器會有好幾層的技術堆疊，    
 例如：會有主層作業系統、客層作業系統、KVM 驅動程式、qemu 的行程、應用程式服務。
 
-有一種應用程式稱為容器，容器已經可以提供輕量型的虛擬化。
-在不久的將來，會有新的作業系統概念，也就是所謂的 library OS 或稱 Unikernel，
+有一種應用程式稱為容器，容器已經可以提供輕量型的虛擬化。    
+在不久的將來，會有新的作業系統概念，也就是所謂的 library OS 或稱 Unikernel，    
 有可能會取代目前典型的軟體虛擬化技術。
+
 * http://unikernel.org/
 
-大數據及雲端計算需要非常非常多的儲存空間。
-有時候，在伺服器內的硬碟容量、穩定性及效能，已經不能負荷其服務所需。
+大數據及雲端計算需要非常非常多的儲存空間。    
+有時候，在伺服器內的硬碟容量、穩定性及效能，已經不能負荷其服務所需。    
 因此目前有人在研究，嘗試開發出一個巨型儲存系統，這個系統是用許多分散式的儲存設備，配合高速網路互相連接，所搭建起來的。
-上述的技術主要是用來搭建一個巨大的儲存空間。
-而目前這樣的技術主要是用來做虛擬機器的使用空間。
+上述的技術主要是用來搭建一個巨大的儲存空間。    
+而目前這樣的技術主要是用來做虛擬機器的使用空間。    
+
 * https://en.wikipedia.org/wiki/Software-defined_storage
 * https://en.wikipedia.org/wiki/Clustered_file_system
 * https://en.wikipedia.org/wiki/Ceph_(software)
 
 ## <a name="How-to-start"></a>如何開始?
 
-我收到了許多的信件來問我說，你說的東西很棒，但是該怎麼開始？
-其實你們所需要的東西都已經在這篇文章裡面了，不管是書籍、課程、還是專案。
+我收到了許多的信件來問我說，你說的東西很棒，但是該怎麼開始？    
+其實你們所需要的東西都已經在這篇文章裡面了，不管是書籍、課程、還是專案。    
 我想我忘了告訴大家該怎麼開始做這一切，
-但其實關於這個問題…，
-就如同詢問，該如何從河岸的一岸到另外一岸？
+但其實關於這個問題…，就如同詢問，該如何從河岸的一岸到另外一岸？    
 該如何到達彼岸，並沒有正確的答案
 
 [King's Landing](https://gameofthrones.fandom.com/wiki/King%27s_Landing)
 
-我所能做的就是把我曾經做過得寫出來。
+我所能做的就是把我曾經做過得寫出來。    
 如果你也曾經學過這些，就跳過去學下一個，
-我必須再次聲明，這只是個讓你參考如何開始的範例。
+我必須再次聲明，這只是個讓你參考如何開始的範例。    
 
 * 閱讀作業系統理論書籍: 最少要看一下 "The Design of the UNIX Operating System by Maurice J. Bach"
 * 學組合語言與 C 語言
@@ -365,7 +385,7 @@ ARM、三星，還有一些其他的公司有發展它們自己的即時作業�
 
 # <a name="Translation"></a>翻譯版本
 
-如果你翻譯了這份文章，請發個 pull request 給我，
+如果你翻譯了這份文章，請發個 pull request 給我，    
 我會將你翻譯的部份放在下方的列表中
 
 * [Chinese (Simpllified)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
@@ -379,14 +399,15 @@ ARM、三星，還有一些其他的公司有發展它們自己的即時作業�
 # <a name="who-am-i"></a>原作者?
 
 
-我因為閱讀了 [google-interview-university](https://github.com/jwasham/google-interview-university) 這篇文章而被啟發。
+我因為閱讀了 [google-interview-university](https://github.com/jwasham/google-interview-university) 這篇文章而被啟發。    
 我想要分享我的知識、經驗，並且告訴世人要如何成為一個底層程式語言開發者，
-因為我發現這些知識，已經不像以前那麼常見。
-此外，許多初學者及學生一直再問我，他們應該如何做才能成為底層程式開發者。
+因為我發現這些知識，已經不像以前那麼常見。    
+此外，許多初學者及學生一直再問我，他們應該如何做才能成為底層程式開發者。    
 
 
 如果你想了解我？
 我是一位擁有 10 年底層程式開發經驗的程式設計師：
+
 * 80x86 組合語言程式開發
 * Atmel 晶片、硬體、韌體開發經驗
 * Unix 系統 C 語言開發經驗
