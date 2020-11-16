@@ -12,7 +12,6 @@ If you does not start professional career yet, I would like to recommend you con
   * [Applications](#Applications)
     * [Hardware && Firmware](#Hardware-Firmware)
     * [Linux kernel and device driver](#Linux-kernel-and-device-driver)
-      * [Follow carefully](#Follow-carefully)
       * [References](#References)
     * [Other applications](#Other-applications)
   * [Future of low-level programming](#Future-of-low-level-programming)
@@ -175,8 +174,7 @@ Other toy kernels:
 You don't need to make a complete operating system.
 Join the Linux community and participate in development.
 
-#### <a name="Follow-carefully"></a>Follow carefully
-
+Some resources for Linux kernel and device driver development from beginner to advanced.
 * Books: Read the following in order
   * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
     * The basic concepts of Unix are applied into all operating systems.
