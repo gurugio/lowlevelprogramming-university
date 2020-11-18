@@ -20,7 +20,6 @@ __提醒__：
   * [應用程式](#Applications)
     * [硬體 && 韌體](#Hardware-Firmware)
     * [Linux 核心與設備驅動程式](#Linux-kernel-and-device-driver)
-      * [仔細的跟隨前人](#Follow-carefully)
       * [參考](#References)
     * [其他的應用領域](#Other-applications)
   * [關於底層程式開發的前景](#Future-of-low-level-programming)
@@ -234,7 +233,7 @@ Good luck!
 要做一整個完整的作業系統是非常困難的，其實你不需要自己做，    
 加入 Linux 社群，參與開發就好
 
-#### <a name="Follow-carefully"></a>上緊發條、跟著進度，不要放棄
+初階到進階之 Linux 核心與設備驅動程式開發的相關資源
 
 * 書籍: 照著順序讀以下的書
   * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
