@@ -293,7 +293,8 @@ I received an email to ask how to start. There are many information about books,
 
 Please send me the pull request if you'd like to translate this page. I'll list it here.
 
-* [Chinese](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
+* [Chinese(Traditional)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_tw.md)
+* [Chinese(Simplified)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
 * [Portuguese (Brazilian)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_pt.md)
 * [Italian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_it.md)
 * [Czech](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cz.md)
