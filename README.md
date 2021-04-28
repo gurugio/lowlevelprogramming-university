@@ -300,6 +300,7 @@ Please send me the pull request if you'd like to translate this page. I'll list 
 * [Czech](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cz.md)
 * [Russian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_ru.md)
 * [Turkish](https://github.com/masscollaborationlabs/lowlevelprogramming-university/blob/master/README_tr.md)
+* [Persian](https://github.com/masscollaborationlabs/lowlevelprogramming-university/blob/master/README_fa.md)
 
 # <a name="who-am-i"></a>Who am I?
 
