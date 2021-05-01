@@ -284,14 +284,14 @@ I received an email to ask how to start. There are many information about books,
   * If you want to be professional Linux Kernel Developer
     * must read [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
       * Then try to make a toy kernel
-      * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
+      * [Learn operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
       * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
-      * Write the link to your kernel on your resume
+      * Write the github link to your kernel on your resume (Don't forget to write the detail description in commit message)
     * Check the latest issues at https://lwn.net/ and join it.
       * Check "Recent kernel patches" at "https://lwn.net/Kernel/" or direct link https://lwn.net/Kernel/Patches
-      * Find an interesting patch to you. Build and run it on your system
-      * Run anytihg: performance test, stability test with LTP(https://linux-test-project.github.io/) or static code analysis tools inside of kernel
-      * Report any problem if you find any
+      * Find an interesting patch to you. Try to understand the source code. Of course it would be really difficult but try. You will be closer and closer whenever you try.
+      * Build kernel and test it on your system. For example, performance test, stability test with LTP(https://linux-test-project.github.io/) or static code analysis tools inside of kernel.
+      * Report any problem if you find any: compile warnings/errors, performance drop, kernel panic/oops or any problem
       * If it works well, report that with the spec of your system. The patch owner would write a "Reviewed-by" tag with your name.
       * Find your name in kernel git log
   * Or find another topics
