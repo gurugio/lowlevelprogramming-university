@@ -286,8 +286,16 @@ I received an email to ask how to start. There are many information about books,
       * Then try to make a toy kernel
       * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
       * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
+      * Write the link to your kernel on your resume
     * Check the latest issues at https://lwn.net/ and join it.
+      * Check "Recent kernel patches" at "https://lwn.net/Kernel/" or direct link https://lwn.net/Kernel/Patches
+      * Find an interesting patch to you. Build and run it on your system
+      * Run anytihg: performance test, stability test with LTP(https://linux-test-project.github.io/) or static code analysis tools inside of kernel
+      * Report any problem if you find any
+      * If it works well, report that with the spec of your system. The patch owner would write a "Reviewed-by" tag with your name.
+      * Find your name in kernel git log
   * Or find another topics
+    * There are many fields where the low-level engineer can work: security, Compiler, Firmware, robot/car and so on
 
 # <a name="Translation"></a>Translation
 
