@@ -130,7 +130,7 @@ I will make a list what I did to learn Rust.
 * [The Rust Programming Language](https://doc.rust-lang.org/book/)
   * Great introduction, but lack of examples and exercises.
 * [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
-  * After "The Rust Programming Language", you can find examples and exercises here.
+  * While reading "The Rust Programming Language", you can find examples and exercises here.
 * [Programming Rust, 2nd](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
   * Deepter introduction, but still lack of examples and exercises.
 
