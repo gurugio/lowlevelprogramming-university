@@ -122,7 +122,7 @@ There is no shortcut. Just read the entire book and solve all the exercises.
 
 If you want to be expert of C programming, visit https://leetcode.com/. Good luck!
 
-### <a name="C-language"></a>C language
+### <a name="Rust-language"></a>Rust language
 
 I am sure that the next language for the systems programming would be Rust.
 I will make a list what I did to learn Rust.
