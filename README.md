@@ -10,6 +10,7 @@ NOTICE2: If you want a quick start, go to "How to start?".
   *  [Languages](#Languages)
      * [Assembly](#Assembly)
      * [C language](#C-language)
+     * [Rust language](#Rust-language)
   * [Applications](#Applications)
     * [Hardware && Firmware](#Hardware-Firmware)
     * [Linux kernel and device driver](#Linux-kernel-and-device-driver)
@@ -120,6 +121,18 @@ There is no shortcut. Just read the entire book and solve all the exercises.
   * Very basic programming tips for Linux kernel source reading
 
 If you want to be expert of C programming, visit https://leetcode.com/. Good luck!
+
+### <a name="C-language"></a>C language
+
+I am sure that the next language for the systems programming would be Rust.
+I will make a list what I did to learn Rust.
+
+* [The Rust Programming Language](https://doc.rust-lang.org/book/)
+  * Great introduction, but lack of examples and exercises.
+* [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+  * After "The Rust Programming Language", you can find examples and exercises here.
+* [Programming Rust, 2nd](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
+  * Deepter introduction, but still lack of examples and exercises.
 
 ## <a name="Applications"></a>Applications
 
