@@ -134,6 +134,11 @@ I will make a list what I did to learn Rust.
   * But there are not many exercises you can do something for yourself. Only some examples includes "do-this" exercises and they are very simple.
 * [Programming Rust, 2nd](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
   * Deeper introduction, but still lack of examples and exercises.
+* [Exercism](https://exercism.org/tracks/rust)
+  * Good exercises to practice indivisual features of RUST.
+  * I am not sure Mentors are working actively but it would be enough to compare your solution with others.
+    * After submitting your solution, you can see other's solutions with "Community solutions" tab.
+    * Exercism V3 is excellent. I am enjoying new features.
 
 ## <a name="Applications"></a>Applications
 
