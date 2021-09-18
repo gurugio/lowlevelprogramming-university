@@ -137,8 +137,8 @@ I will make a list what I did to learn Rust.
 * [Exercism](https://exercism.org/tracks/rust)
   * Good exercises to practice indivisual features of RUST.
   * I am not sure Mentors are working actively but it would be enough to compare your solution with others.
-    * After submitting your solution, you can see other's solutions with "Community solutions" tab.
-    * Exercism V3 is excellent. I am enjoying new features.
+    * After submitting your solution, you can see other's solutions with "Community solutions" tab (since Exercism V3).
+    * Many easy level exercises are for functional feature such as map/filter/any and etc.
 
 ## <a name="Applications"></a>Applications
 
