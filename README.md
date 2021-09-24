@@ -1,7 +1,9 @@
-NOTICE1: Please notice that low-level programming is out of trend and currently there are not many companies hiring low-level developer. It is getting harder for me to find a job.
+NOTICE1: Please do not copy this page to your blog or something like https://thehacktoday.com/low-level-programmer/. You can share this page but please share with the original link. That is how we share the good document and how we support the open source project.
+
+NOTICE2: Please notice that low-level programming is out of trend and currently there are not many companies hiring low-level developer. It is getting harder for me to find a job.
 If you haven't started a professional career yet, I would like to recommend you consider other fields either carefully.
 
-NOTICE2: If you want a quick start, go to "How to start?".
+NOTICE3: If you want a quick start, go to "How to start?".
 
 * [Low-Level Programming University](#Low-Level-Programming-University)
   * [What is it?](#What-is-it)
