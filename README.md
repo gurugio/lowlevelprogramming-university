@@ -261,11 +261,11 @@ I don't have any knowledge about those applications. Please send me any informat
 
 ## <a name="Future-of-low-level-programming"></a>Future of low-level programming
 
-I do not know the future, but I keep my eye on RUST.
+I do not know the future, but I keep my eye on Rust.
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
 
-If I could have one week free and alone, I would learn RUST.
-That is because RUST is the latest language with which I can develop Linux device drivers.
+If I could have one week free and alone, I would learn Rust.
+That is because Rust is the latest language with which I can develop Linux device drivers.
 * https://github.com/tsgates/rust.ko
 
 IoT is new trend, so it's worth to check what OSs are for IoT.
