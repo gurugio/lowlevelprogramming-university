@@ -67,6 +67,10 @@ Let me introduce several books that I've read. They are commonly used as textboo
   * Operating Systems: Internals and Design Principles by William Stallings
 * Recommended Courses
    * [CS401: Operating Systems from saylor.org](https://learn.saylor.org/course/view.php?id=94)
+* General Programming Skill
+   * [https://mitpress.mit.edu/sites/default/files/sicp/index.html](Structure and Interpretation of Computer Programs)
+   * It's about how to be a good Software programmer. You need not only theory but only technique because programming is a kind of craftwork.
+   * [https://github.com/gurugio/sicp_exercise](I've solved about 80% exercises. It should be worth to try every single exercise.)
 
 There is an infinite list of good books. I don't want to say that you should read many books. Just read one book carefully. Whenever you learn a theory, implement simulation code of it. **Implementing one thing is better than knowing one hundred theories.**
 
