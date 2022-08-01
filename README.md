@@ -69,8 +69,9 @@ Let me introduce several books that I've read. They are commonly used as textboo
    * [CS401: Operating Systems from saylor.org](https://learn.saylor.org/course/view.php?id=94)
 * General Programming Skill
    * [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/index.html)
-   * It's about how to be a good Software programmer. You need not only theory but only technique because programming is a kind of craftwork.
-   * [I've solved about 80% exercises. It should be worth to try every single exercise.](https://github.com/gurugio/sicp_exercise)
+      * It's about how to be a good Software programmer. You need not only theory but only technique because programming is a kind of craftwork.
+      * If you learn Lisp/Scheme, you should be able to learn any other language quickly. 
+      * [I've solved about 80% exercises. It should be worth to try every single exercise.](https://github.com/gurugio/sicp_exercise)
 
 There is an infinite list of good books. I don't want to say that you should read many books. Just read one book carefully. Whenever you learn a theory, implement simulation code of it. **Implementing one thing is better than knowing one hundred theories.**
 
