@@ -72,6 +72,12 @@ Let me introduce several books that I've read. They are commonly used as textboo
       * It's about how to be a good Software programmer. You need not only theory but only technique because programming is a kind of craftwork.
       * If you learn Lisp/Scheme, you should be able to learn any other language quickly. 
       * [I've solved about 80% exercises. It should be worth to try every single exercise.](https://github.com/gurugio/sicp_exercise)
+* Hardware Design
+   * [Build Your Own 8086 Microprocessor Kit](https://www.kswichit.com/8086/8086kit.htm)
+      * If you don't build your HW board, you don't understand what physical memory mapped device is.
+      * Modern APs includes almost IPs. So you don't have a chance to understand how CPU core and peripheral devices are connected.
+      * When you build your own 8086 kit, you have a chance to locate each peripheral devices on the physical memory. And you can set how the main HW components (BUS, IRQ, Clock, Power and etc) works with your own eyes.
+      * I built the 8086 kit in my University. It was one of the most valuable courses I've ever taken. Try to build your own HW kit. It would be better if the HW is older ans simpler because you should do more for yourself.
 
 There is an infinite list of good books. I don't want to say that you should read many books. Just read one book carefully. Whenever you learn a theory, implement simulation code of it. **Implementing one thing is better than knowing one hundred theories.**
 
