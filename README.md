@@ -156,6 +156,9 @@ I will make a list what I did to learn Rust.
 * [Easy rust](https://dhghomon.github.io/easy_rust/)
   * A book written in easy English.
   * Youtube materials provided: https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
+* [Let's get rusty](https://www.youtube.com/c/LetsGetRusty)
+  * There are many Youtubers uploading Rust course but I enjoied this course most.
+  * He has been uploading the latest news for Rust. It's worth substribing.
 
 ## <a name="Applications"></a>Applications
 
