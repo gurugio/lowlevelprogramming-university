@@ -141,6 +141,8 @@ If you want to be expert of C programming, visit https://leetcode.com/. Good luc
 I am sure that the next language for the systems programming would be Rust.
 I will make a list what I did to learn Rust.
 
+[Linus Torvalds said "Unless something odd happens, it [Rust] will make it into 6.1."](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
+
 * [The Rust Programming Language](https://doc.rust-lang.org/book/)
   * Great introduction, but lack of examples and exercises.
 * [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
@@ -160,7 +162,7 @@ I will make a list what I did to learn Rust.
   * There are many Youtubers uploading Rust course but I enjoied this course most.
   * He has been uploading the latest news for Rust. It's worth substribing.
 * [Rust for Linux](https://github.com/Rust-for-Linux)
-  * [Linus Torvalds said "Unless something odd happens, it [Rust] will make it into 6.1."](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
+  * See the example sources and check how Rust will get into the Linux kernel
 
 ## <a name="Applications"></a>Applications
 
