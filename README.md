@@ -159,6 +159,8 @@ I will make a list what I did to learn Rust.
 * [Let's get rusty](https://www.youtube.com/c/LetsGetRusty)
   * There are many Youtubers uploading Rust course but I enjoied this course most.
   * He has been uploading the latest news for Rust. It's worth substribing.
+* [Rust for Linux](https://github.com/Rust-for-Linux)
+  * [Linus Torvalds said "Unless something odd happens, it [Rust] will make it into 6.1."](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
 
 ## <a name="Applications"></a>Applications
 
