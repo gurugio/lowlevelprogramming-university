@@ -153,6 +153,9 @@ I will make a list what I did to learn Rust.
   * I am not sure Mentors are working actively but it would be enough to compare your solution with others.
     * After submitting your solution, you can see other's solutions with "Community solutions" tab (since Exercism V3).
     * Many easy level exercises are for functional feature such as map/filter/any and etc.
+* [Easy rust](https://dhghomon.github.io/easy_rust/)
+  * A book written in easy English.
+  * Youtube materials provided: https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 
 ## <a name="Applications"></a>Applications
 
