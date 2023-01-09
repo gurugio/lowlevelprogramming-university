@@ -1,10 +1,12 @@
-UYARI: Lütfen aşağı seviyeli programlamanın popüler olmadığını ve şu anda aşağı seviyeli kod yazan programcıları işe alan çok fazla şirket olmadığını unutmayın. İş bulmam gittikçe zorlaşıyor.
+UYARI1: Lütfen bu sayfanın içeriğini blogunuza kopyalamayın.  Bu sayfayı paylaşabilirsiniz ama lütfen orijinal link ile paylaşın.  İyi belge ve açık kaynak projesinin yazarlarını bu şekilde övüyoruz.
+
+UYARI2: Lütfen düşük seviyeli programlamanın popüler olmadığını ve şu anda düşük seviyeli kod yazan programcıları işe alan çok fazla şirket olmadığını unutmayın. İş bulmam gittikçe zorlaşıyor.
 Henüz profesyonel bir kariyere başlamadıysanız, diğer alanları da dikkatlice değerlendirmenizi tavsiye ederim.
 
 
-* [Aşağı Seviyeli Programlama Üniversitesi](#Aşağı-Seviyeli-Programlama-Üniversitesi)
+* [Düşük Seviyeli Programlama Üniversitesi](#Düşük-Seviyeli-Programlama-Üniversitesi)
   * [Nedir?](#Nedir)
-  * [Aşağı Seviye nedir?](#Aşağı-Seviye-nedir)
+  * [Düşük Seviye nedir?](#Düşük-Seviye-nedir)
   *  [Teori](#Teori)
   *  [Diller](#Diller)
      * [Assembly](#Assembly)
@@ -15,37 +17,37 @@ Henüz profesyonel bir kariyere başlamadıysanız, diğer alanları da dikkatli
       * [Dikkatlice okuyun](#Dikkatlice-okuyun)
       * [Referanslar](#Referanslar)
     * [Diğer Çalışma Alanları](#Diğer-Çalışma-Alanları)
-  * [Aşağı Seviyeli Programlamanın Geleceği](#Aşağı-Seviyeli-Programlamanın-Geleceği)
+  * [Düşük Seviyeli Programlamanın Geleceği](#Düşük-Seviyeli-Programlamanın-Geleceği)
   * [Nasıl Başlanır?](#Nasıl-Başlanır)
 * [Çeviriler](#Çeviriler)
 * [Ben Kimim?](#Ben-Kimim)
 
-# Aşağı Seviyeli Programlama Üniversitesi
+# Düşük Seviyeli Programlama Üniversitesi
 
 ## <a name="Nedir"></a>Nedir?
 
-[google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve aşağı seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl aşağı seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
+[google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve düşük seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl düşük seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
 
 Bu sayfa her bağlantıyı/kitabı/kursu içeremez. Örneğin bu sayfada Arduino tanıtılmaktadır ancak Arduino ve gömülü sistemler hakkında detaylı bilgi bulunmamaktadır. Kendin daha fazlasını araştırmalısın. Başlayabileceğiniz "Arduino" anahtar kelimesine sahipsiniz. Yani bir sonraki adımınız muhtemelen Arduino'yu araştırmak, bir Arduino geliştirme seti(kit) satın almak ve bağlantı veya kitap toplamak değil, kendiniz için bir şeyler yapmaktır. Lütfen bu sayfanın yeni başlayanlar için bir yol haritası olduğunu unutmayın.
 
-Aşağı seviyeli programlama, bilgisayar biliminin bir parçasıdır.
+Düşük seviyeli programlama, bilgisayar biliminin bir parçasıdır.
 Öncelikle bilgisayar bilimi için eğitim almak kesinlikle çok daha iyi olacaktır.
 * [Open Source Society University Bilgisayar Bilimi deposu](https://github.com/ossu/computer-science)
 
 
-## <a name="Aşağı-Seviye-nedir"></a>Aşağı Seviye nedir?
+## <a name="Düşük-Seviye-nedir"></a>Düşük Seviye nedir?
 
-Aşağı seviyeli programlamayı, C veya Assembly gibi daha aşağı seviyeli bir programlama dili kullanarak makineye çok yakın olan programlama olarak sınıflandırıyorum. Bu, yüksek seviyeli diller (ör.Python, Java) kullanan tipik kullanıcı alanı(userspace ve kernelspace kavramlarına bakınız) uygulamaları olan üst düzey programlamanın tersidir.
+Düşük seviyeli programlamayı, C veya Assembly gibi daha düşük seviyeli bir programlama dili kullanarak makineye çok yakın olan programlama olarak sınıflandırıyorum. Bu, yüksek seviyeli diller (ör.Python, Java) kullanan tipik kullanıcı alanı(userspace ve kernelspace kavramlarına bakınız) uygulamaları olan üst düzey programlamanın tersidir.
 * [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
 
-Evet, sistem programlama, aşağı seviyeli programlamaya çok yakın bir kavramdır. Bu sayfa, sistem programlamasına dahil olmayan donanım tasarımını ve ürün yazılımı geliştirmeyi içerir.
+Evet, sistem programlama, düşük seviyeli programlamaya çok yakın bir kavramdır. Bu sayfa, sistem programlamasına dahil olmayan donanım tasarımını ve ürün yazılımı geliştirmeyi içerir.
 * [Wikipedia: System programming](https://en.wikipedia.org/wiki/System_programming)
 
-Son olarak, bu sayfa donanım bileşenlerinden Linux çekirdeğine kadar değişen konuları içerir. Bu, çok çeşitli katmanlardır. Tek sayfalık bir belge hiçbir zaman tüm katmanların ayrıntılarını kapsamaz, bu nedenle bu belgenin amacı, aşağı seviyeli programlama için bir başlangıç ​​noktası olarak hizmet etmektir.
+Son olarak, bu sayfa donanım bileşenlerinden Linux çekirdeğine kadar değişen konuları içerir. Bu, çok çeşitli katmanlardır. Tek sayfalık bir belge hiçbir zaman tüm katmanların ayrıntılarını kapsamaz, bu nedenle bu belgenin amacı, düşük seviyeli programlama için bir başlangıç ​​noktası olarak hizmet etmektir.
 
 ##  <a name="Teori"></a>Teori
 
-Aşağı seviyeli programlamanın iki temel teorisi vardır:
+Düşük seviyeli programlamanın iki temel teorisi vardır:
 * Bilgisayar Mimarisi
 * İşletim sistemleri
 
@@ -117,7 +119,7 @@ Kestirme ve hızlı bir yol bulunmuyor. Sadece kitabın tamamını okuyun ve tü
 * [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
   * C ve biraz da x86 Assembly ile optimizasyon hakkında referans
   * 8088'den bugüne kadar
-  * Aşağı Seviyeli grafik optimizasyonuna özel odaklanın
+  * Düşük Seviyeli grafik optimizasyonuna özel odaklanın
 * [Framework and plugin design in C](https://github.com/gurugio/book_cprogramming)
   * Büyük ölçekli yazılımlar için C'de çerçeve ve eklenti nasıl geliştirilir
   * Linux çekirdek kaynak okuma için çok temel programlama ipuçları
@@ -234,11 +236,11 @@ Evet, Linux veya firmware geliştirmeyle ilgilenmeyebilirsiniz. Öyleyse, başka
 
 Bu çalışma alanları hakkında hiçbir bilgim yok. Lütfen yeni başlayanlar için yararlı olabilecek bu dosyanın formatına uygun içerikleri gönderin.
 
-**Çekirdekler ve sürücüleri, aşağı seviyeli programlamanın tamamı değildir.** Aşağı seviyeli programlamanın bir diğer önemli çalışma alanı, yazılım tanımlı depolama veya dağıtık dosya sistemidir. Bunların ayrıntılı açıklamaları bu belgenin kapsamı dışındadır ancak basit bir dağıtık dosya sistemini deneyebileceğiniz mükemmel bir kurs vardır.
+**Çekirdekler ve sürücüleri, düşük seviyeli programlamanın tamamı değildir.** Düşük seviyeli programlamanın bir diğer önemli çalışma alanı, yazılım tanımlı depolama veya dağıtık dosya sistemidir. Bunların ayrıntılı açıklamaları bu belgenin kapsamı dışındadır ancak basit bir dağıtık dosya sistemini deneyebileceğiniz mükemmel bir kurs vardır.
 * Ders: https://pdos.csail.mit.edu/archive/6.824-2012/
 * Referans'ın kaynağı: https://github.com/srned/yfs
 
-## <a name="Aşağı-Seviyeli-Programlamanın-Geleceği"></a>Aşağı Seviyeli Programlamanın Geleceği
+## <a name="Düşük-Seviyeli-Programlamanın-Geleceği"></a>Düşük Seviyeli Programlamanın Geleceği
 
 Geleceği öngöremiyorum ama RUST programlama diline dikkatimi vermeye başladım.
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
@@ -279,7 +281,7 @@ Nasıl başlayacağımı soran bir e-posta aldım. Bu sayfada kitaplar, kurslar 
   * Bir Atmega128 geliştirme seti(kiti) satın almanızı ve LED'leri açmak/kapatmak, anahtar girişini algılamak ve metin LCD'sinde mesaj görüntülemek için bir aygıt yazılımı yapmanızı öneririm. Motor kontrol programı da çok iyi bir projedir: örneğin, çizgi izleyici.
   * Herhangi bir yazılım kütüphanesi KULLANMAYIN. Program indiricisi dışında her şeyi kendi başınıza yapmalısınız.
 * Linux Çekirdeğinin Temelleri
-  * Aşağı seviyeli programlama, işletim sistemine çok yakındır. İşletim sisteminin işleyişini bilmelisiniz.
+  * Düşük seviyeli programlama, işletim sistemine çok yakındır. İşletim sisteminin işleyişini bilmelisiniz.
   * Donanım aygıt sürücüleriyle başlayınız
     * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
     * [Linux device driver labs](https://linux-kernel-labs.github.io/)
@@ -306,9 +308,9 @@ Bu sayfayı çevirmek istiyorsanız lütfen bana çekme talebini gönderin. Bura
 
 # <a name="Ben-Kimim"></a>Ben Kimim?
 
-[google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve aşağı seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl aşağı seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
+[google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve düşük seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl düşük seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
 
-Bilmenizi isterim ki aşağı seviyeli kod yazan bir programcı olarak 10 yıldan fazla kod yazma deneyimine sahibim:
+Bilmenizi isterim ki düşük seviyeli kod yazan bir programcı olarak 10 yıldan fazla kod yazma deneyimine sahibim:
 * 80x86 platformunda Assembly programlama 
 * Atmel çipli ve firmwarelı donanım cihazı
 * UNIX için C dil sistemi programlama çalışması
