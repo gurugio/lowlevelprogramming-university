@@ -1,4 +1,4 @@
-NOTICE1: Please do not copy the contents of this page to your blog. You can share this page but please share with the original link. That is how we compliment the authors of good document and open source project.
+NOTICE1: Please do not copy the contents of this page to your blog. You can share this page but please share with the original link. That is how we compliment the authors of good documents and open source projects.
 
 NOTICE2: Please notice that low-level programming is out of trend and currently there are not many companies hiring low-level developer. It is getting harder for me to find a job.
 If you haven't started a professional career yet, I would like to recommend you consider other fields either carefully.
@@ -32,7 +32,7 @@ I'm inspired by [google-interview-university](https://github.com/jwasham/coding-
 This page cannot include every link/book/course. For example, this page introduces Arduino but there is not detailed information about Arduino and embedded systems. You should go further yourself. You have the keyword "Arduino" with which you can start. So your next step is probably googling Arduino, buying a kit, and doing something for yourself, not collecting links or free books. Please remember this page is just a roadmap for beginners.
 
 Low-level programming is a part of computer science.
-Absolutely it would be much better to get education for computer science first.
+Absolutely it would be much better to get education in computer science first.
 * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
 
 
@@ -159,8 +159,8 @@ I will make a list what I did to learn Rust.
   * A book written in easy English.
   * Youtube materials provided: https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 * [Let's get rusty](https://www.youtube.com/c/LetsGetRusty)
-  * There are many Youtubers uploading Rust course but I enjoied this course most.
-  * He has been uploading the latest news for Rust. It's worth substribing.
+  * There are many Youtubers uploading Rust course but I enjoyed this course most.
+  * He has been uploading the latest news for Rust. It's worth subscribing.
 * [Rust for Linux](https://github.com/Rust-for-Linux)
   * See the example sources and check how Rust will get into the Linux kernel
 
@@ -305,20 +305,20 @@ Big data and cloud computing require bigger and bigger storage. Some disks direc
 
 ## <a name="How-to-start"></a>How to start?
 
-I received an email to ask how to start. There are many information about books, courses and projects in this page. It is my mistake to forget to write how to start. Unfortunately there is no King's Road to [King's Landing](https://gameofthrones.fandom.com/wiki/King%27s_Landing). I will just write what I did in order. If you have already done something, please skip it. AGAIN, this is just an example that you could do in order, just in case if you do not know how to start or what to do.
+I received an email asking how to start. There are many information about books, courses and projects in this page. It is my mistake to forget to write how to start. Unfortunately, there is no King's Road to [King's Landing](https://gameofthrones.fandom.com/wiki/King%27s_Landing). I will just write what I did in order. If you have already done something, please skip it. AGAIN, this is just an example that you could do in order, just in case if you do not know how to start or what to do.
 
 * Reading OS theory books: at least "The Design of the UNIX Operating System by Maurice J. Bach"
 * Learn assembly and C
   * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
     * It is enough if you understand the concept of assembly programming. You do not need to do something practical.
   * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
-    * DO YOUR BEST TO solve every single exercises!
+    * DO YOUR BEST TO solve every single exercise!
   * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
 * Do something practical with C
   * [C Project Based Tutorials?](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/): Find one or two interesting projects and make your own project.
-  * [leetcode.com](https://leetcode.com/): If you cannot find an interesting project, it would be also good to focus on data-structure and algorithm.
+  * [leetcode.com](https://leetcode.com/): If you cannot find an interesting project, it would be also good to focus on data structure and algorithm.
 * Do a hardware project
-  * Raspberrypi or Arduino does not matter. You need a experience to control a hardware directly with only C. ONLY C!
+  * Raspberrypi or Arduino does not matter. You need experience to control a hardware directly with only C. ONLY C!
   * I recommend to buy a Atmega128 kit and make a firmware to turn on/off LEDs, detect switch input and display message on the text LCD. Motor control program is also a very good project: for instance, the line tracer.
   * DO NOT use any library. You should make everything on your own, except program downloader.
 * Basic of the Linux kernel
@@ -329,12 +329,12 @@ I received an email to ask how to start. There are many information about books,
     * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
   * Read [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel) to understand the internal of Linux kernel.
 * Go to the professional field
-  * If you want to be professional Linux Kernel Developer
+  * If you want to be a professional Linux Kernel Developer
     * must read [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
       * Then try to make a toy kernel
       * [Learn operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
       * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
-      * Write the github link to your kernel on your resume (Don't forget to write the detail description in commit message)
+      * Write the github link to your kernel on your resume (Don't forget to write the detailed description in commit message)
     * Check the latest issues at https://lwn.net/ and join it.
       * Check "Recent kernel patches" at "https://lwn.net/Kernel/" or direct link https://lwn.net/Kernel/Patches
       * Find an interesting patch to you. Try to understand the source code. Of course it would be really difficult but try. You will be closer and closer whenever you try.
@@ -342,7 +342,7 @@ I received an email to ask how to start. There are many information about books,
       * Report any problem if you find any: compile warnings/errors, performance drop, kernel panic/oops or any problem
       * If it works well, report that with the spec of your system. The patch owner would write a "Reviewed-by" tag with your name.
       * Find your name in kernel git log
-  * Or find another topics
+  * Or find other topics
     * There are many fields where the low-level engineer can work: security, Compiler, Firmware, robot/car and so on
 
 # <a name="Translation"></a>Translation
