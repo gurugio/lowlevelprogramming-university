@@ -246,13 +246,13 @@ Algunos recursos acerca del núcleo Linux y el desarrollo de controladores de no
     * Empieza con un ejemplo simple de controlador de dispositivo de bloques (Ramdisk) con modo multi-queue.
     * Avanza hasta llegar a la capa de bloques (*block layer*).
     * He terminado la traducción a inglés. Por favor, enviadme vuestra opinión. 
-  * [md driver of Linux kernel(Korean)](https://github.com/gurugio/book_linuxkernel_md)
+  * [Controlador md del núcleo Linux (coreano)](https://github.com/gurugio/book_linuxkernel_md)
     * Cómo funciona la herramienta `mdadm` y cómo llama al controlador `md`.
     * Cómo funciona el controlador `md`.
   * [Código de Linux muy comentado](http://www.oldlinux.org/)    
     * Versión 0.12 de Linux con un montón de comentarios útiles.                               
     * Puede ser bueno comenzar con un sistema operativo viejo y simple.                         
-    * Versión Unix: [Comentarios de Lion a la sexta edición de Unix, con código fuente](https://en.wikipedia.org/wiki/Lions%27_Commentary_on_U    NIX_6th_Edition,_with_Source_Code)
+    * Versión Unix: [Comentarios de Lion a la sexta edición de Unix, con código fuente](https://en.wikipedia.org/wiki/Lions%27_Commentary_on_UNIX_6th_Edition,_with_Source_Code)
 
 
 ### <a name="Referencias"></a>Referencias
@@ -306,7 +306,7 @@ Recibí un email preguntando cómo empezar. Hay mucha información sobre libros,
 * Aprender ensamblador y C
   * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
     * Es suficiente si entiendes el concepto de programación en ensamblador. No hace falta que hagas algo práctico.
-  * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_    14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
+  * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
     * Intenta resolver todos los ejercicios por ti mismo, es importante.
   * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
 * Haz algo práctico con C
@@ -343,3 +343,14 @@ Recibí un email preguntando cómo empezar. Hay mucha información sobre libros,
 # <a name="Traducción"></a>Traducción
 
 Por favor, mándame el Pull Request si te gustaría traducir esta página.
+
+# <a name="Quién-soy"></a>Quién soy
+Me inspiré en [google-interview-university](https://github.com/jwasham/coding-interview-university). Me gustaría compartir mi experiencia y mostrar un mapa de ruta para convertirse en un programador a bajo nivel porque he visto que estas habilidades ya no son tan comunes como fueron una vez. Además, muchos estudiantes y principiantes me preguntan cómo convertirse en programadores a bajo nivel e ingenieros del núcleo de Linux.
+
+Para tu información, tengo más de 10 años de experiencia como programador a bajo nivel:
+* Programación en ensamblador 80x86
+* Dispositivos hardware y firmware con chips Atmel
+* Programación de sistemas para Unix en C
+* Controladore de dispositivos en Linux
+* Núcleo Linux: paginación
+* Núcleo Linux: Módulo `md` y controladores para dispositivos de bloques.
