@@ -357,6 +357,7 @@ Please send me the pull request if you'd like to translate this page. I'll list 
 * [Russian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_ru.md)
 * [Turkish](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_tr.md)
 * [Persian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_fa.md)
+* [Spanish](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_es.md)
 
 # <a name="who-am-i"></a>Who am I?
 
