@@ -1,4 +1,4 @@
-AVIS1: Veuillez ne pas copier le contenu de cette page sur votre blog. Vous pouvez partager cette page mais veuillez partager avec le lien d'origine. C'est ainsi que nous félicitons les auteurs de bons documents et de projets open source.
+AVIS1: Veuillez ne pas copier le contenu de cette page sur votre blog. Vous pouvez partager cette page mais veuillez partager avec le lien d'origine. C'est ainsi que nous citons les auteurs de bons documents et de projets open source.
 
 AVIS2: Veuillez noter que la programmation de bas niveau est hors de propos et qu'actuellement, il n'y a pas beaucoup d'entreprises qui embauchent des développeurs de bas niveau. Il devient de plus en plus difficile pour moi de trouver un emploi.
 Si vous n'avez pas encore commencé une carrière professionnelle, je vous recommande de bien réfléchir avant de choisir ce domaine.
@@ -27,7 +27,7 @@ AVIS3: Si vous voulez un démarrage rapide, allez à "Comment démarrer ?".
 
 ## <a name="Qu'est-ce-que-c'est-?"></a>Qu'est-ce que c'est ?
 
-Je suis inspiré par [google-interview-university](https://github.com/jwasham/coding-interview-university). J'aimerais partager mon expérience et montrer une feuille de route pour devenir programmeur de bas niveau car j'ai constaté que ces compétences ne sont plus aussi courantes qu'avant. De plus, de nombreux étudiants et débutants me demandent comment ils pourraient devenir programmeurs de bas niveau et ingénieurs du noyau Linux.
+Je suis inspiré par [google-interview-university](https://github.com/jwasham/coding-interview-university). J'aimerais partager mon expérience et montrer une feuille de route pour devenir ingénieur systèmes embarqués car j'ai constaté que ces compétences ne sont plus aussi courantes qu'avant. De plus, de nombreux étudiants et débutants me demandent comment ils pourraient devenir programmeurs de bas niveau et ingénieurs du noyau Linux.
 
 Cette page ne peut pas inclure tous les liens/livres/cours. Par exemple, cette page présente Arduino mais il n'y a pas d'informations détaillées sur Arduino et les systèmes embarqués. Vous devriez aller plus loin par vous-même. Vous avez le mot-clé "Arduino" avec lequel vous pouvez commencer. Donc, votre prochaine étape est probablement de googler Arduino, d'acheter un kit et de faire quelque chose par vous-même, pas de collecter des liens ou des livres gratuits. N'oubliez pas que cette page n'est qu'une feuille de route pour les débutants.
 
@@ -135,13 +135,7 @@ Si vous voulez être ingénieur en systèmes embarqués, il serait préférable 
 Par exemple, la carte Raspberry Pi possède un processeur Cortex-A53 qui prend en charge un jeu d'instructions 64 bits. Cela vous permet de découvrir une architecture de processeur moderne avec rPi.
 Oui, vous pouvez l'acheter... mais... qu'allez-vous en faire ? Si vous n'avez pas de projet cible, il serait également bon de vous concentrer sur la structure de données et l'algorithme.
 
-Voici la traduction en français du texte:
-
-
-<documents>
-<document index="1">
-<source>paste.txt</source>
-<document_content>### <a name="Linux-noyau-et-pilote-de-périphérique"></a>Linux noyau et pilote de périphérique
+### <a name="Linux-noyau-et-pilote-de-périphérique"></a>Linux noyau et pilote de périphérique
 
 Vous n'avez pas besoin de faire un système d'exploitation complet. Rejoignez la communauté Linux et participez au développement.
 
@@ -278,9 +272,9 @@ Veuillez m'envoyer une pull request si vous souhaitez traduire cette page. Je la
 
 # <a name="qui-suis-je"></a>Qui suis-je ?
 
-Je suis inspiré par [google-interview-university](https://github.com/jwasham/google-interview-university). J'aimerais partager mon expérience et montrer une feuille de route pour devenir programmeur de bas niveau car j'ai constaté que ces compétences ne sont plus aussi courantes qu'avant. De plus, de nombreux étudiants et débutants me demandent comment ils pourraient devenir programmeurs de bas niveau et ingénieurs de noyaux Linux.
+Je suis inspiré par [google-interview-university](https://github.com/jwasham/google-interview-university). J'aimerais partager mon expérience et montrer une feuille de route pour devenir  ingénieur(e) systèmes embarqués car j'ai constaté que ces compétences ne sont plus aussi courantes qu'avant. De plus, de nombreux étudiants et débutants me demandent comment ils pourraient devenir programmeurs de bas niveau et ingénieurs de noyaux Linux.
 
-Pour votre information, j'ai plus de 10 ans d'expérience en tant que programmeur de bas niveau:
+Pour votre information, j'ai plus de 10 ans d'expérience en tant que ingénieur systèmes embarqués:
 * Programmation en assembleur 80x86
 * Périphérique matériel avec puce Atmel et micrologiciel 
 * Programmation système en langage C pour Unix
