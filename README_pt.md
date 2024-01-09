@@ -36,56 +36,58 @@ Programação de baixo nível é uma parte de Ciências da Computação, de tal 
 
 * [Caminho para uma educação autodidata gratuita em Ciências da Computação!](https://github.com/ossu/computer-science)
 
-
 ## <a name="What-Is-the-Low-Level"></a>O que é programação de baixo nível?
 
 Eu classifico programação de baixo nível como uma programação que é muito próxima da máquina. Usa-se uma linguagem de programação de mais baixo nível, como C ou assembly, diferentimente de linguagens de programação de alto nível, típicas de aplicações do espaço de usuário, como Python ou Java.
 
-* [Wikipedia: linguagem de programação de baixo nível](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o#Quanto_ao_grau_de_abstra%C3%A7%C3%A3o)
+* [Linguagem de Programação de Baixo Nível - Wikipedia](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o#Quanto_ao_grau_de_abstra%C3%A7%C3%A3o)
 
 Sim, o conceito de programação de sistemas é bem próximo do de programação de baixo nível. Esse roteiro inclui o desenvolvimento de hardware e firmware que não estão inclusos no desenvolvimento de sistemas.
 
-* [Wikipedia: System programming](https://en.wikipedia.org/wiki/System_programming)
+* [Systems Programming - Wikipedia](https://en.wikipedia.org/wiki/System_programming)
 
 Finalmente, esse roteiro inclui tópicos indo de componentes de hardware até o kernel Linux. Isso é uma variedade enorme de camadas. Um documento de uma página nunca conseguiria cobrir detalhadamente todas elas, então o foco deste é servir de ponto inicial para programação de baixo nível.
 
 ## <a name="Theory"></a>Teoria
 
-There are two background theories to low-level programming:
-* Computer Architecture
-* Operating Systems
+Existem dois conhecimentos teóricos para se programar em baixo nível:
 
-I think the best way to learn theory is by taking a course. Reading books is not bad but takes too much time and effort. You can find many good classes on online universities, for instance, Coursera.org and edx.org.
-Theory is theory. I don't think you need to get an A+ in the class, just understand the big picture.
-You'll get better and better with experience.
+* Arquitetura de Computadores
+* Sistemas Operacinais
 
-Let me introduce several books that I've read. They are commonly used as textbooks in universities. If there is no class with these books in your university, it's worth spending some time reading them.
-* Computer Architecture
-  * Computer Architecture, Fifth Edition: A Quantitative Approach
-  * Computer Systems: A Programmer's Perspective
-  * Computer Organization and Design, Fourth Edition: The Hardware/Software Interface
-* Operating Systems
-  * The Magic Garden Explained: The Internals of UNIX System V Release 4 an Open Systems Design
-  * The Design of the UNIX Operating System
-  * Operating Systems: Internals and Design Principles by William Stallings
-* Recommended Courses
-   * [CS401: Operating Systems from saylor.org](https://learn.saylor.org/course/view.php?id=94)
-* General Programming Skill
-   * [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs)
-      * It's about how to be a good Software programmer. You need not only theory but only technique because programming is a kind of craftwork.
-      * If you learn Lisp/Scheme, you should be able to learn any other language quickly.
-      * [I've solved about 80% exercises. It should be worth to try every single exercise.](https://github.com/gurugio/sicp_exercise)
-* Hardware Design
-   * Build Your Own 8086 Microprocessor Kit
-      * If you don't build your HW board, you don't understand what physical memory mapped device is.
-      * Modern APs includes so many IPs. So you don't have a chance to understand how CPU core and peripheral devices are connected.
-      * When you build your own 8086 kit, you have a chance to locate each peripheral devices on the physical memory. And you can set how the main HW components (BUS, IRQ, Clock, Power and etc) works with your own eyes.
-      * I built the 8086 kit in my University. It was one of the most valuable courses I've ever taken. Try to build your own HW kit. It would be better if the HW is older ans simpler because you should do more for yourself.
-      * Google "8086 kit". You would be able to find some web-sites you can buy a HW scheme, parts and manuals.
+Acredito que a melhor maneira de aprender teoria é fazendo um curso. Ler livros não é ruim, mas consome muito tempo e esforço. Você pode achar várias aulas em univerisades online, por exemplo: [Coursera](https://www.coursera.org) e [edX](https://www.edx.org/).
 
-There is an infinite list of good books. I don't want to say that you should read many books. Just read one book carefully. Whenever you learn a theory, implement simulation code of it. **Implementing one thing is better than knowing one hundred theories.**
+Teoria é teoria. Eu não acho que você necessite de uma 10 em uma matéria, apenas entenda seu conteúdo geral; você evoluirá com experiência.
 
-##  <a name="Languages"></a>Languages
+Irei apresentar vários livros que li. Eles são comumente usados como livros-texto em universidades. Se não existe uma matéria com esses livros na sua universidade, vale a pena gastar um pouco de tempo os lendo.
+
+* Arquitetura de Computadores
+    * Organização e Projeto de Computadores, 5ª edição. HENNESSY, John. 2021.
+    * Arquitetura de Computadores: Uma Abordagem Quantitativa, 6ª edição. HENNESSY, John. 2019.
+    * Computer Systems: A Programmer's Perspective, 3rd Edition. BRYANT, Randal; O'HALLARON, David. 2015.
+* Sistemas Operacionais
+    * The Magic Garden Explained: The Internals of UNIX System V Release 4 an Open Systems Design. GOODHEART, Berny; COX, James. 1994.
+    * The Design of the UNIX Operating System. BACH, Maurice. 1986.
+    * Operating Systems: Internals and Design Principles, 9th Edition. STALLINGS, William. 2017.
+    * *Adicionado pelo tradutor*: [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/). ARPACI-DUSSEAU, Remzi H.; ARPACI-DUSSEAU, Andrea C.. E-book online e gratuito sendo mantido atualizado constantemente. Se encontra na versão 1.10 no momento do lançamento desta tradução.
+* Cursos Recomendados
+    * [CS401: Operating Systems from saylor.org](https://learn.saylor.org/course/view.php?id=94)
+* Habilidades Gerais de Programação
+    * [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs)
+      * É sobre como se tornar um bom desenvolvedor de softwares. Você precisa de não somente teoria, mas também técnica, pois programação é como um trabalho artesanal.
+      * Se você aprender [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language))/[Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language)), você deve ser capaz de aprender qualquer outra linguagem rapidamente.
+      * [Eu resolvi 80% dos exercícios e vale a pena tentar cada um deles.](https://github.com/gurugio/sicp_exercise)
+* Design de Hardware
+   * Faça seu próprio kit do microprocessador [8086](https://en.wikipedia.org/wiki/Intel_8086).
+      * Se você não fizer seu próprio hardware, você não entenderá o que é um dispositivo físico de memória mapeada.
+      * Pontos de acesso modernos incluem muitos IPs, então você não tem a chance de entender como a CPU e os periféricos estão conectados.
+      * Fazendo seu próprio kit 8086, você tem uma oportunidade de colocar cada dispositivo periférico na memória física e definir como os componentes de hardware principais (barramentos, interrupções do sistema, clock, alimentação, etc.) funcionam com seus próprios olhos.
+      * Eu montei o meu kit na universidade. Foi uma das mais valiosas atividades que eu fiz. Tente fazer seu próprio kit, sendo melhor que o hardware seja mais velho e simples, porque deve lhe dar mais trabalho.
+      * Pesquise "kit 8086", você deve achar alguns sites em que pode comprar uma esquema de hardware, partes e manuais.
+
+Existe uma lista infinita de bons livros, e eu não quero dizer que você deve ler todos; leia um com cuidado: fazendo marcações, anotações e pesquisas. Sempre que aprender uma teoria, implemente um código simulando isso. **Implementar algo é melhor do que saber 100 teorias**.
+
+## <a name="Languages"></a>Languages
 
 ### <a name="Assembly"></a>Assembly
 
