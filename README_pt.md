@@ -87,87 +87,96 @@ Irei apresentar vários livros que li. Eles são comumente usados como livros-te
 
 Existe uma lista infinita de bons livros, e eu não quero dizer que você deve ler todos; leia um com cuidado: fazendo marcações, anotações e pesquisas. Sempre que aprender uma teoria, implemente um código simulando isso. **Implementar algo é melhor do que saber 100 teorias**.
 
-## <a name="Languages"></a>Languages
+## <a name="Languages"></a>Linguagens
 
 ### <a name="Assembly"></a>Assembly
 
-Choose one between x86 or ARM. No need to know both. It doesn't matter to know assembly language. The essential thing is understanding the internals of a CPU and computer. So you don't need to practice the assembly of the latest CPU. Select 8086 or Corex-M.
+Escolha uma entre x86 e ARM, não precisa saber as duas. Não importa tanto saber assembly a princípio, o essencial é entender o funcionamento interno de uma CPU e um computador, logo não há necessidade de praticar com assembly das CPU mais recentes. Apenas escolha entre 8086 ou Cortex-M.
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
-  * basic concepts of CPU and computer architecture
-  * basic concepts of C programming language
-* [64bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
-  * basic concepts of modern CPU and computer architecture
-  * basic concepts of disassembling and debugging of C code
+    * conceitos básicos de arquitetura de processadores e computadores
+    * conceitos básicos de C
+TODO: check owner's response
+* [64 bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
+    * conceitos básicos de arquitetura de CPUs e computadores modernos.
+    * conceitos básicos de disassembling e debugging em C
   * _need help for translation_
-* [Learning assembly for linux-x64](https://github.com/0xAX/asm)
-  * pure 64-bit assembly programming with NASM and inline assembly with GCC
+* [Learning assembly for Linux x64](https://github.com/0xAX/asm)
+    * programação em puro assembly 64 bits com NASM e inline assembly com GCC
 * [ARM Architecture Reference Manual, 2nd Edition](http://www.mypearsonstore.ca/bookstore/arm-architecture-reference-manual-9780201737196)
-  * Complete reference on ARM programming
-* Computer Organization and Design
-  * [MIPS Edition](https://www.amazon.ca/Computer-Organization-Design-MIPS-Interface/dp/0124077269/)
-  * [ARM Edition](https://www.amazon.ca/Computer-Organization-Design-ARM-Interface/dp/0128017333/)
-  * [RISC-V Edition](https://www.amazon.com/Computer-Organization-Design-RISC-V-Architecture/dp/0128122757)
-  * Academic books that explain how every component of a computer work from the ground up.
-  * Explains in detail the different concepts that make up computer architecture.
-  * They are not targeted at readers who wish to become proficient in a specific assembly language.
-  * The MIPS and ARM edition cover the same topics but by dissecting a different architecture.
-  * Both editions contain examples in the x86 world
+    * referência completa em programação ARM
+* Organização e Arquitetura de Computadores
+    * [MIPS Edition](https://www.amazon.ca/Computer-Organization-Design-MIPS-Interface/dp/0124077269/)
+    * [ARM Edition](https://www.amazon.ca/Computer-Organization-Design-ARM-Interface/dp/0128017333/)
+    * [RISC-V Edition](https://www.amazon.com/Computer-Organization-Design-RISC-V-Architecture/dp/0128122757)
+    * estes são livros acadêmicos que explicam como cada componente do computador funciona desde o começo
+    * explicam em detalhe os diferentes conceitos que compõem a arquitetura de computadores
+    * o público-alvo não são leitores que desejam desejam proficiência em assembly
+    * a versão MIPS e ARM cobrem os mesmos tópicos, mas dissecando as diferentes arquiteturas
+    * ambas edições contêm exemplos no universo x86
 
-### <a name="C-language"></a>C language
+### <a name="C-language"></a>C
 
-There is no shortcut. Just read the entire book and solve all the exercises.
+Aqui não existe atalho: leia o livro todo e resolva todos os exercícios.
 
 * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
-* [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
+* [The C Programming Language, 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
 * Modern C: Jens Gustedt. Modern C. Manning, 2019, 9781617295812. ffhal-02383654f
-  * For new standard of C
-* [Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
-  * raw implementation of synchronization with C
-  * Essential for large scale C programming (especially for kernel programming)
-* [C Project Based Tutorials?](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
-  * If you finish reading one or two C programming books, then you MUST make something.
-  * Choose whatever you like.
-  * First make on your own and then compare with someone else's source code. It is very important to compare your source and others. You can improve your skill only when you read the other's source and learn better methods. Books are dead and source is live.
-* [C and other languages based projects](https://github.com/danistefanovic/build-your-own-x)
-  * find more interesting projects
+    * nova convenção/novo padrão de C
+* [Is Parallel Programming Hard? And If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
+    * implementação real de sincronização em C
+    * essencial para programas C de larga escala (especialmente kernels)
+* [Projetos em C](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
+    * se você leu um ou dois livros sobre C, então você DEVE programar algo
+    * escolha qualquer coisa que lhe agrade
+    * primeiro faça o seu e depois compare com o código de outra pessoa
+    * é muito impotante comparar seu código, pois você só melhora suas habilidades quando você vê o código de alguém e aprende métodos melhores
+    * **livros são mortos e códigos são vivos**
+* [Projetos em C e em outras linguagens](https://github.com/danistefanovic/build-your-own-x)
+    * mais projetos interessantes
 * [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
-  * Reference on optimization using C and a bit of x86 assembly
-  * Starts from the 8088 up to today
-  * Special focus on low-level graphics optimization
-* [Framework and plugin design in C](https://github.com/gurugio/book_cprogramming)
-  * How to develop framework and plugin in C for large scale software
-  * Very basic programming tips for Linux kernel source reading
+    * referência em otimização usando C e assembly x86
+    * começa do 8088 até hoje em dia
+    * foco especial em otimização de gráficos em baixo nível
+* [Frameworks e plugins em C](https://github.com/gurugio/book_cprogramming)
+    * como desenvolver frameworks e plugins em C para programas de larga escala
+    * dicas bem básicas sobre como ler o kernel Linux
 
-If you want to be expert of C programming, visit https://leetcode.com/. Good luck!
+Se quiser ser um especialista em C, visite [LeetCode](https://leetcode.com/). Boa sorte!
 
-### <a name="Rust-language"></a>Rust language
+### <a name="Rust-language"></a>Rust
 
-I am sure that the next language for the systems programming would be Rust.
-I will make a list what I did to learn Rust.
+Tenho convicção que a próxima linguagem para programação de sistemas vai ser [Rust](https://www.rust-lang.org/). Farei uma lista do que fiz para aprender esta linguagem.
 
-[Linus Torvalds said "Unless something odd happens, it [Rust] will make it into 6.1."](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
+[Linus Torvalds sobre entrada do Rust na versão 6.1 do Linux.](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
 
 * [The Rust Programming Language](https://doc.rust-lang.org/book/)
-  * Great introduction, but lack of examples and exercises.
+    * livro online e gratuito da própria Rust Foundation
+    * boa introdução, mas falta exemplos e exercícios
 * [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
-  * While reading "The Rust Programming Language", you can find examples and exercises here.
-  * But there are not many exercises you can do something for yourself. Only some examples includes "do-this" exercises and they are very simple.
+    * enquanto lê o livro anterior, você pode encontrar exemplos aqui
+    * não há muitos exercícios, mas você pode fazer alguma coisa você mesmo
+* *Adicionado pelo tradutor*: [Rustlings](https://rustlings.cool/)
+    * repositório da própria Rust Foundation contendo alguns exercícios e com indicação de acerto ou erro
 * [Programming Rust, 2nd](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
-  * Deeper introduction, but still lack of examples and exercises.
+    * introdução mais aprofundada, porém ainda com falta de exercícios
 * [Exercism](https://exercism.org/tracks/rust)
-  * Good exercises to practice indivisual features of RUST.
-  * I am not sure Mentors are working actively but it would be enough to compare your solution with others.
-    * After submitting your solution, you can see other's solutions with "Community solutions" tab (since Exercism V3).
-    * Many easy level exercises are for functional feature such as map/filter/any and etc.
+    * bons exercícios para praticar características individuais da linguagem
+    * não tenho certeza se os Mentors estão trabalhando ativamente, mas comparar sua solução com a de outros deve ser o suficiente
+    * depois de submeter sua solução, você pode ver a solução de outros na aba "Community Solutions"
+    * vários exercícios de nível fácil são voltados para o aspecto funcional da linguagem, usando métodos como: `map`, `filter` e `fold`
 * [Easy rust](https://dhghomon.github.io/easy_rust/)
-  * A book written in easy English.
-  * Youtube materials provided: https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
-* [Let's get rusty](https://www.youtube.com/c/LetsGetRusty)
-  * There are many Youtubers uploading Rust course but I enjoyed this course most.
-  * He has been uploading the latest news for Rust. It's worth subscribing.
+    * um livro escrito em um inglês simples e com [material adicional no YouTube](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk)
+* [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)
+    * há muitos youtubers fazendo cursos de Rust, mas esse foi o meu preferido
+    * ele também tem upado vídeos sobre as últimas notícias envolvendo Rust, então acredito que valha sua inscrição
+* *Adicionado pelo tradutor*: Rust for Rustaceans: Idiomatic Programming for Experienced Developers. GJENGSET, Jon. 2021.
+    * livro de um ex-mantenedor da insfraestrutura em Rust da [AWS](https://aws.amazon.com/pt/)
+    * atualmente fazendo uma pesquisa relacionada a um banco de dados escrito em Rust
+    * comumente faz [lives no YouTube](https://www.youtube.com/c/JonGjengset) cobrindo tópicos como detalhes de implementação da biblioteca padrão do Rust, contribuindo para projetos de código aberto ou desenvolvendo algum projeto próprio
+    * este livro é um complemento para quando você já conhecer um pouco melhor a sintaxe e como programas são escritos em Rust; ele NÃO é um livro para iniciantes na linguagem
 * [Rust for Linux](https://github.com/Rust-for-Linux)
-  * See the example sources and check how Rust will get into the Linux kernel
+    * veja os exemplos e dê uma olhada em como Rust entrou no kernel Linux
 
 ## <a name="Applications"></a>Applications
 
