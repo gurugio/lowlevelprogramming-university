@@ -162,7 +162,7 @@ I will make a list what I did to learn Rust.
   * There are many Youtubers uploading Rust course but I enjoyed this course most.
   * He has been uploading the latest news for Rust. It's worth subscribing.
 * [Rust for Linux](https://github.com/Rust-for-Linux)
-  * See the example sources and check how Rust will get into the Linux kernel
+  * See the example sources and check how Rust got into the Linux kernel
 
 ## <a name="Applications"></a>Applications
 
