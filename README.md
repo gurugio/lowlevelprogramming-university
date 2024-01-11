@@ -70,7 +70,7 @@ Let me introduce several books that I've read. They are commonly used as textboo
 * General Programming Skill
    * [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs)
       * It's about how to be a good Software programmer. You need not only theory but only technique because programming is a kind of craftwork.
-      * If you learn Lisp/Scheme, you should be able to learn any other language quickly. 
+      * If you learn Lisp/Scheme, you should be able to learn any other language quickly.
       * [I've solved about 80% exercises. It should be worth to try every single exercise.](https://github.com/gurugio/sicp_exercise)
 * Hardware Design
    * Build Your Own 8086 Microprocessor Kit
@@ -86,7 +86,7 @@ There is an infinite list of good books. I don't want to say that you should rea
 
 ### <a name="Assembly"></a>Assembly
 
-Choose one between x86 or ARM. No need to know both. It doesn't matter to know assembly language. The essential thing is understanding the internals of a CPU and computer. So you don't need to practice the assembly of the latest CPU. Select 8086 or Corex-M.
+Choose one between x86 or ARM. No need to know both. It doesn't matter to know assembly language. The essential thing is understanding the internals of a CPU and computer. So you don't need to practice the assembly of the latest CPU. Select 8086 or Cortex-M.
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
   * basic concepts of CPU and computer architecture
