@@ -363,13 +363,13 @@ I received an email asking how to start. There are many information about books,
   * Or find other topics
     * There are many fields where the low-level engineer can work: security, Compiler, Firmware, robot/car and so on
 
-# <a name="Translation"></a>Translation
+# <a name="Translation"></a>Traduções
 
-Please send me the pull request if you'd like to translate this page. I'll list it here.
+Por favor, faça uma PR se deseja traduzir esta página, irei lista-la aqui.
 
-* [Chinese(Traditional)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_tw.md)
-* [Chinese(Simplified)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
-* [Portuguese (Brazilian)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_pt.md)
+* [Chinese (Traditional)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_tw.md)
+* [Chinese (Simplified)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
+* [English](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README.md)
 * [Italian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_it.md)
 * [Czech](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cz.md)
 * [Russian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_ru.md)
