@@ -171,14 +171,14 @@ I will make a list what I did to learn Rust.
 If you want to be an embedded systems engineer, it would be best to start from a simple hardware kit, rather than starting with the latest ARM chipset.
 
 * [Arduino Start Kit](https://www.arduino.cc/)
-  * There are many series of Arduinos but "Arduino Start Kit" has the most simple processor(Atmega328P) and guide book
-  * Atmega328P has an 8-bit core which is a good place to start digital circuit design and firmware development.
+  * There are many series of Arduinos but "Arduino Start Kit" has the most simple processor(ATmega328P) and guide book
+  * ATmega328P has an 8-bit core which is a good place to start digital circuit design and firmware development.
   * You don't need to know how to draw schematics and layouts and assemble the chips.
   * But you do need to know how to read schematics and understand how the chips are connected.
   * Firmware developers should be able to read the schematics and figure out how to send data to the target device.
   * Follow the guide book!
 * [8086 manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
-  * If you're a beginner to x86 architecture, 8086 is also very good guide for processor architecture and 80x86 assembly
+  * If you're a beginner to x86 architecture, 8086 is also very good guide for processor architecture and x86 assembly
 * [80386 manual](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
   * Best guide for protected mode and paging mechanism of 80x86 processor
   * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
@@ -254,9 +254,9 @@ Some resources for Linux kernel and device driver development from beginner to a
   * [md driver of Linux kernel(Korean)](https://github.com/gurugio/book_linuxkernel_md)
     * how mdadm tool works and how it calls md driver
     * how md driver works
-  * [A Heavily Commemted Linux Kernel Source Code](http://www.oldlinux.org/)
+  * [A Heavily Commented Linux Kernel Source Code](http://www.oldlinux.org/)
     * Heavy comments for the ancient Linux v0.12.
-    * It would be good to start with old and simple OS.
+    * It would be good to start with an old and simple OS.
     * Unix version: [Lions' Commentary on UNIX 6th Edition, with Source Code](https://en.wikipedia.org/wiki/Lions%27_Commentary_on_UNIX_6th_Edition,_with_Source_Code)
 
 #### <a name="References"></a>References
@@ -319,7 +319,7 @@ I received an email asking how to start. There are many information about books,
   * [leetcode.com](https://leetcode.com/): If you cannot find an interesting project, it would be also good to focus on data structure and algorithm.
 * Do a hardware project
   * Raspberrypi or Arduino does not matter. You need experience to control a hardware directly with only C. ONLY C!
-  * I recommend to buy a Atmega128 kit and make a firmware to turn on/off LEDs, detect switch input and display message on the text LCD. Motor control program is also a very good project: for instance, the line tracer.
+  * I recommend to buy a ATmega128 kit and make a firmware to turn on/off LEDs, detect switch input and display message on the text LCD. Motor control program is also a very good project: for instance, the line tracer.
   * DO NOT use any library. You should make everything on your own, except program downloader.
 * Basic of the Linux kernel
   * Low-level programming is very close to the operating system. You should know inside of the OS.
@@ -365,8 +365,9 @@ I'm inspired by [google-interview-university](https://github.com/jwasham/google-
 
 FYI, I have over 10 years of experience as a low-level programmer:
 * 80x86 Assembly programming
-* Hardware device with Atmel chip and firmware
+* Hardware device with ATmel chip and firmware
 * C language system programming for Unix
 * Device driver in Linux
 * Linux kernel: page allocation
 * Linux kernel: block device driver and md module
+
