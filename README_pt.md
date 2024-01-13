@@ -16,11 +16,11 @@ Nota 3: Se você quer ir direto ao ponto, vá para [Como começar?](#How-to-star
     * [Assembly](#Assembly)
     * [C](#C-language)
     * [Rust](#Rust-language)
-* [Aplicações](#Applications)
+* [Carreiras](#Applications)
     * [Hardware e Firmware](#Hardware-Firmware)
     * [Kernel Linux e Driver de Dispositivo](#Linux-kernel-and-device-driver)
         * [Referências](#References)
-    * [Outras aplicações](#Other-applications)
+    * [Outras carreiras](#Other-applications)
 * [Futuro da programação em baixo nível](#Future-of-low-level-programming)
 * [Como começar?](#How-to-start)
 * [Traduções](#Translation)
@@ -94,26 +94,26 @@ Existe uma lista infinita de bons livros, e eu não quero dizer que você deve l
 Escolha uma entre x86 e ARM, não precisa saber as duas. Não importa tanto saber assembly a princípio, o essencial é entender o funcionamento interno de uma CPU e um computador, logo não há necessidade de praticar com assembly das CPU mais recentes. Apenas escolha entre 8086 ou Cortex-M.
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
-    * conceitos básicos de arquitetura de processadores e computadores
-    * conceitos básicos de C
+    * Conceitos básicos de arquitetura de processadores e computadores
+    * Conceitos básicos de C
 TODO: check owner's response
-* [64 bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
-    * conceitos básicos de arquitetura de CPUs e computadores modernos.
-    * conceitos básicos de disassembling e debugging em C
-  * _need help for translation_
+* [64 bit assembly programming(tradução em andamento)](https://github.com/gurugio/book_assembly_64bit)
+    * Conceitos básicos de arquitetura de CPUs e computadores modernos.
+    * Conceitos básicos de disassembling e debugging em C
+    * *Preciso de ajuda na tradução*
 * [Learning assembly for Linux x64](https://github.com/0xAX/asm)
-    * programação em puro assembly 64 bits com NASM e inline assembly com GCC
+    * Programação em puro assembly 64 bits com NASM e inline assembly com GCC
 * [ARM Architecture Reference Manual, 2nd Edition](http://www.mypearsonstore.ca/bookstore/arm-architecture-reference-manual-9780201737196)
-    * referência completa em programação ARM
+    * Referência completa em programação ARM
 * Organização e Arquitetura de Computadores
     * [MIPS Edition](https://www.amazon.ca/Computer-Organization-Design-MIPS-Interface/dp/0124077269/)
     * [ARM Edition](https://www.amazon.ca/Computer-Organization-Design-ARM-Interface/dp/0128017333/)
     * [RISC-V Edition](https://www.amazon.com/Computer-Organization-Design-RISC-V-Architecture/dp/0128122757)
-    * estes são livros acadêmicos que explicam como cada componente do computador funciona desde o começo
-    * explicam em detalhe os diferentes conceitos que compõem a arquitetura de computadores
-    * o público-alvo não são leitores que desejam desejam proficiência em assembly
-    * a versão MIPS e ARM cobrem os mesmos tópicos, mas dissecando as diferentes arquiteturas
-    * ambas edições contêm exemplos no universo x86
+    * Estes são livros acadêmicos que explicam como cada componente do computador funciona desde o começo
+    * Explicam em detalhe os diferentes conceitos que compõem a arquitetura de computadores
+    * O público-alvo não são leitores que desejam desejam proficiência em assembly
+    * A versão MIPS e ARM cobrem os mesmos tópicos, mas dissecando as diferentes arquiteturas
+    * Ambas edições contêm exemplos no universo x86
 
 ### <a name="C-language"></a>C
 
@@ -122,25 +122,25 @@ Aqui não existe atalho: leia o livro todo e resolva todos os exercícios.
 * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
 * [The C Programming Language, 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
 * Modern C: Jens Gustedt. Modern C. Manning, 2019, 9781617295812. ffhal-02383654f
-    * nova convenção/novo padrão de C
+    * Nova convenção/novo padrão de C
 * [Is Parallel Programming Hard? And If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
-    * implementação real de sincronização em C
-    * essencial para programas C de larga escala (especialmente kernels)
+    * Implementação real de sincronização em C
+    * Essencial para programas C de larga escala (especialmente kernels)
 * [Projetos em C](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
-    * se você leu um ou dois livros sobre C, então você DEVE programar algo
-    * escolha qualquer coisa que lhe agrade
-    * primeiro faça o seu e depois compare com o código de outra pessoa
-    * é muito impotante comparar seu código, pois você só melhora suas habilidades quando você vê o código de alguém e aprende métodos melhores
+    * Se você leu um ou dois livros sobre C, então você DEVE programar algo
+    * Escolha qualquer coisa que lhe agrade
+    * Primeiro faça o seu e depois compare com o código de outra pessoa
+    * É muito impotante comparar seu código, pois você só melhora suas habilidades quando você vê o código de alguém e aprende métodos melhores
     * **livros são mortos e códigos são vivos**
 * [Projetos em C e em outras linguagens](https://github.com/danistefanovic/build-your-own-x)
-    * mais projetos interessantes
+    * Mais projetos interessantes
 * [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
-    * referência em otimização usando C e assembly x86
-    * começa do 8088 até hoje em dia
-    * foco especial em otimização de gráficos em baixo nível
+    * Referência em otimização usando C e assembly x86
+    * Começa do 8088 até hoje em dia
+    * Foco especial em otimização de gráficos em baixo nível
 * [Frameworks e plugins em C](https://github.com/gurugio/book_cprogramming)
-    * como desenvolver frameworks e plugins em C para programas de larga escala
-    * dicas bem básicas sobre como ler o kernel Linux
+    * Como desenvolver frameworks e plugins em C para programas de larga escala
+    * Dicas bem básicas sobre como ler o kernel Linux
 
 Se quiser ser um especialista em C, visite [LeetCode](https://leetcode.com/). Boa sorte!
 
@@ -149,151 +149,155 @@ Se quiser ser um especialista em C, visite [LeetCode](https://leetcode.com/). Bo
 Tenho convicção que a próxima linguagem para programação de sistemas vai ser [Rust](https://www.rust-lang.org/). Farei uma lista do que fiz para aprender esta linguagem.
 
 [Linus Torvalds sobre entrada do Rust na versão 6.1 do Linux.](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
+*Adicionado pelo tradutor*: [Linus Torvals sobre o impacto do Rust no kernel.](https://www.youtube.com/watch?v=YyRVOGxRKLg)
 
 * [The Rust Programming Language](https://doc.rust-lang.org/book/)
-    * livro online e gratuito da própria Rust Foundation
-    * boa introdução, mas falta exemplos e exercícios
+    * Livro online e gratuito da própria Rust Foundation
+    * Boa introdução, mas falta exemplos e exercícios
 * [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
-    * enquanto lê o livro anterior, você pode encontrar exemplos aqui
-    * não há muitos exercícios, mas você pode fazer alguma coisa você mesmo
+    * Enquanto lê o livro anterior, você pode encontrar exemplos aqui
+    * Não há muitos exercícios, mas você pode fazer alguma coisa você mesmo
 * *Adicionado pelo tradutor*: [Rustlings](https://rustlings.cool/)
-    * repositório da própria Rust Foundation contendo alguns exercícios e com indicação de acerto ou erro
+    * Repositório da própria Rust Foundation contendo alguns exercícios e com indicação de acerto ou erro
 * [Programming Rust, 2nd](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
-    * introdução mais aprofundada, porém ainda com falta de exercícios
+    * Introdução mais aprofundada, porém ainda com falta de exercícios
 * [Exercism](https://exercism.org/tracks/rust)
-    * bons exercícios para praticar características individuais da linguagem
-    * não tenho certeza se os Mentors estão trabalhando ativamente, mas comparar sua solução com a de outros deve ser o suficiente
-    * depois de submeter sua solução, você pode ver a solução de outros na aba "Community Solutions"
-    * vários exercícios de nível fácil são voltados para o aspecto funcional da linguagem, usando métodos como: `map`, `filter` e `fold`
+    * Bons exercícios para praticar características individuais da linguagem
+    * Não tenho certeza se os Mentors estão trabalhando ativamente, mas comparar sua solução com a de outros deve ser o suficiente
+    * Depois de submeter sua solução, você pode ver a solução de outros na aba "Community Solutions"
+    * Vários exercícios de nível fácil são voltados para o aspecto funcional da linguagem, usando métodos como: `map`, `filter` e `fold`
 * [Easy rust](https://dhghomon.github.io/easy_rust/)
-    * um livro escrito em um inglês simples e com [material adicional no YouTube](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk)
+    * Um livro escrito em um inglês simples e com [material adicional no YouTube](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk)
 * [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)
-    * há muitos youtubers fazendo cursos de Rust, mas esse foi o meu preferido
-    * ele também tem upado vídeos sobre as últimas notícias envolvendo Rust, então acredito que valha sua inscrição
+    * Há muitos youtubers fazendo cursos de Rust, mas esse foi o meu preferido
+    * Ele também tem upado vídeos sobre as últimas notícias envolvendo Rust, então acredito que valha sua inscrição
 * *Adicionado pelo tradutor*: Rust for Rustaceans: Idiomatic Programming for Experienced Developers. GJENGSET, Jon. 2021.
-    * livro de um ex-mantenedor da insfraestrutura em Rust da [AWS](https://aws.amazon.com/pt/)
-    * atualmente fazendo uma pesquisa relacionada a um banco de dados escrito em Rust
-    * comumente faz [lives no YouTube](https://www.youtube.com/c/JonGjengset) cobrindo tópicos como detalhes de implementação da biblioteca padrão do Rust, contribuindo para projetos de código aberto ou desenvolvendo algum projeto próprio
-    * este livro é um complemento para quando você já conhecer um pouco melhor a sintaxe e como programas são escritos em Rust; ele NÃO é um livro para iniciantes na linguagem
+    * Livro de um ex-mantenedor da insfraestrutura em Rust da [AWS](https://aws.amazon.com/pt/)
+    * Atualmente fazendo uma pesquisa relacionada a um banco de dados escrito em Rust
+    * Comumente faz [lives no YouTube](https://www.youtube.com/c/JonGjengset) cobrindo tópicos como detalhes de implementação da biblioteca padrão do Rust, contribuindo para projetos de código aberto ou desenvolvendo algum projeto próprio
+    * Este livro é um complemento para quando você já conhecer um pouco melhor a sintaxe e como programas são escritos em Rust; ele NÃO é um livro para iniciantes na linguagem
 * [Rust for Linux](https://github.com/Rust-for-Linux)
-    * veja os exemplos e dê uma olhada em como Rust entrou no kernel Linux
+    * Veja os exemplos e dê uma olhada em como Rust entrou no kernel Linux
 
-## <a name="Applications"></a>Applications
+## <a name="Applications"></a>Carreiras
 
-### <a name="Hardware-Firmware"></a>Hardware && Firmware
+### <a name="Hardware-Firmware"></a>Hardware e Firmware
 
-If you want to be an embedded systems engineer, it would be best to start from a simple hardware kit, rather than starting with the latest ARM chipset.
+Se você quer se tornar um engenheiro de sistemas embarcados, seria melhor começar um simples kit de hardware, ao invés de começar com o chipset ARM mais recente.
 
 * [Arduino Start Kit](https://www.arduino.cc/)
-  * There are many series of Arduinos but "Arduino Start Kit" has the most simple processor(Atmega328P) and guide book
-  * Atmega328P has an 8-bit core which is a good place to start digital circuit design and firmware development.
-  * You don't need to know how to draw schematics and layouts and assemble the chips.
-  * But you do need to know how to read schematics and understand how the chips are connected.
-  * Firmware developers should be able to read the schematics and figure out how to send data to the target device.
-  * Follow the guide book!
-* [8086 manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
-  * If you're a beginner to x86 architecture, 8086 is also very good guide for processor architecture and 80x86 assembly
-* [80386 manual](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
-  * Best guide for protected mode and paging mechanism of 80x86 processor
-  * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
+    * Existem várias séries de Arduinos, mas o "Arduino Start Kit" tem o processador mais simples (ATmega328P) e um livro guia
+    * ATmega328P tem uma arquitetura de 8 bits, o que é um bom lugar para começar em design de circuitos digitais e desenvolvimento de firmware
+    * Você não precisa saber como desenhar esquemas, leiautes e montar os chips
+    * Mas você precisa saber ler esquemas e entender como os chips estão conectados
+    * Desenvolvedores de firmware devem ser capazes de ler esquemas e compreender como mandar dados para outro dispositivo
+    * Siga o guia do livro
+* [Manual do 8086](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
+    * Se você é um iniciante em arquitetura x86, 8086 é, também, um ótimo de guia para arquitetura de processadores e assembly x86
+* [Manual do 80386](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
+    * Melhor guia para modo protegido (*protected mode*) e mecanismo de paginação (*paging mechanism*) de processadores 80x86
+    * [Web version](https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm)
 
-At this point, you should be good to start the latest ARM or x86 processor.
-* https://www.raspberrypi.org/
-* https://beagleboard.org/
-* https://www.arduino.cc/en/ArduinoCertified/IntelEdison
+Nesse ponto, você deve ser capaz de começar a ver arquitetura ARM ou x86 atual.
 
-For example, the Raspberry Pi board has a Cortex-A53 Processor that supports a 64-bit instruction set.
-This allows you to experience a modern processor architecture with rPi.
-Yes, you can buy it... but... what are you going to do with it?
-If you have no target project, you would be likely to throw the board into a drawer and forget it like other gadgets you may have bought before.
+* [Raspberry Pi](https://www.raspberrypi.com/) - ARM
+* [BleagleBoard](https://beagleboard.org/) - ARM
+* [Certificação Arduino](https://www.arduino.cc/en/ArduinoCertified/IntelEdison)
 
-So, I recommend one project for you.
-* [Making your own kernel](http://wiki.osdev.org/Getting_Started)
-  * Good references: https://www.reddit.com/r/osdev/
-* [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
-  * (description of the project) This repository contains a step-by-step guide that teaches how to create a simple operating system (OS) kernel from scratch...(skip)...Each lesson is designed in such a way that it first explains how some kernel feature is implemented in the RPi OS, and then it tries to demonstrate how the same functionality works in the Linux kernel.
+Por exemplo, a placa Raspberry Pi tem um processador Cortex-A53 que suporte um conjunto de instruções de 64 bits, permitindo que você experiencie arquitetura de processadores moderna.
 
-I've made [a toy kernel](https://github.com/gurugio/caos) that supports 64-bit long mode, paging and very simple context switching. Making a toy kernel is good way to understand modern computer architecture and hardware control.
+Certo, você pode comprá-la, mas o que você vai fazer com isso? Se você não tem um projeto em mente, você tenderá a deixá-la na estante e esquecer da sua existência, como você provavelmente deve ter feito com outros equipamentos que você deve ter comprado.
 
-In fact, you have already the latest processor and the latest hardware devices.
-Your laptop! Your desktop! You already have all that you need in order to start!
-You don't need to buy anything.
-The qemu emulator can emulate the latest ARM processors and Intel processors.
-So everything you need is already on hand.
-There are many toy kernels and documents you can refer to.
-Just install qemu emulator and make a tiny kernel that just boots, turns on paging, and prints some messages.
+Então eu recomendarei um projeto a você:
 
-Other toy kernels:
+* [Fazer seu próprio kernel](http://wiki.osdev.org/Getting_Started)
+    * Boas referências: [r/osdev](https://www.reddit.com/r/osdev/)
+* [Aprendendo desenvolvimento de sistemas operacionais usando Linux e Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
+    * > This repository contains a step-by-step guide that teaches how to create a simple operating system (OS) kernel from scratch...(skip)...Each lesson is designed in such a way that it first explains how some kernel feature is implemented in the RPi OS, and then it tries to demonstrate how the same functionality works in the Linux kernel.
+
+Eu fiz um [kernel de brinquedo](https://github.com/gurugio/caos) que suporta modo 64 bits, paginação e uma troca de contexto bem simples. Fazer um kernel para brincar é um bom caminho para entender arquitetura de computadores modernos e controle de hardware.
+
+Na verdade, você já tem os processadores e hardware atuais: seu notebook ou seu computador! Você já tem tudo que você precisa para começar, você não precisa comprar nada.
+
+O emulador [QEMU](https://www.qemu.org/) pode emular os processadores ARM e Intel atuais, então tudo que você precisa, já está disponível.
+
+Existem vários kernels de brinquedo e documentos que você pode se basear. Apenas instale o emulador QEMU e faça um pequeno kernel que apenas da boot, liga paginação e printa algumas mensagens.
+
+Outros kernels de brinquedo:
+
 * https://littleosbook.github.io/
 * https://tuhdo.github.io/os01/
 
-### <a name="Linux-kernel-and-device-driver"></a>Linux kernel and device driver
+### <a name="Linux-kernel-and-device-driver"></a>Kernel Linux e Drivers de Dispositivos
 
-You don't need to make a complete operating system.
-Join the Linux community and participate in development.
+Você não precisa montar um sistema operacional completo, entre na comunidade Linux e participe do desenvolvimento.
 
-Some resources for Linux kernel and device driver development from beginner to advanced.
-* Books: Read the following in order
-  * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
-    * The basic concepts of Unix are applied into all operating systems.
-    * This book is a very good place to learn the core concepts of operating systems.
-  * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
-    * Make all examples for yourself
-  * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
-    * Understand the design of the Linux Kernel
-  * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
-    * Read this book and the kernel source v2.6 at the same time
-    * Never start with the latest version, v2.6 is enough!
-    * Use qemu and gdb to run the kernel source line by line
-      * http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu
-      * https://github.com/gurugio/linuxdeveloptip/blob/master/qemu-gdb-kdump.md
-    * Use busybox to make the simplest filesystem that takes only one second to boot
-      * https://github.com/gurugio/linuxdeveloptip/blob/master/minikernelwithbusybox.md
-* Other resources: Free resources I recommend
-  * [Linux device driver labs](https://linux-kernel-labs.github.io/)
-    * Practical guide and excellent exercises making Linux device drivers with essential kernel APIs
-    * I think this document introduces almost all essential kernel APIs.
-  * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
-    * _Sadly, this challenge does not accept new challengers because there is no challenge anymore._ The maintainer said he/she is planning a new format. I hope it comes back ASAP.
-      * But you can find the questions of the challenge with Google. Some people already uploaded what they did. Find the questions and try to solve them on your own, and compare your solution with others.
-    * This is like an awesome private teacher who guides you on what to do.
-    * If you don't know what to do, just start this.
-  *  [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
-     * This project is not completed yet.
-     * I always think making a kernel similar to the Linux kernel is the best way to understand the Linux kernel.
-  * [Block layer and device driver](https://github.com/gurugio/book_linuxkernel_blockdrv)
-    * start from a simple block device driver example (Ramdisk) with multi-queue mode
-    * go forward to block layer
-    * I completed translation into English. Please send me your feedback.
-  * [md driver of Linux kernel(Korean)](https://github.com/gurugio/book_linuxkernel_md)
-    * how mdadm tool works and how it calls md driver
-    * how md driver works
-  * [A Heavily Commemted Linux Kernel Source Code](http://www.oldlinux.org/)
-    * Heavy comments for the ancient Linux v0.12.
-    * It would be good to start with old and simple OS.
-    * Unix version: [Lions' Commentary on UNIX 6th Edition, with Source Code](https://en.wikipedia.org/wiki/Lions%27_Commentary_on_UNIX_6th_Edition,_with_Source_Code)
+Alguns recursos para o desenvolvimento do Linux e de drivers, de iniciante a avançado:
 
-#### <a name="References"></a>References
+* Livros (leia-os na seguinte ordem)
+    * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
+        * Os conceitos básicos de Unix são aplicados em todos os sistemas operacionais
+        * Esse livro é um bom lugar para aprender os conceitos fundamentais de sistemas operacionais
+    * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
+        * Faça todos os exemplos
+    * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
+        * Entenda o design do kernel Linux
+    * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
+        * Leia este livro e o código fonte do kernel na versão 2.6 ao mesmo tempo
+        * Nunca começa com a versão mais recente, a 2.6 é suficiente!
+        * Use QEMU e [GDB](https://www.sourceware.org/gdb/) para rodar o código linha por linha
+            * [Como debuggar o kernel Linux com GDB e QEMU](http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu)
+            * https://github.com/gurugio/linuxdeveloptip/blob/master/qemu-gdb-kdump.md
+        * Use busybox para fazer o sistema de arquivos mais simples que leva apenas um segundo para bootar
+            * https://github.com/gurugio/linuxdeveloptip/blob/master/minikernelwithbusybox.md
+* Outros recursos [gratuitos que recomendo]
+    * [Linux Device Driver Labs](https://linux-kernel-labs.github.io/)
+        * Guia prático e com excelentes exercícios fazendo drivers com APIs essenciais do kernel
+        * Acredito que este documento introduz quase toda API essencial
+    * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
+        * *Infelizmente este desafio não aceito mais requisições porque não tem mais desafios*, mas você pode encontrar as questões do desafio pesquisando
+        * O mantenedor falou que está planejando um novo formato
+        * Isto é como um professor incrível que lhe guia pelo que fazer
+        * Se você não sabe o que fazer, apenas comece
+    * [Aprendendo desenvolvimento de sistemas operacionais usando Linux e Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
+        * Este projeto não está completo ainda
+        * Eu penso que fazer um kernel similar ao do Linux é a melhor maneira de o entender
+    * [Camada de bloco e drivers](https://github.com/gurugio/book_linuxkernel_blockdrv)
+        * Comece com um simples exemplo de driver de bloco (Ramdisk) com modo multi-fila
+        * Prossiga com a camada de blocos
+    * [Driver md do kernel Linux (Coreano)](https://github.com/gurugio/book_linuxkernel_md)
+        * Como ferramentas mdadm funcionam e como chamam o driver md
+        * Como o driver md funciona
+    * [Código fonte do kernel Linux com vários comentários](http://www.oldlinux.org/)
+        * Vários comentários para o Linux v0.12
+        * Seria bom começar com um antigo e simples SO
+        * Versão Unix: [Lions' Commentary on UNIX 6th Edition, with Source Code](https://en.wikipedia.org/wiki/Lions%27_Commentary_on_UNIX_6th_Edition,_with_Source_Code)
 
-Check when you need something
+#### <a name="References"></a>Referências
 
-* [Free-electrons homepage](http://free-electrons.com/docs/)
-  * many slide files introducing good topics, specially ARM-linux
-* [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
-  * guide to start kernel programming
+Cheque quando estiver precisando de algo
 
-### <a name="Other-applications"></a>Other application
+* [Bootlin Docs](https://bootlin.com/docs/)
+    * Vários slides intruduzinho bons tópicos, especialmente ARM-Linux
+* [Você pode ser um hacker de kernels! (blog post)](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
+    * Guia para começar programação de kernel
 
-Yes, you might not be interested in Linux or firmware. If so, you can find other applications:
-* Windows systems programming & device drivers
-* Security
-* Reverse engineering
+### <a name="Other-applications"></a>Outras carreiras
 
-I don't have any knowledge about those applications. Please send me any information for beginners.
+Sim, você pode não ser interessando em Linux ou firmware. Nesse caso, você pode procurar outras carreiras:
 
-**Kernels and drivers are not all of low-level programming.** One more important application of low-level programming is the software-defined storage or distributed filesystem. Detailed descriptions of them is beyond the scope of this document but there is an excellent course where you can try a simple distributed filesystem.
-* Course: https://pdos.csail.mit.edu/archive/6.824-2012/
-* reference Source: https://github.com/srned/yfs
+* Programação de sistemas e drivers em Windows
+* Segurança
+* Engenharia reversa
+
+Eu não tenho conhecimento algum sobre estas. Por favor, mande-me qualquer informação para iniciantes.
+
+**Kernels e drivers não são tudo de programação de baixo nível.**
+
+Mais uma importante carreira de programação de baixo nível é o armazenamento definido por software (*software-defined storage*) ou sistemas de arquivos distribuidos. Descrições detalhadas sobre isto está além do escopo desse documento, mas existe cursos excelentes em que você pode fazer um simples sistema de arquivos distribuidos.
+
+* Curso: https://pdos.csail.mit.edu/archive/6.824-2012/
+* Fonte: https://github.com/srned/yfs
 
 ## <a name="Future-of-low-level-programming"></a>Future of low-level programming
 
@@ -384,3 +388,4 @@ FYI, I have over 10 years of experience as a low-level programmer:
 * Device driver in Linux
 * Linux kernel: page allocation
 * Linux kernel: block device driver and md module
+
