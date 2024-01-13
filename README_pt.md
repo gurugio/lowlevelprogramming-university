@@ -24,7 +24,7 @@ Nota 3: Se você quer ir direto ao ponto, vá para [Como começar?](#How-to-star
 * [Futuro da programação em baixo nível](#Future-of-low-level-programming)
 * [Como começar?](#How-to-start)
 * [Traduções](#Translation)
-* [Quem eu sou?](#who-am-i)
+* [Quem sou eu?](#who-am-i)
 
 ## <a name="What-is-it"></a>O que é esse repositório?
 
@@ -377,15 +377,16 @@ Por favor, faça uma PR se deseja traduzir esta página, irei lista-la aqui.
 * [Persian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_fa.md)
 * [Spanish](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_es.md)
 
-# <a name="who-am-i"></a>Who am I?
+# <a name="who-am-i"></a>Quem sou eu?
 
-I'm inspired by [google-interview-university](https://github.com/jwasham/google-interview-university). I'd like to share my experience and show a roadmap to becoming a low-level programmer because I have found that these skills are not as common as they once were. In addition, many students and beginners ask me how they could become low-level programmers and Linux kernel engineers.
+Eu me inspirei na [google-interview-university](https://github.com/jwasham/coding-interview-university). Eu gostaria de compartilhar minha experiência e um roteiro de como se tornar um programador de baixo nível porque acredito que essas habilidades não são tão comuns quanto antigamente. Além disso, muitos iniciantes e estudantes me perguntam como poderiam se tornar desenvolvedores de baixo nível e engenheiros do kernel Linux.
 
-FYI, I have over 10 years of experience as a low-level programmer:
-* 80x86 Assembly programming
-* Hardware device with Atmel chip and firmware
-* C language system programming for Unix
-* Device driver in Linux
-* Linux kernel: page allocation
-* Linux kernel: block device driver and md module
+Tenho mais de 10 anos de experiência como programador de baixo nível, incluindo:
+
+* Programação em assembly 80x86
+* Hardware com chip ATmel e firmware
+* Programação de sistemas Unix com C
+* Drivers em Linux
+* Kernel Linux: page allocation
+* Kernel Linux: driver de bloco e módulo md
 
