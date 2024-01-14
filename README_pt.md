@@ -97,7 +97,7 @@ Escolha uma entre x86 e ARM, não precisa saber as duas. Não importa tanto sabe
     * Conceitos básicos de arquitetura de processadores e computadores
     * Conceitos básicos de C
 TODO: check owner's response
-* [64 bit assembly programming(tradução em andamento)](https://github.com/gurugio/book_assembly_64bit)
+* [64 bit assembly programming (translation in progress)](https://github.com/gurugio/book_assembly_64bit)
     * Conceitos básicos de arquitetura de CPUs e computadores modernos.
     * Conceitos básicos de disassembling e debugging em C
     * *Preciso de ajuda na tradução*
@@ -126,19 +126,19 @@ Aqui não existe atalho: leia o livro todo e resolva todos os exercícios.
 * [Is Parallel Programming Hard? And If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
     * Implementação real de sincronização em C
     * Essencial para programas C de larga escala (especialmente kernels)
-* [Projetos em C](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
+* [Projects in C](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
     * Se você leu um ou dois livros sobre C, então você DEVE programar algo
     * Escolha qualquer coisa que lhe agrade
     * Primeiro faça o seu e depois compare com o código de outra pessoa
     * É muito impotante comparar seu código, pois você só melhora suas habilidades quando você vê o código de alguém e aprende métodos melhores
     * **livros são mortos e códigos são vivos**
-* [Projetos em C e em outras linguagens](https://github.com/danistefanovic/build-your-own-x)
+* [Projects in C and other languages](https://github.com/danistefanovic/build-your-own-x)
     * Mais projetos interessantes
 * [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
     * Referência em otimização usando C e assembly x86
     * Começa do 8088 até hoje em dia
     * Foco especial em otimização de gráficos em baixo nível
-* [Frameworks e plugins em C](https://github.com/gurugio/book_cprogramming)
+* [Frameworks and plugins in C](https://github.com/gurugio/book_cprogramming)
     * Como desenvolver frameworks e plugins em C para programas de larga escala
     * Dicas bem básicas sobre como ler o kernel Linux
 
@@ -172,7 +172,7 @@ Tenho convicção que a próxima linguagem para programação de sistemas vai se
     * Há muitos youtubers fazendo cursos de Rust, mas esse foi o meu preferido
     * Ele também tem upado vídeos sobre as últimas notícias envolvendo Rust, então acredito que valha sua inscrição
 * *Adicionado pelo tradutor*: Rust for Rustaceans: Idiomatic Programming for Experienced Developers. GJENGSET, Jon. 2021.
-    * Livro de um ex-mantenedor da insfraestrutura em Rust da [AWS](https://aws.amazon.com/pt/)
+    * Livro de um ex-mantenedor da insfraestrutura em Rust da [AWS](https://aws.amazon.com/pt/what-is-aws/?nc1=f_cc)
     * Atualmente fazendo uma pesquisa relacionada a um banco de dados escrito em Rust
     * Comumente faz [lives no YouTube](https://www.youtube.com/c/JonGjengset) cobrindo tópicos como detalhes de implementação da biblioteca padrão do Rust, contribuindo para projetos de código aberto ou desenvolvendo algum projeto próprio
     * Este livro é um complemento para quando você já conhecer um pouco melhor a sintaxe e como programas são escritos em Rust; ele NÃO é um livro para iniciantes na linguagem
@@ -213,7 +213,7 @@ Então eu recomendarei um projeto a você:
 * [Fazer seu próprio kernel](http://wiki.osdev.org/Getting_Started)
     * Boas referências: [r/osdev](https://www.reddit.com/r/osdev/)
 * [Aprendendo desenvolvimento de sistemas operacionais usando Linux e Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
-    * > This repository contains a step-by-step guide that teaches how to create a simple operating system (OS) kernel from scratch...(skip)...Each lesson is designed in such a way that it first explains how some kernel feature is implemented in the RPi OS, and then it tries to demonstrate how the same functionality works in the Linux kernel.
+    * > This repository contains a step-by-step guide that teaches how to create a simple operating system (OS) kernel from scratch. [...] Each lesson is designed in such a way that it first explains how some kernel feature is implemented in the RPi OS, and then it tries to demonstrate how the same functionality works in the Linux kernel.
 
 Eu fiz um [kernel de brinquedo](https://github.com/gurugio/caos) que suporta modo 64 bits, paginação e uma troca de contexto bem simples. Fazer um kernel para brincar é um bom caminho para entender arquitetura de computadores modernos e controle de hardware.
 
@@ -323,47 +323,52 @@ Big data e computação em nuvem está requerindo armazenamentos cada vez maiore
 * https://en.wikipedia.org/wiki/Clustered_file_system
 * https://en.wikipedia.org/wiki/Ceph_(software)
 
-## <a name="How-to-start"></a>How to start?
+## <a name="How-to-start"></a>Como começar?
 
-I received an email asking how to start. There are many information about books, courses and projects in this page. It is my mistake to forget to write how to start. Unfortunately, there is no King's Road to [King's Landing](https://gameofthrones.fandom.com/wiki/King%27s_Landing). I will just write what I did in order. If you have already done something, please skip it. AGAIN, this is just an example that you could do in order, just in case if you do not know how to start or what to do.
+Eu recebi um email perguntando como começar. Existe muita informação sobre livros, cursos e projetos nessa página, mas foi erro meu esquecer de escrever como começar. Infelizmente não existe um *Caminho Real* ([Porto Real](https://gameofthrones.fandom.com/pt-br/wiki/Porto_Real)).
 
-* Reading OS theory books: at least "The Design of the UNIX Operating System by Maurice J. Bach"
-* Learn assembly and C
-  * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
-    * It is enough if you understand the concept of assembly programming. You do not need to do something practical.
-  * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
-    * DO YOUR BEST TO solve every single exercise!
-  * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
-* Do something practical with C
-  * [C Project Based Tutorials?](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/): Find one or two interesting projects and make your own project.
-  * [leetcode.com](https://leetcode.com/): If you cannot find an interesting project, it would be also good to focus on data structure and algorithm.
-* Do a hardware project
-  * Raspberrypi or Arduino does not matter. You need experience to control a hardware directly with only C. ONLY C!
-  * I recommend to buy a Atmega128 kit and make a firmware to turn on/off LEDs, detect switch input and display message on the text LCD. Motor control program is also a very good project: for instance, the line tracer.
-  * DO NOT use any library. You should make everything on your own, except program downloader.
-* Basic of the Linux kernel
-  * Low-level programming is very close to the operating system. You should know inside of the OS.
-  * Start with drivers
-    * Read [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
-    * [Linux device driver labs](https://linux-kernel-labs.github.io/)
-    * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
-  * Read [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel) to understand the internal of Linux kernel.
-* Go to the professional field
-  * If you want to be a professional Linux Kernel Developer
-    * must read [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
-      * Then try to make a toy kernel
-      * [Learn operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
-      * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
-      * Write the github link to your kernel on your resume (Don't forget to write the detailed description in commit message)
-    * Check the latest issues at https://lwn.net/ and join it.
-      * Check "Recent kernel patches" at "https://lwn.net/Kernel/" or direct link https://lwn.net/Kernel/Patches
-      * Find an interesting patch to you. Try to understand the source code. Of course it would be really difficult but try. You will be closer and closer whenever you try.
-      * Build kernel and test it on your system. For example, performance test, stability test with LTP(https://linux-test-project.github.io/) or static code analysis tools inside of kernel.
-      * Report any problem if you find any: compile warnings/errors, performance drop, kernel panic/oops or any problem
-      * If it works well, report that with the spec of your system. The patch owner would write a "Reviewed-by" tag with your name.
-      * Find your name in kernel git log
-  * Or find other topics
-    * There are many fields where the low-level engineer can work: security, Compiler, Firmware, robot/car and so on
+Irei apenas escrever o que eu fiz em ordem. Se você já tiver feito algo, pule. NOVAMENTE, isso é apenas um exemplo que você pode fazer em ordem, em caso de você não saber como começar ou o que fazer.
+
+* Lendo livros sobre sistemas operacionais: pelo menos "The Design of the UNIX Operating System" por Maurice J. Bach (já citado anteriormente).
+* Aprenda assembly e C
+    * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
+        * É suficiente você entender o conceito de programação em assembly, não há necessidade de fazer algo prático
+    * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
+        * Dê seu melhor para resolver CADA UM do exercícios
+    * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
+* Faça algo prático com C
+    * [Projects in C](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
+        * Encontre um ou dois projetos interessantes e faça você mesmo
+    * [LeetCode](https://leetcode.com/)
+        * Se você não achar nenhum projeto interessante, também é bom focar em estrutura de dados e algoritmos
+* Faça um projeto de hardware
+    * Raspberry Pi ou Arduino, não importa, você precisa experimentar controlar o hardware diretamente com APENAS C!
+    * Eu recomendo comprar um kit ATmega128 e fazer um firmware ligar/desligar LEDs, detectar o input de um switch e mostrar uma mensagem de texto no LCD
+    * Um programa de controle de motor também é um projeto muito bom; por exemplo, um *line tracer*
+    * NÃO USE bibliotecas; você deveria fazer tudo você mesmo (com exceção do software de colocar o programa na placa)
+* Básicos do Kernel Linux
+    * Programação de baixo nível é bem próxima de sistemas operacionais, então você deve saber o interior de um sistema operacional
+    * Comece por drivers
+        * Leia [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
+        * [Linux device driver labs](https://linux-kernel-labs.github.io/)
+        * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
+    * Leia [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel) para entender os detalhes internos do kernel Linux
+* Vá para o ambiente profissional
+    * Se você quer se tornar um desenvolvedor profissional do kernel Linux
+        * Precisa ler [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
+        * E então fazer seu kernel de brinquedo
+            * [Aprender desenvolvimento de sistemas operacionais usando Linux e Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
+            * [Fazendo seu próprio kernel](http://wiki.osdev.org/Getting_Started)
+        * Escreva o link do repositório do seu kernel no seu currículo (não esquece de escrever mensagens descritivas nos commits)
+        * Veja issues em https://lwn.net/, pegue alguma e a resolva
+            * Veja "Recent Kernel Pacthes" em https://lwn.net/Kernel/ ou pelo link direto https://lwn.net/Kernel/Pacthes
+            * Encontre um patch para você e tente entender o código fonte. Claro que vai ser difícil, mas tente. Você entenderá mais e mais sempre que tentar
+            * Builde o kernel e teste na sua máquina: teste de performance, de estabilidade com [LTP](https://linux-test-project.github.io/) ou análise estática de código dentro do kernel
+            * Reporte qualquer problema que encontrar: warnings ou erros de compilação, redução de performance, kernel entrando em pânico ou qualquer outro
+            * Se funciona bem, reporte com a descrição da sua máquina: o dono do patch vai escrever "Reviewed-by" (revisado por) e seu nome
+            * Parabéns pelo seu nome no log do git do kernel
+    * Ou encontre outros tópicos
+        * Existem vários outros campos em que engenheiros de baixo nível podem trabalhar: segurança, compiladores, firmware, robótica, setor automotivo e muito mais
 
 # <a name="Translation"></a>Traduções
 
