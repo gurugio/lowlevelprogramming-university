@@ -299,24 +299,26 @@ Mais uma importante carreira de programação de baixo nível é o armazenamento
 * Curso: https://pdos.csail.mit.edu/archive/6.824-2012/
 * Fonte: https://github.com/srned/yfs
 
-## <a name="Future-of-low-level-programming"></a>Future of low-level programming
+## <a name="Future-of-low-level-programming"></a>Futuro da programação em baixo nível
 
-I do not know the future, but I keep my eye on Rust.
-* https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
+Eu não sei o futuro, mas estou de olho no Rust.
 
-If I could have one week free and alone, I would learn Rust.
-That is because Rust is the latest language with which I can develop Linux device drivers.
+* [Rust and the Future of Systems Programming](https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/)
+
+Se eu tivesse uma semana livre, eu aprenderia Rust, pois é a linguagem mais nova que consigo desenvolver drivers no Linux.
+
 * https://github.com/tsgates/rust.ko
 
-IoT is new trend, so it's worth to check what OSs are for IoT.
-ARM, Samsung and some companies has their own realtime OS but sadly many of them are closed source.
-But Linux Foundation also has a solution: Zephyr
+IoT (*Internet of Things* - Internet das  Coisas) é o que anda em alta, então vale a pena olhar o que são SOs para IoT. Algumas empresas possuem seus próprios RTOSes (*Realtime Operating System* - Sistema Operacional de Tempo Real), como ARM e Samsung, mas muitos deles são de código fechado; a Linux Foundation tem sua própria solução: Zephyr.
+
 * https://www.zephyrproject.org/
 
-Typical cloud servers have many layers; for instance, host OS, kvm driver, qemu process, guest OS and service application. A container has been developed to provide light virtualization. In the near future, a new concept of OS, a so-called library OS or Unikernel, would replace the typical stack of SW for virtualization.
+Servidores em nuvem tipicamente possuem várias camadas, por exemplo SO host, driver KVM, processo QEMU, SO convidado e serviço da aplicação. Um contêiner foi desenvolvido para prover virtualização leve. Em um futuro próximo, um novo conceito de SO, assim chamado de *Library OS* ou *Unikernel*, substituiria as ferramentas típicas de software e hardware para virtualização.
+
 * http://unikernel.org/
 
-Big data and cloud computing require bigger and bigger storage. Some disks directly attached to server machines cannot satisfy the required capacity, stability and performance. Therefore there has been research to make huge storage systems with many storage machines connected by a high speed network. It used to be focused on making one huge storage volume. But currently they are providing many volumes dedicated for many virtual machines.
+Big data e computação em nuvem está requerindo armazenamentos cada vez maiores. Alguns discos ligados diretamente a máquina do servidor não satifaz as requisições de capacidade, estabilidade e performance. Dessa forma, estão acontecendo pesquisas para a produção de sistemas de grande armazenamento, com várias máquinas para armazenar os dados conectadas por uma rede de alta velocidade. Antes era focada um armazenamento único de grande volume, porém atualmente estão provendo vários volumes dedicados para as várias máquinas virtuais.
+
 * https://en.wikipedia.org/wiki/Software-defined_storage
 * https://en.wikipedia.org/wiki/Clustered_file_system
 * https://en.wikipedia.org/wiki/Ceph_(software)
