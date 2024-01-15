@@ -5,27 +5,27 @@ If you haven't started a professional career yet, I would like to recommend you 
 
 NOTICE3: If you want a quick start, go to "How to start?".
 
-* [Low-Level Programming University](#Low-Level-Programming-University)
-  * [What is it?](#What-is-it)
-  * [What Is the Low Level](#What-Is-the-Low-Level)
-  *  [Theory](#Theory)
-  *  [Languages](#Languages)
-     * [Assembly](#Assembly)
-     * [C language](#C-language)
-     * [Rust language](#Rust-language)
-  * [Applications](#Applications)
-    * [Hardware && Firmware](#Hardware-Firmware)
-    * [Linux kernel and device driver](#Linux-kernel-and-device-driver)
-      * [References](#References)
-    * [Other applications](#Other-applications)
-  * [Future of low-level programming](#Future-of-low-level-programming)
-  * [How to start?](#How-to-start)
-* [Translation](#Translation)
+* [Low-Level Programming University](#low-level-programming-university)
+  * [What is it?](#what-is-it)
+  * [What is the Low Level](#what-is-the-low-level)
+  * [Theory](#theory)
+  * [Languages](#languages)
+     * [Assembly](#assembly)
+     * [C language](#c-language)
+     * [Rust language](#rust-language)
+  * [Applications](#applications)
+    * [Hardware and Firmware](#hardware-and-firmware)
+    * [Linux kernel and device driver](#linux-kernel-and-device-driver)
+      * [References](#references)
+    * [Other applications](#other-applications)
+  * [Future of low-level programming](#future-of-low-level-programming)
+  * [How to start?](#how-to-start)
+* [Translations](#translations)
 * [Who am I?](#who-am-i)
 
 # Low-Level Programming University
 
-## <a name="What-is-it"></a>What is it?
+## What is it?
 
 I'm inspired by [google-interview-university](https://github.com/jwasham/coding-interview-university). I'd like to share my experience and show a roadmap to becoming a low-level programmer because I have found that these skills are not as common as they once were. In addition, many students and beginners ask me how they could become low-level programmers and Linux kernel engineers.
 
@@ -36,7 +36,7 @@ Absolutely it would be much better to get education in computer science first.
 * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
 
 
-## <a name="What-Is-the-Low-Level"></a>What Is the Low-Level?
+## What is the Low-Level?
 
 I classify low-level programming as programming that is very close to the machine, using a lower level programming language like C or assembly. This is in contrast to higher-level programming, typical of user-space applications, using high level languages (e.g. Python, Java).
 * [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
@@ -46,7 +46,7 @@ Yes, systems programming is a very close concept to low-level programming. This 
 
 Finally, this page includes topics ranging from hardware components to the Linux kernel. That is a huge range of layers. A one page document can never cover the details of all the layers, so the aim of this document is to serve as a starting point for low-level programming.
 
-##  <a name="Theory"></a>Theory
+## Theory
 
 There are two background theories to low-level programming:
 * Computer Architecture
@@ -82,9 +82,9 @@ Let me introduce several books that I've read. They are commonly used as textboo
 
 There is an infinite list of good books. I don't want to say that you should read many books. Just read one book carefully. Whenever you learn a theory, implement simulation code of it. **Implementing one thing is better than knowing one hundred theories.**
 
-##  <a name="Languages"></a>Languages
+## Languages
 
-### <a name="Assembly"></a>Assembly
+### Assembly
 
 Choose one between x86 or ARM. No need to know both. It doesn't matter to know assembly language. The essential thing is understanding the internals of a CPU and computer. So you don't need to practice the assembly of the latest CPU. Select 8086 or Cortex-M.
 
@@ -109,7 +109,7 @@ Choose one between x86 or ARM. No need to know both. It doesn't matter to know a
   * The MIPS and ARM edition cover the same topics but by dissecting a different architecture.
   * Both editions contain examples in the x86 world
 
-### <a name="C-language"></a>C language
+### C language
 
 There is no shortcut. Just read the entire book and solve all the exercises.
 
@@ -136,7 +136,7 @@ There is no shortcut. Just read the entire book and solve all the exercises.
 
 If you want to be expert of C programming, visit https://leetcode.com/. Good luck!
 
-### <a name="Rust-language"></a>Rust language
+### Rust language
 
 I am sure that the next language for the systems programming would be Rust.
 I will make a list what I did to learn Rust.
@@ -164,9 +164,9 @@ I will make a list what I did to learn Rust.
 * [Rust for Linux](https://github.com/Rust-for-Linux)
   * See the example sources and check how Rust got into the Linux kernel
 
-## <a name="Applications"></a>Applications
+## Applications
 
-### <a name="Hardware-Firmware"></a>Hardware && Firmware
+### Hardware and Firmware
 
 If you want to be an embedded systems engineer, it would be best to start from a simple hardware kit, rather than starting with the latest ARM chipset.
 
@@ -213,7 +213,7 @@ Other toy kernels:
 * https://littleosbook.github.io/
 * https://tuhdo.github.io/os01/
 
-### <a name="Linux-kernel-and-device-driver"></a>Linux kernel and device driver
+### Linux kernel and device driver
 
 You don't need to make a complete operating system.
 Join the Linux community and participate in development.
@@ -259,7 +259,7 @@ Some resources for Linux kernel and device driver development from beginner to a
     * It would be good to start with an old and simple OS.
     * Unix version: [Lions' Commentary on UNIX 6th Edition, with Source Code](https://en.wikipedia.org/wiki/Lions%27_Commentary_on_UNIX_6th_Edition,_with_Source_Code)
 
-#### <a name="References"></a>References
+#### References
 
 Check when you need something
 
@@ -268,7 +268,7 @@ Check when you need something
 * [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
   * guide to start kernel programming
 
-### <a name="Other-applications"></a>Other application
+### Other applications
 
 Yes, you might not be interested in Linux or firmware. If so, you can find other applications:
 * Windows systems programming & device drivers
@@ -281,7 +281,7 @@ I don't have any knowledge about those applications. Please send me any informat
 * Course: https://pdos.csail.mit.edu/archive/6.824-2012/
 * reference Source: https://github.com/srned/yfs
 
-## <a name="Future-of-low-level-programming"></a>Future of low-level programming
+## Future of low-level programming
 
 I do not know the future, but I keep my eye on Rust.
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
@@ -303,7 +303,7 @@ Big data and cloud computing require bigger and bigger storage. Some disks direc
 * https://en.wikipedia.org/wiki/Clustered_file_system
 * https://en.wikipedia.org/wiki/Ceph_(software)
 
-## <a name="How-to-start"></a>How to start?
+## How to start?
 
 I received an email asking how to start. There are many information about books, courses and projects in this page. It is my mistake to forget to write how to start. Unfortunately, there is no King's Road to [King's Landing](https://gameofthrones.fandom.com/wiki/King%27s_Landing). I will just write what I did in order. If you have already done something, please skip it. AGAIN, this is just an example that you could do in order, just in case if you do not know how to start or what to do.
 
@@ -345,7 +345,7 @@ I received an email asking how to start. There are many information about books,
   * Or find other topics
     * There are many fields where the low-level engineer can work: security, Compiler, Firmware, robot/car and so on
 
-# <a name="Translation"></a>Translation
+# Translations
 
 Please send me the pull request if you'd like to translate this page. I'll list it here.
 
@@ -359,7 +359,7 @@ Please send me the pull request if you'd like to translate this page. I'll list 
 * [Persian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_fa.md)
 * [Spanish](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_es.md)
 
-# <a name="who-am-i"></a>Who am I?
+# Who am I?
 
 I'm inspired by [google-interview-university](https://github.com/jwasham/google-interview-university). I'd like to share my experience and show a roadmap to becoming a low-level programmer because I have found that these skills are not as common as they once were. In addition, many students and beginners ask me how they could become low-level programmers and Linux kernel engineers.
 
