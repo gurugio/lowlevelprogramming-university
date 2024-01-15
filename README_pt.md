@@ -1,44 +1,45 @@
 # Universidade de Programação em Baixo Nível
 
-Nota 1: Por favor, não copie o conteúdo dessa página para o seu blog. Você pode compartilhar essa página, mas, por favor, compartilhe com o link original. Essa é a forma que nós elogiamos os autores de bons documentos e projetos open source.
+Nota 1: Por favor, não copie o conteúdo desta página para o seu blog. Você pode compartilhar esta página, mas, por favor, compartilhe com o link original. Essa é a forma que nós elogiamos os autores de bons documentos e projetos de código aberto.
 
-Nota 2: Por favor, note que programação de baixo nível está fora de moda e atualente não há muitas companhias contratando desenvolvedores de baixo nível. Está ficando mais difícil para eu encontrar um trabalho.
-Se você ainda não começou a sua carreira profissional, eu recomendaria considerar outros campos cuidadosamente.
+Nota 2: Por favor, note que programação de baixo nível não está em alta e atualmente não há muitas companhias contratando desenvolvedores de baixo nível. Está ficando mais difícil para encontrar trabalho. Se você ainda não começou a sua carreira profissional, eu recomendaria considerar outros campos cuidadosamente.
 
-Nota 3: Se você quer ir direto ao ponto, vá para [Como começar?](#How-to-start).
+Nota 3: Se você quiser ir direto ao ponto, vá para [Como começar?](#como-começar).
 
 ## Sumário
 
-* [O que é esse repositório?](#What-is-it)
-* [O que é programação de baixo nível?](#What-Is-the-Low-Level)
-* [Teoria](#Theory)
-* [Linguagens](#Languages)
-    * [Assembly](#Assembly)
-    * [C](#C-language)
-    * [Rust](#Rust-language)
-* [Carreiras](#Applications)
-    * [Hardware e Firmware](#Hardware-Firmware)
-    * [Kernel Linux e Driver de Dispositivo](#Linux-kernel-and-device-driver)
-        * [Referências](#References)
-    * [Outras carreiras](#Other-applications)
-* [Futuro da programação em baixo nível](#Future-of-low-level-programming)
-* [Como começar?](#How-to-start)
-* [Traduções](#Translation)
-* [Quem sou eu?](#who-am-i)
+* [O que é esse repositório?](#o-que-é-esse-repositório)
+* [O que é programação de baixo nível?](#o-que-é-programação-de-baixo-nível)
+* [Teoria](#teoria)
+* [Linguagens](#linguagens)
+    * [Assembly](#assembly)
+    * [C](#c)
+    * [Rust](#rust)
+* [Carreiras](#carreiras)
+    * [Hardware e Firmware](#hardware-e-firmware)
+    * [Kernel Linux e Drivers de Dispositivos](#kernel-linux-e-drivers-de-dispositivos)
+        * [Referências](#referências)
+    * [Outras carreiras](#outras-carreiras)
+* [Futuro da programação em baixo nível](#futuro-da-programação-em-baixo-nível)
+* [Como começar?](#como-começar)
+* [Traduções](#traduções)
+* [Quem sou eu?](#quem-sou-eu)
 
-## <a name="What-is-it"></a>O que é esse repositório?
+## O que é esse repositório?
 
-Eu me inspirei na [google-interview-university](https://github.com/jwasham/coding-interview-university). Eu gostaria de compartilhar minha experiência e um roteiro de como se tornar um programador de baixo nível porque acredito que essas habilidades não são tão comuns quanto antigamente. Além disso, muitos iniciantes e estudantes me perguntam como poderiam se tornar desenvolvedores de baixo nível e engenheiros do kernel Linux.
+Eu me inspirei na [google-interview-university](https://github.com/jwasham/coding-interview-university). Eu gostaria de compartilhar minha experiência e um roteiro de como se tornar um programador de baixo nível, pois acredito que essas habilidades não são tão comuns quanto antigamente. Além disso, muitos iniciantes e estudantes me perguntam como poderiam se tornar desenvolvedores de baixo nível e engenheiros do kernel Linux.
 
-Essa página não inclui todos os links, livros ou cursos. Por exemplo, essa página introduz Arduino, mas não tem informações detalhados sobre Arduino de sistemas embarcados. Você deve se aprofundar por si mesmo. Você tem a palavra-chave "Arduino" para começar, então seu próximo passo é provalmente pesquisar sobre Arduino, comprar um kit e fazer alguma coisa você mesmo, e não colecionar links e livros. Por favor, lembre que essa página é apenas um roteiro para iniciantes.
+Esta página não inclui todos os links, livros ou cursos. Por exemplo, esta página introduz Arduino, mas não tem informações detalhados sobre Arduino e sistemas embarcados. Você deve se aprofundar por si mesmo. Você tem a palavra-chave "Arduino" para começar, então seu próximo passo é pesquisar sobre Arduino, comprar um kit e fazer alguma coisa você mesmo, e não colecionar links e livros. Por favor, lembre que esta página é apenas um roteiro para iniciantes.
 
 Programação de baixo nível é uma parte de Ciências da Computação, de tal forma que, é certamente muito melhor ter esse conhecimento primeiro.
 
-* [Caminho para uma educação autodidata gratuita em Ciências da Computação!](https://github.com/ossu/computer-science)
+* [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
 
-## <a name="What-Is-the-Low-Level"></a>O que é programação de baixo nível?
+*Nota do tradutor*: os links que estiverem em inglês é devido o conteúdo estar em inglês. Em alguns casos, por exemplo livros, foi colocado o nome da versão em português, caso haja. Alguns poucos links que estão em inglês podem ter a refência escrita em português por motivos de maior de clareza.
 
-Eu classifico programação de baixo nível como uma programação que é muito próxima da máquina. Usa-se uma linguagem de programação de mais baixo nível, como C ou assembly, diferentimente de linguagens de programação de alto nível, típicas de aplicações do espaço de usuário, como Python ou Java.
+## O que é programação de baixo nível?
+
+Eu classifico programação de baixo nível como uma programação que é muito próxima da máquina. Usa-se uma linguagem de programação de mais baixo nível, como C ou assembly, diferentemente de linguagens de programação de alto nível, típicas de aplicações do espaço de usuário, como Python ou Java.
 
 * [Linguagem de Programação de Baixo Nível - Wikipedia](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o#Quanto_ao_grau_de_abstra%C3%A7%C3%A3o)
 
@@ -48,28 +49,29 @@ Sim, o conceito de programação de sistemas é bem próximo do de programação
 
 Finalmente, esse roteiro inclui tópicos indo de componentes de hardware até o kernel Linux. Isso é uma variedade enorme de camadas. Um documento de uma página nunca conseguiria cobrir detalhadamente todas elas, então o foco deste é servir de ponto inicial para programação de baixo nível.
 
-## <a name="Theory"></a>Teoria
+## Teoria
 
 Existem dois conhecimentos teóricos para se programar em baixo nível:
 
 * Arquitetura de Computadores
-* Sistemas Operacinais
+* Sistemas Operacionais
 
-Acredito que a melhor maneira de aprender teoria é fazendo um curso. Ler livros não é ruim, mas consome muito tempo e esforço. Você pode achar várias aulas em univerisades online, por exemplo: [Coursera](https://www.coursera.org) e [edX](https://www.edx.org/).
+Acredito que a melhor maneira de aprender teoria é fazendo um curso. Ler livros não é ruim, mas consome muito tempo e esforço. Você pode achar várias aulas em universidades online, por exemplo [Coursera](https://www.coursera.org) e [edX](https://www.edx.org/).
 
-Teoria é teoria. Eu não acho que você necessite de uma 10 em uma matéria, apenas entenda seu conteúdo geral; você evoluirá com experiência.
+Teoria é teoria. Eu não acho que você necessite de um 10 em uma matéria, apenas entenda seu conteúdo geral; você evoluirá com experiência.
 
 Irei apresentar vários livros que li. Eles são comumente usados como livros-texto em universidades. Se não existe uma matéria com esses livros na sua universidade, vale a pena gastar um pouco de tempo os lendo.
 
 * Arquitetura de Computadores
     * Organização e Projeto de Computadores, 5ª edição. HENNESSY, John. 2021.
     * Arquitetura de Computadores: Uma Abordagem Quantitativa, 6ª edição. HENNESSY, John. 2019.
-    * Computer Systems: A Programmer's Perspective, 3rd Edition. BRYANT, Randal; O'HALLARON, David. 2015.
+    * Computer Systems: A Programmer's Perspective, 3rd Revised Edition. BRYANT, Randal; O'HALLARON, David. 2015.
 * Sistemas Operacionais
     * The Magic Garden Explained: The Internals of UNIX System V Release 4 an Open Systems Design. GOODHEART, Berny; COX, James. 1994.
     * The Design of the UNIX Operating System. BACH, Maurice. 1986.
     * Operating Systems: Internals and Design Principles, 9th Edition. STALLINGS, William. 2017.
-    * *Adicionado pelo tradutor*: [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/). ARPACI-DUSSEAU, Remzi H.; ARPACI-DUSSEAU, Andrea C.. E-book online e gratuito sendo mantido atualizado constantemente. Se encontra na versão 1.10 no momento do lançamento desta tradução.
+    * *Adicionado pelo tradutor*: [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/). ARPACI-DUSSEAU, Remzi H.; ARPACI-DUSSEAU, Andrea C.
+        * E-book online e gratuito sendo atualizado constantemente. Se encontra na versão 1.10 no momento do lançamento desta tradução.
 * Cursos Recomendados
     * [CS401: Operating Systems from saylor.org](https://learn.saylor.org/course/view.php?id=94)
 * Habilidades Gerais de Programação
@@ -82,25 +84,23 @@ Irei apresentar vários livros que li. Eles são comumente usados como livros-te
       * Se você não fizer seu próprio hardware, você não entenderá o que é um dispositivo físico de memória mapeada.
       * Pontos de acesso modernos incluem muitos IPs, então você não tem a chance de entender como a CPU e os periféricos estão conectados.
       * Fazendo seu próprio kit 8086, você tem uma oportunidade de colocar cada dispositivo periférico na memória física e definir como os componentes de hardware principais (barramentos, interrupções do sistema, clock, alimentação, etc.) funcionam com seus próprios olhos.
-      * Eu montei o meu kit na universidade. Foi uma das mais valiosas atividades que eu fiz. Tente fazer seu próprio kit, sendo melhor que o hardware seja mais velho e simples, porque deve lhe dar mais trabalho.
-      * Pesquise "kit 8086", você deve achar alguns sites em que pode comprar uma esquema de hardware, partes e manuais.
+      * Eu montei o meu kit na universidade e foi uma das mais valiosas atividades que fiz. Tente fazer seu próprio kit, sendo melhor que o hardware seja mais velho e simples, porque deve lhe dar mais trabalho.
+      * Pesquise "kit 8086": você deve achar alguns sites em que pode comprar uma esquema de hardware, partes e manuais.
 
 Existe uma lista infinita de bons livros, e eu não quero dizer que você deve ler todos; leia um com cuidado: fazendo marcações, anotações e pesquisas. Sempre que aprender uma teoria, implemente um código simulando isso. **Implementar algo é melhor do que saber 100 teorias**.
 
-## <a name="Languages"></a>Linguagens
+## Linguagens
 
-### <a name="Assembly"></a>Assembly
+### Assembly
 
-Escolha uma entre x86 e ARM, não precisa saber as duas. Não importa tanto saber assembly a princípio, o essencial é entender o funcionamento interno de uma CPU e um computador, logo não há necessidade de praticar com assembly das CPU mais recentes. Apenas escolha entre 8086 ou Cortex-M.
+Escolha um entre x86 e ARM, não precisa saber as duas. Não importa tanto saber assembly a princípio, o essencial é entender o funcionamento interno de uma CPU e um computador, logo não há necessidade de praticar com assembly das CPU mais recentes. Apenas escolha entre 8086 ou Cortex-M.
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
     * Conceitos básicos de arquitetura de processadores e computadores
     * Conceitos básicos de C
-TODO: check owner's response
 * [64 bit assembly programming (translation in progress)](https://github.com/gurugio/book_assembly_64bit)
     * Conceitos básicos de arquitetura de CPUs e computadores modernos.
     * Conceitos básicos de disassembling e debugging em C
-    * *Preciso de ajuda na tradução*
 * [Learning assembly for Linux x64](https://github.com/0xAX/asm)
     * Programação em puro assembly 64 bits com NASM e inline assembly com GCC
 * [ARM Architecture Reference Manual, 2nd Edition](http://www.mypearsonstore.ca/bookstore/arm-architecture-reference-manual-9780201737196)
@@ -115,7 +115,7 @@ TODO: check owner's response
     * A versão MIPS e ARM cobrem os mesmos tópicos, mas dissecando as diferentes arquiteturas
     * Ambas edições contêm exemplos no universo x86
 
-### <a name="C-language"></a>C
+### C
 
 Aqui não existe atalho: leia o livro todo e resolva todos os exercícios.
 
@@ -124,14 +124,14 @@ Aqui não existe atalho: leia o livro todo e resolva todos os exercícios.
 * Modern C: Jens Gustedt. Modern C. Manning, 2019, 9781617295812. ffhal-02383654f
     * Nova convenção/novo padrão de C
 * [Is Parallel Programming Hard? And If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
-    * Implementação real de sincronização em C
+    * Implementação real de paralelismo em C
     * Essencial para programas C de larga escala (especialmente kernels)
 * [Projects in C](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
     * Se você leu um ou dois livros sobre C, então você DEVE programar algo
     * Escolha qualquer coisa que lhe agrade
     * Primeiro faça o seu e depois compare com o código de outra pessoa
     * É muito impotante comparar seu código, pois você só melhora suas habilidades quando você vê o código de alguém e aprende métodos melhores
-    * **livros são mortos e códigos são vivos**
+    * **Livros são mortos enquanto que códigos são vivos**
 * [Projects in C and other languages](https://github.com/danistefanovic/build-your-own-x)
     * Mais projetos interessantes
 * [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
@@ -144,12 +144,13 @@ Aqui não existe atalho: leia o livro todo e resolva todos os exercícios.
 
 Se quiser ser um especialista em C, visite [LeetCode](https://leetcode.com/). Boa sorte!
 
-### <a name="Rust-language"></a>Rust
+### Rust
 
 Tenho convicção que a próxima linguagem para programação de sistemas vai ser [Rust](https://www.rust-lang.org/). Farei uma lista do que fiz para aprender esta linguagem.
 
-[Linus Torvalds sobre entrada do Rust na versão 6.1 do Linux.](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
-*Adicionado pelo tradutor*: [Linus Torvals sobre o impacto do Rust no kernel.](https://www.youtube.com/watch?v=YyRVOGxRKLg)
+[Linus Torvalds: Rust will go into Linux 6.1 ](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
+
+*Adicionado pelo tradutor*: [Torvalds Speaks: Rust's Impact on the Linux Kernel](https://www.youtube.com/watch?v=YyRVOGxRKLg)
 
 * [The Rust Programming Language](https://doc.rust-lang.org/book/)
     * Livro online e gratuito da própria Rust Foundation
@@ -165,7 +166,7 @@ Tenho convicção que a próxima linguagem para programação de sistemas vai se
     * Bons exercícios para praticar características individuais da linguagem
     * Não tenho certeza se os Mentors estão trabalhando ativamente, mas comparar sua solução com a de outros deve ser o suficiente
     * Depois de submeter sua solução, você pode ver a solução de outros na aba "Community Solutions"
-    * Vários exercícios de nível fácil são voltados para o aspecto funcional da linguagem, usando métodos como: `map`, `filter` e `fold`
+    * Vários exercícios de nível fácil são voltados para o aspecto funcional da linguagem, usando métodos como: `map`, `filter` e `any`
 * [Easy rust](https://dhghomon.github.io/easy_rust/)
     * Um livro escrito em um inglês simples e com [material adicional no YouTube](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk)
 * [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)
@@ -179,9 +180,9 @@ Tenho convicção que a próxima linguagem para programação de sistemas vai se
 * [Rust for Linux](https://github.com/Rust-for-Linux)
     * Veja os exemplos e dê uma olhada em como Rust entrou no kernel Linux
 
-## <a name="Applications"></a>Carreiras
+## Carreiras
 
-### <a name="Hardware-Firmware"></a>Hardware e Firmware
+### Hardware e Firmware
 
 Se você quer se tornar um engenheiro de sistemas embarcados, seria melhor começar um simples kit de hardware, ao invés de começar com o chipset ARM mais recente.
 
@@ -204,7 +205,7 @@ Nesse ponto, você deve ser capaz de começar a ver arquitetura ARM ou x86 atual
 * [BleagleBoard](https://beagleboard.org/) - ARM
 * [Certificação Arduino](https://www.arduino.cc/en/ArduinoCertified/IntelEdison)
 
-Por exemplo, a placa Raspberry Pi tem um processador Cortex-A53 que suporte um conjunto de instruções de 64 bits, permitindo que você experiencie arquitetura de processadores moderna.
+Por exemplo, a placa Raspberry Pi tem um processador Cortex-A53 que suporta um conjunto de instruções de 64 bits, permitindo que você experiencie arquitetura moderna de processadores.
 
 Certo, você pode comprá-la, mas o que você vai fazer com isso? Se você não tem um projeto em mente, você tenderá a deixá-la na estante e esquecer da sua existência, como você provavelmente deve ter feito com outros equipamentos que você deve ter comprado.
 
@@ -217,18 +218,18 @@ Então eu recomendarei um projeto a você:
 
 Eu fiz um [kernel de brinquedo](https://github.com/gurugio/caos) que suporta modo 64 bits, paginação e uma troca de contexto bem simples. Fazer um kernel para brincar é um bom caminho para entender arquitetura de computadores modernos e controle de hardware.
 
-Na verdade, você já tem os processadores e hardware atuais: seu notebook ou seu computador! Você já tem tudo que você precisa para começar, você não precisa comprar nada.
+Na verdade, você já tem os processadores e hardware atuais: seu notebook ou seu computador! Você já tem tudo que você precisa para começar, não precisa comprar nada.
 
-O emulador [QEMU](https://www.qemu.org/) pode emular os processadores ARM e Intel atuais, então tudo que você precisa, já está disponível.
+O emulador [QEMU](https://www.qemu.org/) pode emular os processadores ARM e Intel atuais, então tudo que você precisa já está disponível.
 
-Existem vários kernels de brinquedo e documentos que você pode se basear. Apenas instale o emulador QEMU e faça um pequeno kernel que apenas da boot, liga paginação e printa algumas mensagens.
+Existem vários kernels de brinquedo e documentos que você pode se basear. Apenas instale o emulador QEMU e faça um pequeno kernel que apenas da boot, liga paginação e imprime algumas mensagens.
 
 Outros kernels de brinquedo:
 
 * https://littleosbook.github.io/
 * https://tuhdo.github.io/os01/
 
-### <a name="Linux-kernel-and-device-driver"></a>Kernel Linux e Drivers de Dispositivos
+### Kernel Linux e Drivers de Dispositivos
 
 Você não precisa montar um sistema operacional completo, entre na comunidade Linux e participe do desenvolvimento.
 
@@ -244,25 +245,25 @@ Alguns recursos para o desenvolvimento do Linux e de drivers, de iniciante a ava
         * Entenda o design do kernel Linux
     * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
         * Leia este livro e o código fonte do kernel na versão 2.6 ao mesmo tempo
-        * Nunca começa com a versão mais recente, a 2.6 é suficiente!
+        * Nunca comece com a versão mais recente, a 2.6 é suficiente!
         * Use QEMU e [GDB](https://www.sourceware.org/gdb/) para rodar o código linha por linha
             * [Como debuggar o kernel Linux com GDB e QEMU](http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu)
             * https://github.com/gurugio/linuxdeveloptip/blob/master/qemu-gdb-kdump.md
-        * Use busybox para fazer o sistema de arquivos mais simples que leva apenas um segundo para bootar
+        * Use busybox para fazer o sistema de arquivos mais simples possível, levando apenas um segundo para bootar
             * https://github.com/gurugio/linuxdeveloptip/blob/master/minikernelwithbusybox.md
-* Outros recursos [gratuitos que recomendo]
+* Outros recursos gratuitos que recomendo
     * [Linux Device Driver Labs](https://linux-kernel-labs.github.io/)
         * Guia prático e com excelentes exercícios fazendo drivers com APIs essenciais do kernel
         * Acredito que este documento introduz quase toda API essencial
     * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
-        * *Infelizmente este desafio não aceito mais requisições porque não tem mais desafios*, mas você pode encontrar as questões do desafio pesquisando
+        * *Infelizmente este desafio não aceita mais requisições porque não tem mais desafios*, mas você pode encontrar as questões do desafio as pesquisando
         * O mantenedor falou que está planejando um novo formato
         * Isto é como um professor incrível que lhe guia pelo que fazer
         * Se você não sabe o que fazer, apenas comece
     * [Aprendendo desenvolvimento de sistemas operacionais usando Linux e Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
         * Este projeto não está completo ainda
         * Eu penso que fazer um kernel similar ao do Linux é a melhor maneira de o entender
-    * [Camada de bloco e drivers](https://github.com/gurugio/book_linuxkernel_blockdrv)
+    * [Block layer and device driver](https://github.com/gurugio/book_linuxkernel_blockdrv)
         * Comece com um simples exemplo de driver de bloco (Ramdisk) com modo multi-fila
         * Prossiga com a camada de blocos
     * [Driver md do kernel Linux (Coreano)](https://github.com/gurugio/book_linuxkernel_md)
@@ -273,16 +274,16 @@ Alguns recursos para o desenvolvimento do Linux e de drivers, de iniciante a ava
         * Seria bom começar com um antigo e simples SO
         * Versão Unix: [Lions' Commentary on UNIX 6th Edition, with Source Code](https://en.wikipedia.org/wiki/Lions%27_Commentary_on_UNIX_6th_Edition,_with_Source_Code)
 
-#### <a name="References"></a>Referências
+#### Referências
 
 Cheque quando estiver precisando de algo
 
 * [Bootlin Docs](https://bootlin.com/docs/)
     * Vários slides intruduzinho bons tópicos, especialmente ARM-Linux
-* [Você pode ser um hacker de kernels! (blog post)](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
+* [You can be a kernel hacker! (blog post)](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
     * Guia para começar programação de kernel
 
-### <a name="Other-applications"></a>Outras carreiras
+### Outras carreiras
 
 Sim, você pode não ser interessando em Linux ou firmware. Nesse caso, você pode procurar outras carreiras:
 
@@ -294,12 +295,12 @@ Eu não tenho conhecimento algum sobre estas. Por favor, mande-me qualquer infor
 
 **Kernels e drivers não são tudo de programação de baixo nível.**
 
-Mais uma importante carreira de programação de baixo nível é o armazenamento definido por software (*software-defined storage*) ou sistemas de arquivos distribuidos. Descrições detalhadas sobre isto está além do escopo desse documento, mas existe cursos excelentes em que você pode fazer um simples sistema de arquivos distribuidos.
+Mais uma importante carreira de programação de baixo nível é o armazenamento definido por software (*software-defined storage*) ou sistemas de arquivos distribuidos. Descrições detalhadas sobre isto estão além do escopo desse documento, mas existe cursos excelentes em que você pode fazer um simples sistema de arquivos distribuidos.
 
 * Curso: https://pdos.csail.mit.edu/archive/6.824-2012/
 * Fonte: https://github.com/srned/yfs
 
-## <a name="Future-of-low-level-programming"></a>Futuro da programação em baixo nível
+## Futuro da programação em baixo nível
 
 Eu não sei o futuro, mas estou de olho no Rust.
 
@@ -309,23 +310,23 @@ Se eu tivesse uma semana livre, eu aprenderia Rust, pois é a linguagem mais nov
 
 * https://github.com/tsgates/rust.ko
 
-IoT (*Internet of Things* - Internet das  Coisas) é o que anda em alta, então vale a pena olhar o que são SOs para IoT. Algumas empresas possuem seus próprios RTOSes (*Realtime Operating System* - Sistema Operacional de Tempo Real), como ARM e Samsung, mas muitos deles são de código fechado; a Linux Foundation tem sua própria solução: Zephyr.
+IoT (*Internet of Things* - Internet das  Coisas) é o que anda em alta, então vale a pena olhar o que são SOs para IoT. Algumas empresas possuem seus próprios RTOSes (*Real-Time Operating System* - Sistema Operacional de Tempo Real), como ARM e Samsung, mas muitos deles são de código fechado; a Linux Foundation tem sua própria solução:
 
 * https://www.zephyrproject.org/
 
-Servidores em nuvem tipicamente possuem várias camadas, por exemplo SO host, driver KVM, processo QEMU, SO convidado e serviço da aplicação. Um contêiner foi desenvolvido para prover virtualização leve. Em um futuro próximo, um novo conceito de SO, assim chamado de *Library OS* ou *Unikernel*, substituiria as ferramentas típicas de software e hardware para virtualização.
+Servidores em nuvem tipicamente possuem várias camadas, por exemplo SO hospedeiro, driver KVM, processo QEMU, SO hóspede e serviço da aplicação. Um contêiner foi desenvolvido para prover virtualização leve. Em um futuro próximo, um novo conceito de SO, assim chamado de *Library OS* ou *Unikernel*, substituiria as ferramentas típicas de software e hardware para virtualização.
 
 * http://unikernel.org/
 
-Big data e computação em nuvem está requerindo armazenamentos cada vez maiores. Alguns discos ligados diretamente a máquina do servidor não satifaz as requisições de capacidade, estabilidade e performance. Dessa forma, estão acontecendo pesquisas para a produção de sistemas de grande armazenamento, com várias máquinas para armazenar os dados conectadas por uma rede de alta velocidade. Antes era focada um armazenamento único de grande volume, porém atualmente estão provendo vários volumes dedicados para as várias máquinas virtuais.
+Big data e computação em nuvem está requerindo armazenamentos cada vez maiores. Alguns discos ligados diretamente à máquina do servidor não satifaz as requisições de capacidade, estabilidade e performance. Dessa forma, estão acontecendo pesquisas para a produção de sistemas de grande armazenamento, com várias máquinas para armazenar os dados conectadas por uma rede de alta velocidade. Antes era focada um armazenamento único de grande volume, porém atualmente estão provendo vários volumes dedicados para as várias máquinas virtuais.
 
 * https://en.wikipedia.org/wiki/Software-defined_storage
 * https://en.wikipedia.org/wiki/Clustered_file_system
 * https://en.wikipedia.org/wiki/Ceph_(software)
 
-## <a name="How-to-start"></a>Como começar?
+## Como começar?
 
-Eu recebi um email perguntando como começar. Existe muita informação sobre livros, cursos e projetos nessa página, mas foi erro meu esquecer de escrever como começar. Infelizmente não existe um *Caminho Real* ([Porto Real](https://gameofthrones.fandom.com/pt-br/wiki/Porto_Real)).
+Eu recebi um email perguntando como começar. Existe muita informação sobre livros, cursos e projetos nesta página, mas foi erro meu esquecer de escrever como começar. Infelizmente não existe um *Caminho Real* ([Porto Real](https://gameofthrones.fandom.com/pt-br/wiki/Porto_Real)).
 
 Irei apenas escrever o que eu fiz em ordem. Se você já tiver feito algo, pule. NOVAMENTE, isso é apenas um exemplo que você pode fazer em ordem, em caso de você não saber como começar ou o que fazer.
 
@@ -342,10 +343,10 @@ Irei apenas escrever o que eu fiz em ordem. Se você já tiver feito algo, pule.
     * [LeetCode](https://leetcode.com/)
         * Se você não achar nenhum projeto interessante, também é bom focar em estrutura de dados e algoritmos
 * Faça um projeto de hardware
-    * Raspberry Pi ou Arduino, não importa, você precisa experimentar controlar o hardware diretamente com APENAS C!
+    * Raspberry Pi ou Arduino não importa, você precisa experimentar controlar o hardware diretamente com APENAS C!
     * Eu recomendo comprar um kit ATmega128 e fazer um firmware ligar/desligar LEDs, detectar o input de um switch e mostrar uma mensagem de texto no LCD
-    * Um programa de controle de motor também é um projeto muito bom; por exemplo, um *line tracer*
-    * NÃO USE bibliotecas; você deveria fazer tudo você mesmo (com exceção do software de colocar o programa na placa)
+    * Um programa de controle de motor também é um projeto muito bom (um *line tracer*, por exemplo)
+    * NÃO USE bibliotecas: você deveria fazer tudo você mesmo (com exceção do software de colocar o programa na placa)
 * Básicos do Kernel Linux
     * Programação de baixo nível é bem próxima de sistemas operacionais, então você deve saber o interior de um sistema operacional
     * Comece por drivers
@@ -359,18 +360,18 @@ Irei apenas escrever o que eu fiz em ordem. Se você já tiver feito algo, pule.
         * E então fazer seu kernel de brinquedo
             * [Aprender desenvolvimento de sistemas operacionais usando Linux e Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
             * [Fazendo seu próprio kernel](http://wiki.osdev.org/Getting_Started)
-        * Escreva o link do repositório do seu kernel no seu currículo (não esquece de escrever mensagens descritivas nos commits)
+        * Escreva o link do repositório do seu kernel no seu currículo (não esqueça de escrever mensagens descritivas nos commits)
         * Veja issues em https://lwn.net/, pegue alguma e a resolva
-            * Veja "Recent Kernel Pacthes" em https://lwn.net/Kernel/ ou pelo link direto https://lwn.net/Kernel/Pacthes
+            * Vá para "Recent Kernel Pacthes" em https://lwn.net/Kernel/ ou pelo link direto https://lwn.net/Kernel/Pacthes
             * Encontre um patch para você e tente entender o código fonte. Claro que vai ser difícil, mas tente. Você entenderá mais e mais sempre que tentar
             * Builde o kernel e teste na sua máquina: teste de performance, de estabilidade com [LTP](https://linux-test-project.github.io/) ou análise estática de código dentro do kernel
             * Reporte qualquer problema que encontrar: warnings ou erros de compilação, redução de performance, kernel entrando em pânico ou qualquer outro
-            * Se funciona bem, reporte com a descrição da sua máquina: o dono do patch vai escrever "Reviewed-by" (revisado por) e seu nome
+            * Se funciona bem, reporte com a descrição da sua máquina e o dono do patch vai escrever "Reviewed-by" (revisado por) e seu nome
             * Parabéns pelo seu nome no log do git do kernel
     * Ou encontre outros tópicos
         * Existem vários outros campos em que engenheiros de baixo nível podem trabalhar: segurança, compiladores, firmware, robótica, setor automotivo e muito mais
 
-# <a name="Translation"></a>Traduções
+# Traduções
 
 Por favor, faça uma PR se deseja traduzir esta página, irei lista-la aqui.
 
@@ -384,9 +385,9 @@ Por favor, faça uma PR se deseja traduzir esta página, irei lista-la aqui.
 * [Persian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_fa.md)
 * [Spanish](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_es.md)
 
-# <a name="who-am-i"></a>Quem sou eu?
+# Quem sou eu?
 
-Eu me inspirei na [google-interview-university](https://github.com/jwasham/coding-interview-university). Eu gostaria de compartilhar minha experiência e um roteiro de como se tornar um programador de baixo nível porque acredito que essas habilidades não são tão comuns quanto antigamente. Além disso, muitos iniciantes e estudantes me perguntam como poderiam se tornar desenvolvedores de baixo nível e engenheiros do kernel Linux.
+Eu me inspirei na [google-interview-university](https://github.com/jwasham/coding-interview-university). Eu gostaria de compartilhar minha experiência e um roteiro de como se tornar um programador de baixo nível, pois acredito que essas habilidades não são tão comuns quanto antigamente. Além disso, muitos iniciantes e estudantes me perguntam como poderiam se tornar desenvolvedores de baixo nível e engenheiros do kernel Linux.
 
 Tenho mais de 10 anos de experiência como programador de baixo nível, incluindo:
 
@@ -395,5 +396,5 @@ Tenho mais de 10 anos de experiência como programador de baixo nível, incluind
 * Programação de sistemas Unix com C
 * Drivers em Linux
 * Kernel Linux: page allocation
-* Kernel Linux: driver de bloco e módulo md
+* Kernel Linux: block driver e módulo md
 
