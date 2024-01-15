@@ -91,7 +91,7 @@ Choose one between x86 or ARM. No need to know both. It doesn't matter to know a
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
   * basic concepts of CPU and computer architecture
   * basic concepts of C programming language
-* [64bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
+* [64bit assembly programming (translation in progress)](https://github.com/gurugio/book_assembly_64bit)
   * basic concepts of modern CPU and computer architecture
   * basic concepts of disassembling and debugging of C code
   * _need help for translation_
@@ -295,7 +295,7 @@ ARM, Samsung and some companies has their own realtime OS but sadly many of them
 But Linux Foundation also has a solution: Zephyr
 * https://www.zephyrproject.org/
 
-Typical cloud servers have many layers; for instance, host OS, kvm driver, qemu process, guest OS and service application. A container has been developed to provide light virtualization. In the near future, a new concept of OS, a so-called library OS or Unikernel, would replace the typical stack of SW for virtualization.
+Typical cloud servers have many layers; for instance, host OS, KVM driver, qemu process, guest OS and service application. A container has been developed to provide light virtualization. In the near future, a new concept of OS, a so-called library OS or Unikernel, would replace the typical stack of SW for virtualization.
 * http://unikernel.org/
 
 Big data and cloud computing require bigger and bigger storage. Some disks directly attached to server machines cannot satisfy the required capacity, stability and performance. Therefore there has been research to make huge storage systems with many storage machines connected by a high speed network. It used to be focused on making one huge storage volume. But currently they are providing many volumes dedicated for many virtual machines.
@@ -349,8 +349,8 @@ I received an email asking how to start. There are many information about books,
 
 Please send me the pull request if you'd like to translate this page. I'll list it here.
 
-* [Chinese(Traditional)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_tw.md)
-* [Chinese(Simplified)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
+* [Chinese (Traditional)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_tw.md)
+* [Chinese (Simplified)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
 * [Portuguese (Brazilian)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_pt.md)
 * [Italian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_it.md)
 * [Czech](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cz.md)
