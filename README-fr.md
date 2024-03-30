@@ -100,9 +100,9 @@ Choisissez entre de l'architecture x86 ou ARM. Pas besoin de connaître les deux
 * `EN` [ARM Architecture Reference Manual, 2e édition](https://www.amazon.com/ARM-Architecture-Reference-Manual-2nd/dp/0201737191)
     * Référence complète sur la programmation des bras
 * Organisation et conception informatiques
-    * [Édition MIPS](https://www.amazon.ca/computer-organisation-design-mips-interface/dp/0124077269/)
-    * [Édition ARM](https://www.amazon.ca/computer-organisation-design-arm-interface/dp/0128017333/)
-    * [Édition RISC-V](https://www.amazon.com/computer-organisation-design-derish-vchitecture/dp/0128122757)
+    * `EN` [Édition MIPS](https://www.amazon.ca/computer-organisation-design-mips-interface/dp/0124077269/)
+    * `EN` [Édition ARM](https://www.amazon.ca/computer-organisation-design-arm-interface/dp/0128017333/)
+    * `EN` [Édition RISC-V](https://www.amazon.com/computer-organisation-design-derish-vchitecture/dp/0128122757)
     * Livres universitaires qui expliquent comment chaque composant d'un ordinateur fonctionne à partir de zéro.
     * Explique en détail les différents concepts qui composent l'architecture informatique.
     * Ils ne sont pas destinés aux lecteurs qui souhaitent devenir compétents dans un langage d'assemblage spécifique.
@@ -113,37 +113,37 @@ Choisissez entre de l'architecture x86 ou ARM. Pas besoin de connaître les deux
 
 Il n'y a pas de raccourci. Il suffit de lire tout le livre et de résoudre tous les exercices.
 
-* [C Programming: A Modern Approach, 2e édition](https://www.amazon.com/c-programming-modern-approach-2nd/dp/0393979504)
-* [The C Programming Language, 2e édition](https://www.amazon.com/programming-anguage-brian-w-kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=utf8&psc=1&refrid=60r1d2chba8dhyt6jnmn)
+* `EN` [C Programming: A Modern Approach, 2e édition](https://www.amazon.com/c-programming-modern-approach-2nd/dp/0393979504)
+* `EN` [The C Programming Language, 2e édition](https://www.amazon.com/programming-anguage-brian-w-kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=utf8&psc=1&refrid=60r1d2chba8dhyt6jnmn)
 * Modern C: Jens Gustedt. Manning, 2019, 9781617295812. FFHAL-02383654F
    * Pour une nouvelle norme de C
-* [La programmation parallèle est-elle difficile et, si oui, que pouvez-vous faire à ce sujet?](Https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
-   * Implémentation brute de la synchronisation avec C
+* `EN` [La programmation parallèle est-elle difficile et, si oui, que pouvez-vous faire à ce sujet?](Https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
+   * Implémentation âpre de la synchronisation avec C
    * Essentiel pour la programmation C à grande échelle (en particulier pour la programmation du noyau)
-* [C Tutoriels basés sur le projet?](Https://www.reddit.com/r/c_programming/comments/872rlt/c_project_based_tutorials/)
-   * Si vous finissez de lire un ou deux livres de programmation C, vous devez faire quelque chose.
+* `EN` [C Tutoriels basés sur le projet?](Https://www.reddit.com/r/c_programming/comments/872rlt/c_project_based_tutorials/)
+   * Si vous finissez de lire un ou deux livres de programmation C, il faut s'appliquez à quelque chose.
    * Choisissez ce que vous voulez.
-   * Faites d'abord vous-même, puis comparez avec le code source de quelqu'un d'autre. Il est très important de comparer votre source et d'autres. Vous ne pouvez améliorer vos compétences que lorsque vous lisez la source de l'autre et apprendre de meilleures méthodes. Les livres sont morts et la source est en direct.
-* [C et autres projets basés sur les langues](https://github.com/danistefanovic/build-your-own-x)
+   * Faites d'abord vous-même, puis comparez avec le code source de quelqu'un d'autre. Il est très important de comparer votre source et d'autres. Vous ne pouvez améliorer vos compétences que lorsque vous lisez le code source des autres et apprendre de meilleures méthodes. Les livres sont inflexible et le code source est en direct.
+* `EN` [C et autres projets basés sur les langues](https://github.com/danistefanovic/build-your-own-x)
    * Trouvez des projets plus intéressants
-* [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
+* `EN` [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
    * Référence sur l'optimisation en utilisant C et un peu d'assemblage x86
    * Commence du 8088 à aujourd'hui
    * Focus spécial sur l'optimisation des graphiques de bas niveau
-* [Framework and Plugin Design in C](https://github.com/gurugio/book_cprogramming)
+* `EN` [Framework and Plugin Design in C](https://github.com/gurugio/book_cprogramming)
    * Comment développer le framework et le plugin en C pour les logiciels à grande échelle
-   * Conseils de programmation très basiques pour la lecture de la source du noyau Linux
+   * Conseils de programmation très basiques pour la lecture de le code source du noyau Linux
 
 Si vous souhaitez être expert de la programmation C, visitez  `EN` https://leetcode.com/. Bonne chance!
 
 ### <a name="Langage-Rust"></a>Rust
 
-Je suis sûr que le prochain langage pour la programmation des systèmes serait de la rouille.
-Je ferai une liste ce que j'ai fait pour apprendre la rouille.
+Je suis sûr que le prochain langage pour la programmation des systèmes serait Rust.
+Je ferai une liste ce que j'ai fait pour apprendre Rust.
 
 `EN` [Linus Torvalds a déclaré "Sauf quelque chose d'étrange, il arrivera en 6.1."](Https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
 
-* `EN` [The Rust Programming Language](https://doc.rust-lang.org/book/)
+* `FR` [The Rust Programming Language](https://jimskapt.github.io/rust-book-fr/)
    * Introduction excellente, mais il manque d'exemples et d'exercices.
 * `EN` [Rust par l'exemple](https://doc.rust-lang.org/rust-by-example/)
    * En lisant "The Rust Programming Language", vous pouvez trouver des exemples et des exercices ici.
@@ -151,18 +151,18 @@ Je ferai une liste ce que j'ai fait pour apprendre la rouille.
 * `EN` [Programming Rust, 2e édition](https://www.oreilly.com/library/view/Programming-Rust-2nd/9781492052586/)
    * Introduction plus profonde, mais toujours manque d'exemples et d'exercices.
 * `EN` [Des Exercices](https://exercism.org/tracks/rust)
-   * De bons exercices pour pratiquer les caractéristiques indivisuelles de la rouille.
+   * De bons exercices pour pratiquer les caractéristiques indivisuelles de Rust.
    * Je ne suis pas sûr que les mentors travaillent activement, mais ce serait suffisant pour comparer votre solution avec les autres.
      * Après avoir soumis votre solution, vous pouvez voir les solutions des autres avec l'onglet "Solutions communautaires" (depuis l'exercice v3).
-     * De nombreux exercices de niveau facile sont destinés aux fonctionnalités fonctionnelles telles que la carte / filtre / tout et etc.
+     * De nombreux exercices de niveau facile sont destinés aux fonctionnalités utilitaires telles que la carte / filtre / tout et etc.
 * `EN` [Rust Easy](https://dhghomon.github.io/easy_rust/)
    * Un livre écrit en anglais simple.
    * Leçons YouTube fourni: https://www.youtube.com/playlist?list=plfllocyhvgsrwlktahg0e-2qxcf-ozbkkk
 * `EN` [Let's Get Rusty](https://www.youtube.com/c/letsgetrusty)
-   * Il y a beaucoup de YouTubers à télécharger le cours de rouille, mais j'ai le plus apprécié ce cours.
+   * Il y a beaucoup de YouTubers à télécharger le cours de Rust, mais j'ai le plus apprécié ce cours.
    * Il a téléchargé les dernières nouvelles pour Rust. Il vaut la peine de s'abonner.
-* `EN` [Rust en Linux](https://github.com/rust-for-inux)
-   * Voir l'exemple de sources et vérifier comment la rouille va entrer dans le noyau Linux
+* `EN` [Rust en Linux](https://github.com/rust-for-linux)
+   * Voir l'exemple de sources et vérifier comment Rust va entrer dans le noyau Linux
 
 ##  <a name="Applications"></a>Applications
 
@@ -188,8 +188,30 @@ Si vous voulez être ingénieur en systèmes embarqués, il serait préférable 
 *  `EN` https://beagleboard.org/
 *  `EN` https://www.arduino.cc/en/ArduinoCertified/IntelEdison
 
-Par exemple, la carte Raspberry Pi possède un processeur Cortex-A53 qui prend en charge un jeu d'instructions 64 bits. Cela vous permet de découvrir une architecture de processeur moderne avec rPi.
-Oui, vous pouvez l'acheter... mais... qu'allez-vous en faire ? Si vous n'avez pas de projet cible, il serait également bon de vous concentrer sur la structure de données et l'algorithme.
+Par exemple, la carte Raspberry Pi (rPi) possède un processeur Cortex-A53 qui prend en charge un jeu d'instructions 64 bits.
+Cela vous permet de découvrir une architecture de processeur moderne avec rPi.
+Oui, vous pouvez l'acheter... mais... qu'allez-vous en faire ?
+Si vous n'avez pas de projet cible, vous seriez susceptible de jeter le matériel dans un tiroir et de l'oublier comme les autres gadgets que vous avez peut-être achetés auparavant.
+
+Donc, je vous recommande un projet pour vous.
+* [Faire votre propre noyau] (http://wiki.osdev.org/getting_started)
+   * Bonnes références: https://www.reddit.com/r/osdev/
+* [Développement du système d'exploitation d'apprentissage à l'aide du noyau Linux et de Raspberry Pi] (https://github.com/s-matyukevich/raspberry-pi-os)
+   * (Description du projet) Ce référentiel contient un guide étape par étape qui enseigne comment créer un simple noyau de système d'exploitation (OS) à partir de zéro ... (skip) ... chaque leçon est conçue de telle manière que Il explique d'abord comment certaines fonctionnalités du noyau sont implémentées dans le rPi OS, puis il essaie de démontrer comment la même fonctionnalité fonctionne dans le noyau Linux.
+
+J'ai fait [un petit noyau] (https://github.com/gurugio/caos) qui prend en charge le mode long 64 bits, la pagination et la commutation de contexte très simple. Faire un petit noyau est un bon moyen de comprendre l'architecture informatique moderne et le contrôle du matériel.
+
+En fait, vous avez déjà le dernier processeur et les derniers appareils matériels.
+Ton ordinateur portable! Votre bureau! Vous avez déjà tout ce dont vous avez besoin pour commencer!
+Vous n'avez rien à acheter.
+L'émulateur Qemu peut imiter les derniers processeurs ARM et processeurs Intel.
+Donc, tout ce dont vous avez besoin est déjà à portée de main.
+Il existe de nombreux grains de jouets et documents auxquels vous pouvez vous référer.
+Installez simplement l'émulateur Qemu et faites un minuscule noyau qui bottise, allume la pagination et imprime certains messages.
+
+Des autres petites noyau:
+* https://littleosbook.github.io/
+* https://tuhdo.github.io/os01
 
 ### <a name="Linux-noyau-et-pilote-de-périphérique"></a>Linux noyau et pilote de périphérique
 
@@ -205,9 +227,9 @@ Quelques ressources pour le développement de pilotes de périphériques et de n
   * `EN` [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
     * Comprendre la conception du noyau Linux
   * `EN` [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
-    * Lisez ce livre et la source du noyau v2.6 en même temps
+    * Lisez ce livre et le code source du noyau v2.6 en même temps
     * Ne commencez jamais par la dernière version, v2.6 est suffisant !
-    * Utilisez qemu et gdb pour exécuter la source du noyau ligne par ligne
+    * Utilisez qemu et gdb pour exécuter le code source du noyau ligne par ligne
       * `EN` http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu
       * `EN` https://github.com/gurugio/linuxdeveloptip/blob/master/qemu-gdb-kdump.md
     * Utilisez busybox pour créer le système de fichiers le plus simple qui ne prend qu'une seconde pour démarrer
