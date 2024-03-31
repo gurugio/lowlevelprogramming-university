@@ -254,10 +254,7 @@ Some resources for Linux kernel and device driver development from beginner to a
   * [md driver of Linux kernel(Korean)](https://github.com/gurugio/book_linuxkernel_md)
     * how mdadm tool works and how it calls md driver
     * how md driver works
-  * [A Heavily Commented Linux Kernel Source Code](http://www.oldlinux.org/)
-    * Heavy comments for the ancient Linux v0.12.
-    * It would be good to start with an old and simple OS.
-    * Unix version: [Lions' Commentary on UNIX 6th Edition, with Source Code](https://en.wikipedia.org/wiki/Lions%27_Commentary_on_UNIX_6th_Edition,_with_Source_Code)
+  * [Lions' Commentary on UNIX 6th Edition, with Source Code](https://en.wikipedia.org/wiki/Lions%27_Commentary_on_UNIX_6th_Edition,_with_Source_Code)
 
 #### References
 
