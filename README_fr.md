@@ -194,12 +194,12 @@ Oui, vous pouvez l'acheter... mais... qu'allez-vous en faire ?
 Si vous n'avez pas de projet cible, vous seriez susceptible de jeter le matériel dans un tiroir et de l'oublier comme les autres gadgets que vous avez peut-être achetés auparavant.
 
 Donc, je vous recommande un projet pour vous.
-* [Faire votre propre noyau] (http://wiki.osdev.org/getting_started)
+* [Faire votre propre noyau](http://wiki.osdev.org/getting_started)
    * Bonnes références: https://www.reddit.com/r/osdev/
-* [Développement du système d'exploitation d'apprentissage à l'aide du noyau Linux et de Raspberry Pi] (https://github.com/s-matyukevich/raspberry-pi-os)
+* [Développement du système d'exploitation d'apprentissage à l'aide du noyau Linux et de Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
    * (Description du projet) Ce référentiel contient un guide étape par étape qui enseigne comment créer un simple noyau de système d'exploitation (OS) à partir de zéro ... (skip) ... chaque leçon est conçue de telle manière que Il explique d'abord comment certaines fonctionnalités du noyau sont implémentées dans le rPi OS, puis il essaie de démontrer comment la même fonctionnalité fonctionne dans le noyau Linux.
 
-J'ai fait [un petit noyau] (https://github.com/gurugio/caos) qui prend en charge le mode long 64 bits, la pagination et la commutation de contexte très simple. Faire un petit noyau est un bon moyen de comprendre l'architecture informatique moderne et le contrôle du matériel.
+J'ai fait [un petit noyau](https://github.com/gurugio/caos) qui prend en charge le mode long 64 bits, la pagination et la commutation de contexte très simple. Faire un petit noyau est un bon moyen de comprendre l'architecture informatique moderne et le contrôle du matériel.
 
 En fait, vous avez déjà le dernier processeur et les derniers appareils matériels.
 Ton ordinateur portable! Votre bureau! Vous avez déjà tout ce dont vous avez besoin pour commencer!
