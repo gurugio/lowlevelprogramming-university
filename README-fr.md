@@ -221,7 +221,7 @@ Quelques ressources pour le développement de pilotes de périphériques et de n
 * Livres: Lisez ce qui suit dans l'ordre
   * `EN` [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
     * Les concepts de base d'Unix sont appliqués à tous les systèmes d'exploitation.
-    * Ce livre est un très bon endroit pour apprendre les concepts de base des systèmes d'exploitation.
+    * Ce livre est un très bon resource pour apprendre les concepts de base des systèmes d'exploitation.
   * `EN` [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
     * Faites tous les exemples par vous-même
   * `EN` [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
@@ -254,7 +254,7 @@ Quelques ressources pour le développement de pilotes de périphériques et de n
     * comment l'outil mdadm fonctionne et comment il appelle le pilote md
     * comment fonctionne le pilote md
   * `EN` [Un code source de noyau Linux lourdement commémoré](http://www.oldlinux.org/)
-    * Commentaires lourds pour l'ancien Linux v0.12.
+    * Commentaires profonds pour l'ancien Linux v0.12.
     * Il serait bon de commencer par un OS ancien et simple.
     * Version Unix: `EN` [Commentaire de Lions sur UNIX 6e édition, avec code source](https://en.wikipedia.org/wiki/Lions%27_Commentary_on_UNIX_6th_Edition,_with_Source_Code)
 
@@ -262,7 +262,7 @@ Quelques ressources pour le développement de pilotes de périphériques et de n
 
 Vérifiez lorsque vous avez besoin de quelque chose
 
-* `EN` [Page d'accueil Free-electrons](http://free-electrons.com/docs/)
+* `EN` [Page d'accueil bootlin](https://bootlin.com/docs/)
   * de nombreux fichiers de diapositives présentant de bons sujets, spécialement ARM-linux
 * `EN` [Publication de Julia Evans: Vous pouvez être un hacker de noyau !](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
   * guide pour commencer la programmation de noyau
@@ -272,39 +272,39 @@ Vérifiez lorsque vous avez besoin de quelque chose
 Oui, vous n'êtes peut-être pas intéressé par Linux ou le micrologiciel. Si tel est le cas, vous pouvez trouver d'autres applications:
 * Programmation de systèmes Windows et pilotes de périphériques
 * Sécurité
-* Ingénierie inversée
+* Rétro-ingénierie
 
 Je n'ai aucune connaissance sur ces applications. Veuillez m'envoyer toute information pour les débutants.
 
 **Les noyaux et les pilotes ne sont pas toute la programmation de bas niveau.** Une autre application importante de la programmation de bas niveau est le stockage défini par logiciel ou le système de fichiers distribué. La description détaillée de ceux-ci dépasse le cadre de ce document, mais il existe un excellent cours où vous pouvez essayer un simple système de fichiers distribué.
-* Cours: https://pdos.csail.mit.edu/archive/6.824-2012/
-* Source de référence: https://github.com/srned/yfs
+* Cours: `EN` https://pdos.csail.mit.edu/archive/6.824-2012/
+* Source de référence: `EN` https://github.com/srned/yfs
 
 ## <a name="L'avenir-de-la-programmation-de-bas-niveau"></a>L'avenir de la programmation de bas niveau
 
 Je ne connais pas l'avenir, mais je tiens Rust en compte.
-* https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
+* `EN` https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
 
 Si je pouvais avoir une semaine de libre et seul, j'apprendrais Rust.
 C'est parce que Rust est le dernier langage avec lequel je peux développer des pilotes de périphériques Linux.
-* https://github.com/tsgates/rust.ko
+* `EN` https://github.com/tsgates/rust.ko
 
 L'IdO est une nouvelle tendance, il vaut donc la peine de vérifier quels sont les systèmes d'exploitation pour l'IdO.
-ARM, Samsung et certaines entreprises ont leur propre système d'exploitation en temps réel mais malheureusement beaucoup d'entre eux sont à code source fermé.
+ARM, Samsung et certaines entreprises ont leur propre système d'exploitation en temps réel mais malheureusement beaucoup d'entre eux sont à code propriétaire (source fermé).
 Mais la Fondation Linux a également une solution: Zephyr
-* https://www.zephyrproject.org/
+* `EN` https://www.zephyrproject.org/
 
-Les serveurs cloud typiques ont de nombreuses couches ; par exemple, le système d'exploitation hôte, le pilote kvm, le processus qemu, le système d'exploitation invité et l'application de service. Un conteneur a été développé pour fournir une virtualisation légère. Dans un avenir proche, un nouveau concept de système d'exploitation, un soi-disant système d'exploitation de bibliothèque ou Unikernel, remplacerait la pile logicielle typique pour la virtualisation.
-* http://unikernel.org/
+Les serveurs cloud typiques ont de nombreuses couches ; par exemple, le système d'exploitation hôte, le pilote kvm, le processus qemu, le système d'exploitation guest et l'application de service. Un conteneur a été développé pour fournir une virtualisation légère. Dans un avenir proche, un nouveau concept de système d'exploitation, un soi-disant système d'exploitation de bibliothèque ou Unikernel, remplacerait la pile logicielle typique pour la virtualisation.
+* `EN` http://unikernel.org/
 
 Le Big Data et le cloud computing nécessitent un stockage de plus en plus important. Certains disques connectés directement aux machines serveurs ne peuvent pas satisfaire la capacité, la stabilité et les performances requises. Par conséquent, des recherches ont été menées pour créer d'énormes systèmes de stockage avec de nombreuses machines de stockage connectées par un réseau haut débit. L'objectif était de créer un énorme volume de stockage. Mais actuellement, ils fournissent de nombreux volumes dédiés à de nombreuses machines virtuelles. 
-* https://en.wikipedia.org/wiki/Logiciel-défini_stockage
-* https://en.wikipedia.org/wiki/Système_de_fichiers_en_cluster 
-* https://en.wikipedia.org/wiki/Ceph_(logiciel)
+* `EN` https://en.wikipedia.org/wiki/Software-defined_storage
+* `EN` https://en.wikipedia.org/wiki/Clustered_file_system
+* `EN` https://en.wikipedia.org/wiki/Ceph_(software)
 
 ## <a name="Comment-démarrer-?"></a>Comment démarrer ?
 
-J'ai reçu un e-mail me demandant comment démarrer. Il y a pleine d'informations sur les livres, les cours et les projets dans cette page. C'est mon erreur d'avoir oublié d'écrire comment démarrer. Malheureusement, il n'y a pas de route royale vers [Port-Réal](https://gameofthrones.fandom.com/wiki/King%27s_Landing). Je vais simplement écrire ce que j'ai fait dans l'ordre. Si vous avez déjà fait quelque chose, veuillez le ignorer. ENCORE UNE FOIS, c'est juste un exemple que vous pouvez suivre dans l'ordre, au cas où vous ne sauriez pas comment démarrer ou quoi faire.
+J'ai reçu un e-mail me demandant comment démarrer. Il y a pleine d'informations sur les livres, les cours et les projets dans cette page. C'est mon erreur d'avoir oublié d'écrire comment démarrer. Malheureusement, il n'y a pas de route royale vers `EN` [King's Landing](https://gameofthrones.fandom.com/wiki/King%27s_Landing). Je vais simplement écrire ce que j'ai fait dans l'ordre. Si vous avez déjà fait quelque chose, veuillez le ignorer. Tiens en compte, c'est juste un exemple que vous pouvez suivre dans l'ordre, au cas où vous ne sauriez pas comment démarrer ou quoi faire.
 
 * Lire les livres de théorie des systèmes d'exploitation: au moins "The Design of the UNIX Operating System" par Maurice J. Bach
 * Apprendre l'assemblage et C
@@ -315,34 +315,34 @@ J'ai reçu un e-mail me demandant comment démarrer. Il y a pleine d'information
   * `EN` [C Programming: A Modern Approach, 2e édition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
 * Faites quelque chose de pratique avec C
   * `EN` [Tutoriels de projet basés sur C ?](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/): trouvez un ou deux projets intéressants et faites votre propre projet.
-  * [leetcode.com](https://leetcode.com/): Si vous ne trouvez pas de projet intéressant, il serait également bon de vous concentrer sur la structure de données et les algorithmes.
+  * `EN` [leetcode.com](https://leetcode.com/): Si vous ne trouvez pas de projet intéressant, il serait également bon de vous concentrer sur la structure de données et les algorithmes.
 * Faire un projet matériel
-  * Raspberrypi ou Arduino n'a pas d'importance. Vous avez besoin d'expérience pour contrôler un matériel directement avec seulement C. UNIQUEMENT C !
+  * Choisissez Raspberrypi ou Arduino, peu importe lequel. Vous avez besoin d'expérience pour contrôler un matériel directement avec seulement C. UNIQUEMENT C !
   * Je vous recommande d'acheter un kit Atmega128 et de créer un micrologiciel pour allumer/éteindre des LED, détecter l'entrée d'un commutateur et afficher un message sur l'écran LCD texte. Le programme de contrôle de moteur est également un très bon projet: par exemple, le traceur de ligne.
   * N'UTILISEZ AUCUNE bibliothèque. Vous devez tout faire par vous-même, sauf le téléchargeur de programme.  
 * Notions de base du noyau Linux
   * La programmation de bas niveau est très proche du système d'exploitation. Vous devez connaître l'intérieur du système d'exploitation.
-  * Commencez par les pilotes
-    * Lisez [Pilotes de périphériques Linux](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
+  * Commencez avec les pilotes
+    * Lisez `EN` [Pilotes de périphériques Linux](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
     * `EN` [Linux device driver labs](https://linux-kernel-labs.github.io/)
     * `EN` [Le défi Eudyptula](http://eudyptula-challenge.org/)
-  * Lisez `EN` [Développement du noyau Linux](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel) pour comprendre l'interne du noyau Linux.
+  * Lisez `EN` [Linux Kernel Driver Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel) pour comprendre l'interne du noyau Linux.
 * Aller dans le domaine professionnel
   * Si vous souhaitez devenir développeur professionnel de noyaux Linux
     * doit lire `EN` [Comprendre le noyau Linux](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+noyau)
-      * Essayez ensuite de créer un noyau jouet
+      * Essayez ensuite de créer un noyau petit
       * `EN` [Apprendre le développement de systèmes d'exploitation à l'aide du noyau Linux et du Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
       * `EN` [Créer votre propre noyau](http://wiki.osdev.org/Getting_Started) 
       * Écrivez le lien github vers votre noyau sur votre CV (n'oubliez pas d'écrire la description détaillée dans le message de validation)
-    * Consultez les derniers problèmes sur https://lwn.net/ et rejoignez-le.
-      * Consultez les "Correctifs de noyau récents" à "https://lwn.net/Kernel/" ou le lien direct https://lwn.net/Kernel/Patches
+    * Consultez les derniers problèmes sur `EN` https://lwn.net/ et rejoignez-le.
+      * Consultez les "Correctifs de noyau récents" à `EN` "https://lwn.net/Kernel/" ou le lien direct `EN` https://lwn.net/Kernel/Patches
       * Trouvez un correctif qui vous intéresse. Essayez de comprendre le code source. Bien sûr, ce sera vraiment difficile, mais essayez. Vous vous rapprocherez de plus en plus à chaque fois que vous essayerez.
-      * Générez le noyau et testez-le sur votre système. Par exemple, test de performances, test de stabilité avec LTP (https://linux-test-project.github.io/) ou outils d'analyse de code statique à l'intérieur du noyau.
-      * Signalez tout problème si vous en trouvez: avertissements/erreurs de compilation, baisse des performances, panique du noyau/oops ou tout autre problème
+      * Générez le noyau et testez-le sur votre système. Par exemple, test de performances, test de stabilité avec LTP (`EN` https://linux-test-project.github.io/) ou outils d'analyse de code statique à l'intérieur du noyau.
+      * Signalez tout problème si vous en trouvez: avertissements/erreurs de compilation, dégradation des performances, panique du noyau/oops ou tout autre problème
       * Si cela fonctionne bien, rapportez-le avec les spécifications de votre système. Le propriétaire du correctif écrira une balise "Reviewed-by" avec votre nom.
       * Trouvez votre nom dans le journal git du noyau
   * Ou trouvez d'autres sujets
-    * Il existe de nombreux domaines dans lesquels l'ingénieur de bas niveau peut trava
+    * Il existe de nombreuses spécialités où l'ingénieur de bas niveau peut travailler: sécurité, compilateur, micrologiciel, robot / voiture, etc.
 
 # <a name="Traduction"></a>Traduction
 
@@ -350,7 +350,7 @@ Veuillez m'envoyer une pull request si vous souhaitez traduire cette page. Je la
 
 # <a name="qui-suis-je"></a>Qui suis-je ?
 
-Je suis inspiré par [google-interview-university](https://github.com/jwasham/google-interview-university). J'aimerais partager mon expérience et montrer une feuille de route pour devenir  ingénieur(e) en systèmes embarqués car j'ai constaté que ces compétences ne sont plus aussi courantes qu'avant. De plus, de nombreux étudiants et débutants me demandent comment ils pourraient devenir programmeurs de bas niveau et ingénieurs de noyaux Linux.
+Je suis inspiré par [google-interview-university](https://github.com/jwasham/google-interview-university). J'aimerais partager mon expérience et montrer une feuille de route pour devenir ingénieur(e) en systèmes embarqués car j'ai constaté que ces compétences ne sont plus aussi courantes qu'avant. De plus, de nombreux étudiants et débutants me demandent comment ils pourraient devenir programmeurs de bas niveau et ingénieurs de noyaux Linux.
 
 Pour votre information, j'ai plus de 10 ans d'expérience en tant que ingénieur en systèmes embarqués:
 * Programmation en assembleur 80x86
