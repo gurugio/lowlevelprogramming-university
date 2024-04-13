@@ -3,6 +3,7 @@ UYARI1: Lütfen bu sayfanın içeriğini blogunuza kopyalamayın.  Bu sayfayı p
 UYARI2: Lütfen düşük seviyeli programlamanın popüler olmadığını ve şu anda düşük seviyeli kod yazan programcıları işe alan çok fazla şirket olmadığını unutmayın. İş bulmam gittikçe zorlaşıyor.
 Henüz profesyonel bir kariyere başlamadıysanız, diğer alanları da dikkatlice değerlendirmenizi tavsiye ederim.
 
+UYARI3: Eğer hızlı bir başlangıç istiyorsanız, "Nasıl Başlanır?" bölümüne gidin.
 
 * [Düşük Seviyeli Programlama Üniversitesi](#Düşük-Seviyeli-Programlama-Üniversitesi)
   * [Nedir?](#Nedir)
@@ -26,18 +27,18 @@ Henüz profesyonel bir kariyere başlamadıysanız, diğer alanları da dikkatli
 
 ## <a name="Nedir"></a>Nedir?
 
-[google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve düşük seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl düşük seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
+Bu yazıyı [google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve düşük seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl düşük seviyeli kod yazan programcı ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
 
-Bu sayfa her bağlantıyı/kitabı/kursu içeremez. Örneğin bu sayfada Arduino tanıtılmaktadır ancak Arduino ve gömülü sistemler hakkında detaylı bilgi bulunmamaktadır. Kendin daha fazlasını araştırmalısın. Başlayabileceğiniz "Arduino" anahtar kelimesine sahipsiniz. Yani bir sonraki adımınız muhtemelen Arduino'yu araştırmak, bir Arduino geliştirme seti(kit) satın almak ve bağlantı veya kitap toplamak değil, kendiniz için bir şeyler yapmaktır. Lütfen bu sayfanın yeni başlayanlar için bir yol haritası olduğunu unutmayın.
+Bu sayfa her bağlantıyı/kitabı/kursu içeremez. Örneğin bu sayfada Arduino tanıtılmaktadır ancak Arduino ve gömülü sistemler hakkında detaylı bilgi bulunmamaktadır. Kendin daha fazlasını araştırmalısın. Başlayabileceğiniz "Arduino" anahtar kelimesine sahipsiniz. Yani bir sonraki adımınız muhtemelen Arduino'yu araştırmak, bir Arduino geliştirme seti(kit) satın almak ve kendiniz için bir şeyler yapmaktır, bağlantı veya kitap toplamak değil. Lütfen bu sayfanın yeni başlayanlar için bir yol haritası olduğunu unutmayın.
 
 Düşük seviyeli programlama, bilgisayar biliminin bir parçasıdır.
 Öncelikle bilgisayar bilimi için eğitim almak kesinlikle çok daha iyi olacaktır.
-* [Open Source Society University Bilgisayar Bilimi deposu](https://github.com/ossu/computer-science)
+* [Bilgisayar Bilimleri alanında ücretsiz bir eğitime giden yol!](https://github.com/ossu/computer-science)
 
 
 ## <a name="Düşük-Seviye-nedir"></a>Düşük Seviye nedir?
 
-Düşük seviyeli programlamayı, C veya Assembly gibi daha düşük seviyeli bir programlama dili kullanarak makineye çok yakın olan programlama olarak sınıflandırıyorum. Bu, yüksek seviyeli diller (ör.Python, Java) kullanan tipik kullanıcı alanı(userspace ve kernelspace kavramlarına bakınız) uygulamaları olan üst düzey programlamanın tersidir.
+Düşük seviyeli programlamayı, C veya Assembly gibi daha düşük seviyeli bir programlama dili kullanarak makineye çok yakın olan programlama olarak sınıflandırıyorum. Bu, yüksek seviyeli diller (örn. Python, Java) kullanan tipik kullanıcı alanı(userspace ve kernelspace kavramlarına bakınız) uygulamaları olan üst düzey programlamanın tersidir.
 * [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
 
 Evet, sistem programlama, düşük seviyeli programlamaya çok yakın bir kavramdır. Bu sayfa, sistem programlamasına dahil olmayan donanım tasarımını ve ürün yazılımı geliştirmeyi içerir.
@@ -49,15 +50,12 @@ Son olarak, bu sayfa donanım bileşenlerinden Linux çekirdeğine kadar değiş
 
 Düşük seviyeli programlamanın iki temel teorisi vardır:
 * Bilgisayar Mimarisi
-* İşletim sistemleri
+* İşletim Sistemleri
 
-Bence teori öğrenmenin en iyi yolu bir kurs almaktır. Kitap okumak fena değil ama çok zaman ve çaba gerektiriyor. Coursera.org ve edx.org gibi çevrimiçi üniversitelerde birçok iyi kurslar bulabilirsiniz.
-
-Teorik bilgi ile gerçeği yani pratik kodlama becerisini ayırt etmek gerekir. Sınıfta A+ almanız gerektiğini düşünmüyorum, sadece büyük resmi görün.
-
-Tecrübe ile gün geçtikçe daha iyi olacaksınız.
+Bence teori öğrenmenin en iyi yolu bir kurs almaktır. Kitap okumak fena değil ama çok zaman ve çaba gerektiriyor. Coursera.org ve edx.org gibi çevrimiçi üniversitelerde birçok iyi kurslar bulabilirsiniz. Teorik bilgi ile gerçeği yani pratik kodlama becerisini ayırt etmek gerekir. Sınıfta A+ almanız gerektiğini düşünmüyorum, sadece büyük resmi görün. Tecrübe ile gün geçtikçe daha iyi olacaksınız.
 
 Okuduğum birkaç kitabı tanıtmama izin verin. Genellikle üniversitelerde ders kitabı olarak kullanılırlar. Üniversitenizde bu kitapların olduğu bir sınıf yoksa, onları okumak için biraz zaman ayırmaya değer.
+
 * Bilgisayar Mimarisi
   * Computer Architecture, Fifth Edition: A Quantitative Approach
   * Computer Systems: A Programmer's Perspective
@@ -68,6 +66,18 @@ Okuduğum birkaç kitabı tanıtmama izin verin. Genellikle üniversitelerde der
   * Operating Systems: Internals and Design Principles by William Stallings
 * Önerilen Kurslar
    * [CS401: Operating Systems from saylor.org](https://learn.saylor.org/course/view.php?id=94)
+* Genel Programlama Bilgisi
+   * [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs)
+      * Bu nasıl iyi bir Yazılım Geliştirici olacağınızla alakalı. Sadece teoriğe değil tekniğe de ihtiyacınız var çünkü programlama bir tür el işidir.
+      * Eğer Lisp/Scheme öğrenirseniz, diğer programlama dillerini daha kolay öğrenebilirsiniz.
+      * [Egzersizlerin yaklaşık %80'ini çözdüm. Çözdüğüm her bir egzersize değdi.](https://github.com/gurugio/sicp_exercise)
+* Donanım Tasarımı
+   * Kendi 8086 Mikroişlemci kitinizi geliştirin.
+      * Eğer kendi donanım kartınızı geliştirmeyecekseniz, fiziksel bellek eşlemeli cihaz(physical memory mapped device)'ın ne olduğunu anlamayacaksınız.
+      * Günümüzde işlemcilerin(AP - Application Processors) artık çok fazla akıllı özellikleri(Intellectual Properties) var. Bu yüzden bir işlemcinin çekirdeği ve çevre cihazların(peripheral devices) nasıl bağlı olduklarını bilemeyeceksiniz.
+      * Kendi 8086 kitinizi geliştirirken, her bir çevre cihazı fiziksel hafızaya yerleştirme imkanınız var. Ve ana donanım cihazlarının(BUS, IRQ, Clock, Power vb.) nasıl çalışacağını kendi gözlerinizle ayarlayabilirsiniz.
+      * Kendi 8086 kitimi üniversitede geliştirmiştim. Aldığım en değerli derslerden biriydi, kendi donanım kitini yap. Eğer donanım eski ve basit olursa daha iyi çünkü ayarlamalar için daha fazla uğraşırsınız.
+      * İnternette "8086 kit" diye aratın. Donanım şemasını, parçalarını ve kılavuzlarını belli başlı internet sitelerinden alabilirsiniz.
 
 Sayısız iyi kitap listesi var. Çok kitap okumalısın demek istemiyorum. Sadece bir kitabı dikkatlice okuyun. Ne zaman bir teori öğrenirseniz, onun kodunu uygulayın.
 **Bir şeyi uygulamak, yüz teori bilmekten daha iyidir.**
@@ -76,7 +86,7 @@ Sayısız iyi kitap listesi var. Çok kitap okumalısın demek istemiyorum. Sade
 
 ### <a name="Assembly"></a>Assembly
 
-X86 veya ARM arasından birini seçin. İkisini de bilmenize gerek yok. Assembly dilini bilmek önemli değil. Önemli olan bir CPU ve bilgisayarın komut setini anlamaktır. Böylece en yeni CPU'nun assembly dilini yazmanıza gerek kalmaz. 8086 veya Corex-M'yi seçin.
+X86 veya ARM arasından birini seçin. İkisini de bilmenize gerek yok. Assembly dilini bilmek önemli değil. Önemli olan bir CPU ve bilgisayarın içini(işleyiş) anlamaktır. Böylece en yeni CPU'nun assembly dilini yazmanıza gerek kalmaz. 8086 veya Cortex-M'yi seçin.
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
   * CPU ve bilgisayar mimarisinin temel kavramları
@@ -126,6 +136,36 @@ Kestirme ve hızlı bir yol bulunmuyor. Sadece kitabın tamamını okuyun ve tü
 
 C programlama uzmanı olmak istiyorsanız, https://leetcode.com/ sitesini ziyaret edin. İyi Şanslar!
 
+
+### <a name="Rust-dili"></a>Rust dili
+
+Sistem programlama için bir sonraki dilin Rust olacağına eminim.
+Rust öğrenirken yaptıklarımı bir liste haline getireceğim.
+
+[Linus Torvalds said "Unless something odd happens, it [Rust] will make it into 6.1."](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
+
+* [The Rust Programming Language](https://doc.rust-lang.org/book/)
+  * Güzel bir giriş, ancak eksik örnek ve alıştırmalar.
+* [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+  * "The Rust Programming Language"'i okurken, buradan örnek ve alıştırmalar bulabilirsiniz.
+  * Ama kendinizin yapabileceği yeteri kadar alıştırma yok. Sadece bazı örneklerde "kendin-yap" alıştırmaları var ve onlarda çok basit.
+* [Programming Rust, 2nd](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
+  * Daha derin bir giriş, ama hala örnek ve alıştırmalardan yoksun.
+* [Exercism](https://exercism.org/tracks/rust)
+  * RUST'ın kendine has özelliklerini öğrenmek için güzel alıştırmalar.
+  * Mentörlerin aktif olarak çalışıp çalışmadığını bilmiyorum ama çözümüzü diğerleriyle karşılaştırmak için yeterli.
+    * Çözümünüzü gönderdikten sonra, başkalarının çözümlerini "Community solutions" sekmesinde görebilirsizin (Exercism V3'den sonra geçerli).
+    * Map/filter/any ve vb. fonksiyonel özellikler için çok sayıda giriş seviyesinde alıştırma.
+* [Easy rust](https://dhghomon.github.io/easy_rust/)
+  * Basit bir İngilizce ile yazılmış bir kitap.
+  * Youtube kaynakları: https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
+* [Let's get rusty](https://www.youtube.com/c/LetsGetRusty)
+  * Youtube'da çok fazla Rust eğitimi yayınlayan var ama ben en çok bu eğitimi sevdim.
+  * Rust hakkında son gelişmeleri yayınlıyor. Abone olmaya değer.
+* [Rust for Linux](https://github.com/Rust-for-Linux)
+  * Örnek kaynakları inceleyin ve Rust'ın Linux Çekirdeğine nasıl girdiğini görün.
+
+
 ## <a name="Çalışma-Alanları"></a>Çalışma Alanları
 
 ### <a name="Donanım-Firmware"></a>Donanım && Firmware
@@ -161,28 +201,28 @@ Bu yüzden size aşağıdaki projeleri öneriyorum.
 * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
   * (projenin açıklaması) Bu depo, basit bir işletim sistemi (OS) çekirdeğinin sıfırdan nasıl oluşturulacağını öğreten adım adım bir kılavuz içerir ... (atla) ... Her ders öyle tasarlandı ki önce bazı çekirdek özelliğinin RPi işletim sisteminde nasıl uygulandığını açıklar ve ardından aynı işlevselliğin Linux çekirdeğinde nasıl çalıştığını göstermeye çalışır.
 
-[deneme amaçlı kernel çalışmamı](https://github.com/gurugio/caos) yazdım. 64 bit long modu(long mod olarak kalabilir), sayfalamayı ve çok basit bağlam değiştirmeyi destekleyen deneme amaçlı bir çekirdek(kernel) yapmak, modern bilgisayar mimarisini ve donanım kontrolünü anlamanın iyi bir yoludur.
+
+
+64 bit long modu, sayfalamayı ve çok basit bağlam değiştirmeyi(context switching) destekleyen [basit bir kernel](https://github.com/gurugio/caos) yazdım. Basit bir çekirdek(kernel) yapmak, modern bilgisayar mimarisini ve donanım kontrolünü anlamak için güzel bir yoludur.
 
 Aslında, en son işlemciye ve en son donanım cihazlarına zaten sahipsiniz.
-Senin diz üstü bilgisayarın! Masaüstü bilgisayarınız! Başlamak için ihtiyacınız olan her şeye zaten sahipsiniz!
+Dizüstü bilgisayarın! Masaüstü bilgisayarınız! Başlamak için ihtiyacınız olan her şeye zaten sahipsin!
 Hiçbir şey almanıza gerek yok.
 QEMU emülatörü, en yeni ARM işlemcileri ve Intel işlemcileri sanal ortamında çalıştırabilir.
 Yani ihtiyacınız olan her şey elinizin altında.
-Başvurabileceğiniz birçok oyuncak çekirdeği ve belge var.
-Sadece QEMU'yu kurun ve sadece önyükleyen, sayfalamayı açan ve bazı mesajları yazdıran küçük bir çekirdek yapın.
+Başvurabileceğiniz birçok basit çekirdekler ve kılavuzlar var.
+Sadece QEMU'yu kurun ve sadece ayağa kalkan(boot), sayfalamayı(paging) açan ve bazı mesajları yazdıran küçük bir çekirdek yapın.
 
-Diğer deneme amaçlı çekirdekler(kernel):
+Diğer basit çekirdekler(kernel):
 * https://littleosbook.github.io/
 * https://tuhdo.github.io/os01/
 
 ### <a name="Linux-çekirdeği-ve-aygıt-sürücüleri"></a>Linux çekirdeği and aygıt sürücüleri
 
 Tam bir işletim sistemi oluşturmanıza gerek yok.
-Linux topluluğuna katılın ve geliştirmeye katılın.
+Linux topluluğuna katılın ve geliştirmeye ortak olun.
 
-#### <a name="Dikkatlice-okuyun"></a>Dikkatlice okuyun
-
-* Kitaplar: Aşağıdakileri sırayla okuyun
+* Linux Çekirdeği ve Aygıt Sürücüleri(driver) ile ilgili başlangıç ​​seviyesinden ileri seviyeye bazı kaynaklar.
   * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
     * UNIX'in temel kavramları tüm işletim sistemlerine uygulanır.
     * Bu kitap, işletim sistemlerinin temel kavramlarını öğrenmek için çok iyi bir yerdir.
@@ -230,9 +270,9 @@ Bir şeye ihtiyacınız olduğunda kontrol edeceğiniz kaynaklardan:
 ### <a name="Diğer-Çalışma-Alanları"></a>Diğer Çalışma Alanları
 
 Evet, Linux veya firmware geliştirmeyle ilgilenmeyebilirsiniz. Öyleyse, başka çalışma alanları bulabilirsiniz:
-* Windows sistem programlama & aygıt sürücüleri
-* Bilgi Güvenliği
-* Tersine Mühendislik(Ters Mühendislik)
+* Windows sistem programlama & aygıt sürücüleri(driver)
+* Bilgi Güvenliği(Security)
+* Tersine Mühendislik
 
 Bu çalışma alanları hakkında hiçbir bilgim yok. Lütfen yeni başlayanlar için yararlı olabilecek bu dosyanın formatına uygun içerikleri gönderin.
 
@@ -278,7 +318,7 @@ Nasıl başlayacağımı soran bir e-posta aldım. Bu sayfada kitaplar, kurslar 
   * [leetcode.com](https://leetcode.com/): İlginç bir proje bulamazsanız, veri yapısı ve algoritmaya odaklanmak da iyi olacaktır.
 * Bir donanım projesi yapın
   * Raspberrypi veya Arduino arasında bir tercih yapmanız önemli değildir. Bir donanımı doğrudan yalnızca C ile kontrol etmek için bir deneyime ihtiyacınız var YALNIZCA C ile!
-  * Bir Atmega128 geliştirme seti(kiti) satın almanızı ve LED'leri açmak/kapatmak, anahtar girişini algılamak ve metin LCD'sinde mesaj görüntülemek için bir aygıt yazılımı yapmanızı öneririm. Motor kontrol programı da çok iyi bir projedir: örneğin, çizgi izleyici.
+  * Bir ATmega128 geliştirme seti(kiti) satın almanızı ve LED'leri açmak/kapatmak, anahtar girişini algılamak ve metin LCD'sinde mesaj görüntülemek için bir aygıt yazılımı yapmanızı öneririm. Motor kontrol programı da çok iyi bir projedir: örneğin, çizgi izleyici.
   * Herhangi bir yazılım kütüphanesi KULLANMAYIN. Program indiricisi dışında her şeyi kendi başınıza yapmalısınız.
 * Linux Çekirdeğinin Temelleri
   * Düşük seviyeli programlama, işletim sistemine çok yakındır. İşletim sisteminin işleyişini bilmelisiniz.
@@ -290,30 +330,43 @@ Nasıl başlayacağımı soran bir e-posta aldım. Bu sayfada kitaplar, kurslar 
 * Profesyonelleşmek için
   * Profesyonel Linux Çekirdek Geliştiricisi olmak istiyorsanız
     * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel) okumalısınız.
-      * Sonra deneme amaçlı olan kendi çekirdeğinizi yazın
-      * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
+      * Sonra kendinize basit bir çekirdek yazın.
+      * [Learn operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
       * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
+      * Özgeçmişinizde kendi çekirdeğinizin github linkini koyun (Commit mesajlarına detaylı bilgi yazmayı unutmayın.)
     * https://lwn.net/ sitesindeki son sorunları(issue) inceleyin ve çözüme katılın.
-  * Veya başka bir konu bulun
+      * "Güncel çekirdek yamaları"'nı "https://lwn.net/Kernel/" veya direkt "https://lwn.net/Kernel/Patches" üzerinden kontrol edin.
+      * Kendinize ilginç bir yama bulun. Kaynak kodu anlamaya çalışın. Tabii ki bunu yapmak zor olacak ama deneyin. Her denediğinizde adım adım yaklaşacaksınız.
+      * Çekirdek geliştirin ve kendi sisteminizde test edin. TLP(https://linux-test-project.github.io/) ile örneğin performans testi, stabilite testi yapın veya statik kod analizi yapın.
+      * Eğer herhangi bir problem bulursanız: derleme uyarıları/hataları, performans düşüsü, kernel panic/oops veya herhangi bir problemi bildirin.
+      * Eğer sorunsuz çalışırsa, bunu sistem özelliklerinizle beraber raporlayın. Yama sahibi "Reviewed-by" etiketi ile sizin adınızı yazar.
+      * Kendi adınızı çekirdeğin git belgelerinde(log) bulun.
+  * Veya başka alanlar bulun
+    * Düşük seviye mühendislerin çalışabileceği çok fazla alan var: güvenlik, derleyici(compiler), donanım yazılımı(firmware), robotlar/arabalar diye gidiyor...
+    
 
 # <a name="Çeviriler"></a>Çeviriler
 
-Bu sayfayı çevirmek istiyorsanız lütfen bana çekme talebini gönderin. Burada listeleyeceğim.
-* [Chinese](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
+Bu sayfayı çevirmek istiyorsanız lütfen düzenleme talebi(pull request) gönderin. Burada listeleyeceğim.
+* [Chinese (Traditional)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_tw.md)
+* [Chinese (Simplified)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cn.md)
 * [Portuguese (Brazilian)](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_pt.md)
 * [Italian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_it.md)
 * [Czech](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_cz.md)
 * [Russian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_ru.md)
-* [Turkish](https://github.com/masscollaborationlabs/lowlevelprogramming-university/blob/master/README_tr.md)
+* [Turkish](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_tr.md)
+* [Persian](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_fa.md)
+* [Spanish](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_es.md)
+* [French](https://github.com/gurugio/lowlevelprogramming-university/blob/master/README_fr.md)
 
 # <a name="Ben-Kimim"></a>Ben Kimim?
 
-[google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve düşük seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl düşük seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
+Bu yazıyı [google-interview-university](https://github.com/jwasham/coding-interview-university)'den esinlendim. Deneyimlerimi paylaşmak ve düşük seviyeli kod yazan bir programcı olma yolunda bir yol haritası göstermek istiyorum çünkü bu becerilerin eskisi kadar yaygın olmadığını anladım. Ek olarak, birçok öğrenci ve yeni başlayanlar bana nasıl düşük seviyeli kod yazan programcılar ve Linux çekirdek kodu yazan bir mühendis olabileceklerini soruyor.
 
 Bilmenizi isterim ki düşük seviyeli kod yazan bir programcı olarak 10 yıldan fazla kod yazma deneyimine sahibim:
-* 80x86 platformunda Assembly programlama 
-* Atmel çipli ve firmwarelı donanım cihazı
-* UNIX için C dil sistemi programlama çalışması
+* 80x86 platformunda Assembly programlama
+* ATmel çipli ve firmware'lı donanım cihazı
+* UNIX için C ile sistemi programlama çalışması
 * Linux'ta aygıt sürücüsü
-* Linux çekirdeği: sayfa ayırma
+* Linux çekirdeği: sayfa ayırma(page allocation)
 * Linux çekirdeği: blok aygıt sürücüsü ve md modulü
