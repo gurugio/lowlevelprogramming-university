@@ -5,6 +5,7 @@
   *  [Языки](#Languages)
      * [Ассемблер](#Assembly)
      * [Язык C](#C-language)
+     * [Язык Rust](#Rust-language)
   * [Приложения](#Applications)
     * [Железо && Прошивки](#Hardware-Firmware)
     * [Ядро Linux и драйвера устройств](#Linux-kernel-and-device-driver)
@@ -118,6 +119,34 @@
   * Планируется перевод на английский
 
 Если хочешь стать экспертном в программировании на C, посети https://leetcode.com/. Удачи!
+
+### <a name="Rust-language"></a>Язык Rust
+
+Я уверен, что следующий язык для системного программирования будет Rust. 
+Я предоставлю лист того что я делал чтобы выучить Rust.
+
+[Линус Торвальдс сказал - "Если резко обстоятельства не изменятся, то он [Rust] появится в 6.1."](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
+
+* [The Rust Programming Language](https://doc.rust-lang.org/book/)
+  * Хорошо для знакомства с языком, но имеет мало примеров и упражнений.
+* [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+  * Пока читаешь "The Rust Programming Language", можешь находить примеры и упражнения здесь.
+  * Но здесь не так много упражнений которые ты можешь сделать для себя. Только некоторые примеры включают в себя "сделай это" упражнения, и они очень простые.
+* [Programming Rust, 2nd](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
+  * Глубокое ознакомление с языком, но также имеет мало примеров и упражнений.
+* [Exercism](https://exercism.org/tracks/rust)
+  * Хорошие упражнения для практики индивидуальных особенностей Rust.
+  * Я не уверен что Менторы активно работают, но этого будет достаточно чтобы сравнивать свои решения с другими.
+  * После отправки своего решения, ты можешь видеть решения других во вкладке "Community solutions" (с поры Exercism V3).
+  * Много легких упражнений нацелено на функциональные особенности, такие как map/filter/any и т.д.
+* [Легкий Rust](https://dhghomon.github.io/easy_rust/)
+  * Книга написанная на несложном английском.
+  * Ютуб материалы: https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
+* [Let's get rusty](https://www.youtube.com/c/LetsGetRusty)
+  * Много ютуберов делают курсы по Rust, но этот понравился мне больше всего.
+  * Он выставляет последний новости по Rust. Заслуживает подписки.
+* [Rust для Linux](https://github.com/Rust-for-Linux)
+  * Смотри примеры источников как Rust попал в ядро Linux
 
 ## <a name="Applications"></a>Приложения
 
