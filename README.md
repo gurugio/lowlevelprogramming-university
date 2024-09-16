@@ -163,9 +163,7 @@ I will make a list what I did to learn Rust.
   * He has been uploading the latest news for Rust. It's worth subscribing.
 * [Rust for Linux](https://github.com/Rust-for-Linux)
   * See the example sources and check how Rust got into the Linux kernel
-* [A tour of Rust for C programmer (Translation in progress)](https://github.com/gurugio/my-rust-book)
-  * I wrote a short introduction of Rust language for C programmer.
-* [(WIP) Linux Device Drivers in Rust](https://github.com/gurugio/rust-for-linux)
+* [(Work In Progress) Linux Device Drivers in Rust](https://github.com/gurugio/rust-for-linux)
   * Writing examples in the book "Linux device drivers" with the Rust language.
 
 ## Applications
