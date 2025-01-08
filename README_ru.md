@@ -315,7 +315,7 @@ Big data и облачные вычисления требуют хранени�
   * Или на русском: [Роберт Лав, Разработка ядра Linux](https://www.ozon.ru/context/detail/id/2918313/)
 * Если ты хочешь стать разработчиком ядра Linux
   * то должен прочитать [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
-  * После этого попробуй создать игручешное ядро
+  * После этого попробуй создать игрушечное ядро.
     * [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
     * [Making your own kernel](http://wiki.osdev.org/Getting_Started)
   * Прочитай исходный код ядра и документацию на https://lwn.net/
