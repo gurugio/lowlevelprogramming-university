@@ -337,7 +337,7 @@ I received an email asking how to start. There are many information about books,
     * Check the latest issues at https://lwn.net/ and join it.
       * Check "Recent kernel patches" at "https://lwn.net/Kernel/" or direct link https://lwn.net/Kernel/Patches
       * Find an interesting patch to you. Try to understand the source code. Of course it would be really difficult but try. You will be closer and closer whenever you try.
-      * Build kernel and test it on your system. For example, performance test, stability test with LTP(https://linux-test-project.github.io/) or static code analysis tools inside of kernel.
+      * Build kernel and test it on your system. For example, you can run the performance tests and stability tests in LTP(https://linux-test-project.github.io/). And there are more test tools inside of kernel (https://www.kernel.org/doc/html/latest/dev-tools/index.html).
       * Report any problem if you find any: compile warnings/errors, performance drop, kernel panic/oops or any problem
       * If it works well, report that with the spec of your system. The patch owner would write a "Reviewed-by" tag with your name.
       * Find your name in kernel git log
